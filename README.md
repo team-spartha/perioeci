@@ -1,2 +1,1 @@
-# spartha-web
-Projet SPARTHA (Web)
+# Projet SPARTHA (Web)
