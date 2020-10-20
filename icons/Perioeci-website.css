@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Fontastique";
+    src: url("fonts/fontastique.ttf");
+}
+
+body{
+    font-family: "Fontastique", sans-serif;
+}
