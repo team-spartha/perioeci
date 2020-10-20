@@ -1,11 +1,11 @@
 # Projet SPARTHA : Perioeci Marketplace
 
-Inspiration :
+## Inspiration
 - https://www.commentcamarche.net/download/telechargement-34
 - https://www.01net.com/telecharger/
 - https://www.clubic.com/telecharger/  
 
-Caractérisation d'une page d'accueil d'une marketplace :
+## Caractérisation d'une page d'accueil d'une marketplace
 - Responsive avec la taille de l'écran
 - Header avec :
   - Barre  contenant les domaines/thèmes
