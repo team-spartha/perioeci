@@ -28,16 +28,26 @@ body {
   align-items: stretch;
   align-content: center;
   flex: 1 1 auto;
-  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   opacity: initial;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .software *{
   align-self: center;
 }
-.content :first-of-type{
+.torrent{
+  background-color: rgba(0,0,0,0.7);
+  background-position: center center;
+  background-repeat: no-repeat;
   background-image: url("icons/screenshots/utorrent.png");
 }
-.content :nth-of-type(2){
+.zoom{
+  background-color: rgba(0,0,0,0.7);
+  background-position: center center;
+  background-repeat: no-repeat;
   background-image: url("icons/screenshots/zoom.png");
 }
 
