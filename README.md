@@ -24,3 +24,5 @@
   - Barre de menu avec les contacts, les CGU, les cookies, le nom du site...
   - Réseaux sociaux
   - Logo de la marque
+
+Pour faire les backgrounds, passer par https://www12.lunapic.com/editor/ > Adjust > Brighteness > Baisser la luminosité (curseur sur le premier quart de la barre environ)
