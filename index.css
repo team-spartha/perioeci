@@ -20,6 +20,26 @@
 body {
   margin: 0%;
 }
+.software{
+  color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content:flex-start; 
+  align-items: stretch;
+  align-content: center;
+  flex: 1 1 auto;
+  margin: 20px;
+  opacity: initial;
+}
+.software *{
+  align-self: center;
+}
+.content :first-of-type{
+  background-image: url("icons/screenshots/utorrent.png");
+}
+.content :nth-of-type(2){
+  background-image: url("icons/screenshots/zoom.png");
+}
 
 .logo img {
   width: 100%;
