@@ -5,10 +5,13 @@
 
 .header {
   display: grid;
-  grid-template: 1fr 1fr 1fr/ 15% 75% 10%;
+  grid-template: 1fr 1fr 1fr/ 20% 75% 5%;
+  background-color: #fdcece;
+
 }
 
 .core {
+  background-color: #f5e7e7;
   display: grid;
   grid-template: 1fr / 10% 80% 10%;
 }
@@ -16,44 +19,59 @@
 * {
   font-family: "Fontastique", sans-serif;
 }
-
+.content{
+  margin-left: 20px;
+  margin-right: 20px;
+}
 body {
   margin: 0%;
 }
 .software{
   color: white;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   justify-content:flex-start; 
-  align-items: stretch;
+  align-items: center   ;
   align-content: center;
   flex: 1 1 auto;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin : 15px;
   opacity: initial;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 30px;
+
 }
+
 .software *{
   align-self: center;
 }
+.software img{
+  margin-top: 15px;
+}
+.software :last-child{
+  margin-bottom: 15px;
+}
 .torrent{
-  background-color: rgba(0,0,0,0.7);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-image: url("icons/screenshots/utorrent.png");
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+  url("https://img.utdstc.com/screen/1/utorrent-002.jpg:800");
 }
 .zoom{
-  background-color: rgba(0,0,0,0.7);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-image: url("icons/screenshots/zoom.png");
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+  url("https://saportakinsta.s3.amazonaws.com/wp-content/uploads/2020/09/Development-Authority-screenshot.jpg");
 }
 
 .logo img {
-  width: 100%;
-  height: 100%;
+  width: 75%;
+  height: 75%;
+  flex: 1 1 auto;
 }
 
 .search-bar {
@@ -74,6 +92,15 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+.OS-bar a{
+  color: white;
+  background-color: #f62121;
+  padding : 40px;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
+
 
 .logo {
   display: flex;
@@ -84,7 +111,7 @@ body {
 
 .account {
   display: flex;
-  justify-content: center;
+  justify-content: center;  
   align-items: center;
   flex: 1 1 auto;
 }

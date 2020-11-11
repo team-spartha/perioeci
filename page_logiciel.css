@@ -1,0 +1,4 @@
+.software-presentation{
+    display: grid;
+    grid-template-columns: 10% 20% / 1fr 1fr;
+}
