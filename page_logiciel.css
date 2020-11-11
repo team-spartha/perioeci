@@ -1,4 +1,74 @@
+
 .software-presentation{
     display: grid;
-    grid-template-columns: 10% 20% / 1fr 1fr;
+    grid-template: repeat(6,auto)/ 1fr 1fr 1fr;
+}
+
+.software-presentation h1{
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    text-align: center;
+}
+
+.software-icon{
+    display: flex;
+    grid-column: 1 / 2;
+    grid-row : 2 / 3;
+    justify-content: flex-end;
+    align-items: center;
+}
+.software-download{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    grid-column: 2 / 3;
+    grid-row : 2 / 3;
+}
+.software-download .button{
+    font-size: 170%;
+    padding: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: #ff0037;
+    text-decoration-color: white;
+}
+
+.software-info{
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-column : 3 / 4;
+    grid-row: 2 / 3;
+}
+.software-screen{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    grid-column: 1 / 4;
+    grid-row : 3 / 4;
+    border: 1px solid black;
+
+}
+.software-screen .text{
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #fdcece;
+}
+.software-description{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+}
+.software-rating{
+    grid-column: 1 / 4;
+    grid-row: 5 / 6;
+}
+
+.software-comments{
+    grid-column : 1 / 4;
+    grid-row : 6 / 7;
 }
