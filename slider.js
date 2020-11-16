@@ -33,23 +33,22 @@ function SlidePrécédente() {
    items[count].classList.add('active');
 }
 
-suivant.addEventListener('click',SlideSuivante)
-precedent.addEventListener('click',SlidePrécédente)
+(function transition() {
+    for(i = 1;i<5;i++){
+        var screen = document.getElementById("screen"+i);
+        screen.onclick = function(){Activation(this.id);};
+    }
+})()
 
-
-var count2 = 0;
-
-function Transition(newcount) {
-    items[count].classList.remove('.active');
-    slide[count].classList.remove('.active');
-    items[newcount].classList.add('.active');
-    slide[newcount].classList.add('.active');
-    count = newcount;
-    console.log(count);
+function Activation(screen){
+    var index = screen.slice(6);
+    slide[count].classList.remove('active');
+    items[count].classList.remove('active');
+    count = index-1;
+    slide[count].classList.add('active');
+    items[count].classList.add('active');
 }
 
-items[0].addEventListener('click',Transition(0))
-items[1].addEventListener('click',Transition(1))
-items[2].addEventListener('click',Transition(2))
-items[3].addEventListener('click',Transition(3))
 
+suivant.addEventListener('click',SlideSuivante);
+precedent.addEventListener('click',SlidePrécédente);

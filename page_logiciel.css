@@ -31,15 +31,25 @@
     border-radius: 5px;
     background-color: #ff0037;
     text-decoration-color: white;
+    box-shadow: -3px 5px 5px black
 }
 
 .software-info{
-    border-radius: 5px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     grid-column : 3 / 4;
     grid-row: 2 / 3;
+}
+.software-info.text{
+    display: flex;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    align-self: center;
+    background: white;
+    box-shadow: -5px 5px 5px black
 }
 .software-screen{
     display: grid;
@@ -56,7 +66,6 @@
     font-size: 600%;
     grid-row: 1 / 2 ;
     grid-column: 1 / 2;
-    padding-left: 0%;
 }
 .software-screen-btn-right{
     pointer-events: auto;
@@ -68,6 +77,7 @@
     grid-row: 1 / 2 ;
     grid-column: 3 / 4;
 }
+
 .software-screen.shots{
     grid-row: 1 / 2 ;
     grid-column: 2 / 3;
@@ -112,6 +122,10 @@
 .software-rating{
     grid-column: 1 / 4;
     grid-row: 5 / 6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
 }
 
 .software-comments{
