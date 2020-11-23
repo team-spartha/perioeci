@@ -1,0 +1,21 @@
+.login{
+    background: red;
+}
+.signin{
+    background: yellow;
+    flex-basis: 4;
+}
+header.titre{
+    background : green;
+}
+
+.acc{
+    display: flex;
+    flex-direction: column;
+}
+.acc_core{
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
