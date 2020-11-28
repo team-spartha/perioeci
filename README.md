@@ -25,4 +25,15 @@
   - Réseaux sociaux
   - Logo de la marque
 
-Pour faire les backgrounds, passer par https://www12.lunapic.com/editor/ > Adjust > Brighteness > Baisser la luminosité (curseur sur le premier quart de la barre environ)
+A FAIRE :
+
+  - Une page pour la connexion/inscription
+  - Une page pour le compte et ce qui s'en suit
+  - Adapter le nouveau design aux autres pages
+  - JS de quelques animations (à trouver)
+  - Colonne de droite et de gauche dans l'index
+  - Footer à rafistoler
+  - JS pour faire télécharger un fichier
+  - JS pour inscrire les ID d'une personne dans une base de donnée 
+  - JS pour l'inscription (vérifications du mail, mot de passe....)
+  - Contenu,contenu, contenu, contenu...
