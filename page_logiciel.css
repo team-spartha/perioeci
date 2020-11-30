@@ -1,7 +1,7 @@
 
 .software-presentation{
     display: grid;
-    grid-template: repeat(6,auto)/ 1fr 1fr 1fr;
+    grid-template: repeat(6,auto)/ 150px 250px 150px;
 }
 
 .software-presentation h1{
@@ -19,16 +19,17 @@
 }
 .software-download{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     grid-column: 2 / 3;
     grid-row : 2 / 3;
 }
 .software-download .button{
-    font-size: 170%;
-    padding: 20px;
+    font-size: 140%;
+    padding-left: 10px;
+    padding-right: 10px;
     font-weight: bolder;
-    border-radius: 5px;
+    border-radius: 30px;
     background-color: #ff0037;
     text-decoration-color: white;
     box-shadow: -3px 5px 5px black
@@ -43,13 +44,11 @@
 }
 .software-info.text{
     display: flex;
-    padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 15px;
     align-self: center;
-    background: white;
-    box-shadow: -5px 5px 5px black
+    font-size: smaller;
+    background: #dddddd;
+    box-shadow: -5px 5px 5px black;
+    padding : 0px 8px
 }
 .software-screen{
     display: grid;
@@ -77,7 +76,9 @@
     grid-row: 1 / 2 ;
     grid-column: 3 / 4;
 }
-
+.fas.fa-star{
+    color: yellow ;
+}
 .software-screen.shots{
     grid-row: 1 / 2 ;
     grid-column: 2 / 3;
