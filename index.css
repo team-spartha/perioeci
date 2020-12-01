@@ -29,6 +29,7 @@ body{
   background-color: #ecf0f1
 }
 .website{
+  padding-top: 15px;
   width: 1000px;
 }
 
@@ -53,14 +54,16 @@ body{
   flex-basis: 5;
 }
 
-.search-bar input {
+input {
   line-height: 15px;
   border-radius: 15px;
   padding: 10px;
   margin-left: 10px;
   margin-right: 10px;
   flex: 1 1 auto;
+  outline: none;
 }
+
 .search-bar input:c {
   border-radius: 15px;
   padding: 10px;
@@ -172,11 +175,12 @@ body{
 .account i {
   color: #393839;
 }
-
-.core {
+.core{
+  background-color: white;
+}
+.core.index {
   padding-left: 12%;
   padding-right: 12%;
-  background-color: white;
   display: grid;
   grid-template: 1fr / 10% 80% 10%;
 }
