@@ -1,115 +1,130 @@
-.login.active{
-    display: block;
-    position: relative;
-    animation: fade 1s;
-}
-@keyframes fade{
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
-}
-.login{
-    display: none;
-    padding-left: 30px;
-    animation: defade 0.5s;
-}
-@keyframes defade{
-    from{
-        opacity: 1;
-    }
-    to{
-        opacity: 0;
-    }
+.login.active {
+  display: block;
+  position: relative;
+  animation: fade 1s;
 }
 
-header.titre{
-    text-align: center;
-}
-.signin{
-    display: none;
-    padding-right: 30px;
-    animation: defade 0.5s;
-}
-.signin.active{
-    display: block;
-    align-self: flex-end;
-    animation: fade 1s ;
-}
-.acc{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-}
-.acc_core.left{
-    display: flex;
-    flex-direction: row nowrap;
-    justify-content: flex-start;
-}
-.acc_core.right{
-    display: flex;
-    flex-direction: row nowrap;
-    justify-content: flex-end;
-}
-.acc img{
-    position: relative;
-    height: 500px;
-    width: auto;
-    padding: 15px;
-    margin-bottom: 90px;
-}
-.acc img.right{
-    animation: trans_right 1s;
-}
-@keyframes trans_left{
-    from{
-        right: 0px;
-    }
-    to{
-        right: 240px;
-    }
-}
-.acc img.left{
-    animation : trans_left 1s;
-}
-@keyframes trans_right{
-    from{
-        right: 240px;
-    }
-    to{
-        right: 0px;
-    }
-}
-h2{
-    color: #393839;
-}
-.button{
-    font-size: 140%;
-    font-weight: bolder;
-    border-radius: 10px;
-    background-color: #ff0037;
-    text-decoration-color: white;
-    box-shadow: -1px 1px 5px black;
-    text-align: center;
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.switch{
-    font-family: "Open Sans",sans-serif;
-    text-align: center;
-    background-color: white;
-    color: #393839;
-    border-radius: 5px;
-    border: 1px solid #393839;
-    margin-block-start: 1.1em;
-    margin-block-end: 1.1em;
-    box-shadow: -1px 1px 5px black;
-    pointer-events: stroke;
-}
-.switch:hover{
-    background-color: #ff0037;
-    color: white;
+.login {
+  display: none;
+  padding-left: 30px;
+  animation: defade 0.5s;
 }
 
+@keyframes defade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+header.titre {
+  text-align: center;
+}
+
+.signin {
+  display: none;
+  padding-right: 30px;
+  animation: defade 0.5s;
+}
+
+.signin.active {
+  display: block;
+  align-self: flex-end;
+  animation: fade 1s;
+}
+
+.acc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.acc_core.left {
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: flex-start;
+}
+
+.acc_core.right {
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: flex-end;
+}
+
+.acc img {
+  position: relative;
+  height: 500px;
+  width: auto;
+  padding: 15px;
+  margin-bottom: 90px;
+}
+
+.acc img.right {
+  animation: trans_right 1s;
+}
+
+@keyframes trans_left {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 240px;
+  }
+}
+
+.acc img.left {
+  animation: trans_left 1s;
+}
+
+@keyframes trans_right {
+  from {
+    right: 240px;
+  }
+  to {
+    right: 0px;
+  }
+}
+
+h2 {
+  color: #393839;
+}
+
+.button {
+  font-size: 140%;
+  font-weight: bolder;
+  border-radius: 10px;
+  background-color: #ff0037;
+  text-decoration-color: white;
+  box-shadow: -1px 1px 5px black;
+  text-align: center;
+}
+
+.switch {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  background-color: white;
+  color: #393839;
+  border-radius: 5px;
+  border: 1px solid #393839;
+  margin-block-start: 1.1em;
+  margin-block-end: 1.1em;
+  box-shadow: -1px 1px 5px black;
+  pointer-events: stroke;
+}
+
+.switch:hover {
+  background-color: #ff0037;
+  color: white;
+}
