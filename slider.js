@@ -32,7 +32,7 @@ function prevSlide() {
 (function transition() {
   for (i = 1; i < 5; i++) {
     const screen = document.getElementById("screen" + i);
-    screen.onclick = function() { activation(this.id); };
+    screen.onclick = () => activation(this.id);
   }
 })()
 

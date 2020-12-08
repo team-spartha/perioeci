@@ -1,8 +1,8 @@
 (function notation() {
   for (i = 1; i < 6; i++) {
     var img = document.getElementById('vote' + i);
-    img.onmouseover = function() { note(this.id); };
-    img.onmouseout = function() { denote(this.id); }
+    img.onmouseover = () => note(this.id);
+    img.onmouseout = () => denote(this.id);
   }
 })()
 
