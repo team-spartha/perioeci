@@ -18,10 +18,7 @@ h3 a {
   color: white;
 }
 
-h3,
-h4,
-p,
-.left-panel li {
+h3, h4, p, .left-panel li {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -51,8 +48,7 @@ body {
   background-color: #bdc3c7;
 }
 
-.logo img,
-footer img {
+.logo img, footer img {
   width: 190px;
   height: 100px;
 }
@@ -154,8 +150,7 @@ input {
   border-left: 2px solid #393839;
 }
 
-.OS-bar a,
-.theme-bar a {
+.OS-bar a, .theme-bar a {
   height: 70px;
   width: 70px;
   color: #393839;
@@ -204,8 +199,7 @@ input {
   grid-template: 1fr / 20% 60% 20%;
 }
 
-h1,
-h2 {
+h1, h2 {
   font-family: "Fontastique", sans-serif;
   color: #f62121
 }
@@ -266,16 +260,14 @@ article {
   border: 1px solid black;
 }
 
-.suggestions,
-.classement {
+.suggestions, .classement {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: space-around;
 }
 
-.suggestions ul,
-.classement ol {
+.suggestions ul, .classement ol {
   list-style: none;
 }
 
@@ -295,8 +287,7 @@ li {
   color: #113366;
 }
 
-li a,
-.news a {
+li a, .news a {
   text-decoration: none;
   color: #113366;
 }
