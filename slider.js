@@ -29,13 +29,6 @@ function prevSlide() {
   items[count].classList.add('active');
 }
 
-(function transition() {
-  for (i = 1; i < 5; i++) {
-    const screen = document.getElementById("screen" + i);
-    screen.onclick = () => activation(this.id);
-  }
-})()
-
 function activation(screen) {
   const index = screen.slice(6);
   slide[count].classList.remove('active');
@@ -47,3 +40,9 @@ function activation(screen) {
 
 next.addEventListener('click', nextSlide);
 prev.addEventListener('click', prevSlide);
+
+// Transition
+for (i = 1; i < 5; i++) {
+  const screen = document.getElementById("screen" + i);
+  screen.onclick = () => activation(this.id);
+}
