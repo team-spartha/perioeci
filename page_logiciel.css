@@ -1,5 +1,6 @@
 
 .software-presentation{
+    padding: 15px;
     display: grid;
     grid-template: repeat(6,auto)/ 150px 250px 150px;
 }
