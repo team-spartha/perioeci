@@ -90,13 +90,15 @@
   color: yellow;
 }
 
-.software-screen.shots {
+.software-screen-shots {
   grid-row: 1 / 2;
   grid-column: 2 / 3;
+  margin-right: 0px;
 }
 
 .shot {
   display: none;
+  width: 100%;
 }
 
 .shot.active {
@@ -121,9 +123,7 @@
 }
 
 .software-screen.overview img {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .software-screen.overview img.active {

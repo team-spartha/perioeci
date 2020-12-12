@@ -1,0 +1,133 @@
+@media screen and (max-width : 1000px){
+    .website{
+        width: 100%;
+    }
+    .OS-bar,.theme-bar{
+        display: none;
+    }
+    .header{
+        grid-template: 1fr/repeat(2,auto);
+        background-color: #ecf0f1;
+        margin-top: 0;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 1/2;
+        background-color: white;
+    }
+    .top{
+        width: 100%;
+        grid-template: 1fr/20% 60% 10% 10%;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        
+    }
+    .search-bar{
+        justify-content: flex-start;
+        width: inherit;
+        grid-column: 3/4;
+    }
+    .search-bar input{
+        display : none;
+    }
+    .search-bar-responsive{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 1/5;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-color: white;
+        box-shadow: none;
+    }
+    .search-bar-responsive input{
+        margin: 10px;
+    }
+    .top .logo{
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+    footer{
+        margin-top: 15px;
+    }
+    .liste{
+        flex-wrap: wrap;
+    }
+    .core.index{
+        grid-template: repeat(3,auto)/1fr;
+    }
+    .content{
+        grid-row: 3/4;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .software{
+        margin: 0px 10px;
+        margin-top: 15px;
+        padding: 0px 15px;
+    }
+    .right-panel{
+        grid-row: 2/3;
+    }
+    article{
+        margin: 15px;
+        text-align: center;
+    }
+    article ol,article ul{
+        padding-inline-start: 0px;
+    }
+    .title{
+        text-align: center;
+    }
+    .software-presentation{
+        grid-template: repeat(7,auto) / 1fr 1fr;
+    }
+    .software-presentation h1 {
+        grid-column: 1/3;
+    }
+    .software-icon {
+        grid-column: 1/2;
+        justify-content: flex-start;
+    }
+    .software-download{
+        grid-column: 2/3;
+    }
+    .software-info{
+        margin: 5px 0px ;
+        grid-row: 3/4;
+        grid-column: 1/3;
+    }
+    .software-screen{
+        grid-row: 4/5;
+        grid-column: 1/3;
+        grid-template-columns: 5% 90% 5%;
+    }
+    .software-screen-btn-right {
+        padding: 0px;
+    }
+    .software-screen-btn-left {
+        padding: 0px;
+    }
+    .software-screen.overview {
+        flex-direction: row wrap;
+    }
+    .software-description{
+        grid-row: 5/6;
+        grid-column: 1/3;
+    }
+    .software-rating{
+        grid-row: 6/7;
+        grid-column: 1/3;
+    }
+    .software-comments{
+        display: none;
+        grid-row: 7/8;
+        grid-column: 1/3;
+    }
+    #illu{
+        display: none;
+    }
+
+}

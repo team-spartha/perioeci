@@ -13,6 +13,9 @@
   src: url("fonts/Inter-SemiBold.woff");
 }
 
+.menu,.search-bar-responsive{
+  display: none;
+}
 h3 a {
   text-decoration: none;
   color: white;
