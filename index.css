@@ -167,11 +167,13 @@ input {
 
 .theme-bar a:hover {
   color: white;
+  transition:0.5s;
 }
 
 .OS-bar div:hover {
   background-color: #f62121;
   color: white;
+  transition:0.5s;
 }
 
 .top .logo {
