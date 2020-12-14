@@ -135,4 +135,7 @@
     .signin.active,.login.active{
         padding: 0px;
     }
+    .containercontact {
+        grid-template: repeat(6, auto) / auto 300px auto;
+      }
 }
