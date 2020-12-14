@@ -1,6 +1,6 @@
 const slide = document.querySelectorAll('.shot');
 const nbImg = slide.length;
-const items = document.querySelectorAll('.software-screen.overview img');
+const items = document.querySelectorAll('.software-screen-overview img');
 const prev = document.querySelector('.software-screen-btn-left');
 const next = document.querySelector('.software-screen-btn-right');
 let count = 0;
@@ -43,6 +43,6 @@ prev.addEventListener('click', prevSlide);
 
 // Transition
 for (i = 1; i < 5; i++) {
-  const screen = document.getElementById("screen" + i);
-  screen.onclick = () => activation(this.id);
+  const screen = document.getElementById("screen"+i);
+  screen.onclick = () => activation(screen.id);
 }

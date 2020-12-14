@@ -7,24 +7,34 @@ const btn2 = document.querySelector('.switch.sign');
 
 function transitionRight() {
   sign.classList.remove('active');
-  img.classList.remove('left');
-  img.classList.add('right');
+  if(screen.width <= 1000){
+    signLog();
+  }
+  else{
+    img.classList.remove('left');
+    img.classList.add('right');
+  }
 }
 
 function transitionLeft() {
   log.classList.remove('active');
-  img.classList.remove('right');
-  img.classList.add('left');
+  if(screen.width <= 1000){
+    signLog();
+  }
+  else{
+    img.classList.remove('right');
+    img.classList.add('left');
+  }
 }
 
 function signLog() {
-  if (img.classList.contains('left')) {
-    page.classList.remove('.right');
-    page.classList.add('.left');
+  if (page.classList.contains('right') || (screen.width <= 1000 && page.classList.contains('right'))){
+    page.classList.remove('right');
+    page.classList.add('left');
     sign.classList.add('active');
   } else {
-    page.classList.remove('.left');
-    page.classList.add('.right');
+    page.classList.remove('left');
+    page.classList.add('right');
     log.classList.add('active');
   }
 }

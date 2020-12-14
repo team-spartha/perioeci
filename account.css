@@ -80,7 +80,7 @@ header.titre {
     right: 0px;
   }
   to {
-    right: 240px;
+    right: 272px;
   }
 }
 
@@ -90,10 +90,10 @@ header.titre {
 
 @keyframes trans_right {
   from {
-    right: 240px;
+    left: 0px;
   }
   to {
-    right: 0px;
+    left: 272px;
   }
 }
 

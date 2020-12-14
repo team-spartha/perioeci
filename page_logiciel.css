@@ -1,5 +1,6 @@
 .software-presentation {
-  padding: 15px;
+  padding: 0px 15px;
+  padding-top: 15px;
   display: grid;
   grid-template: repeat(6, auto) / 150px 250px 150px;
 }
@@ -59,7 +60,7 @@
 
 .software-screen {
   display: grid;
-  grid-template: auto auto / 1fr 1fr 1fr;
+  grid-template: auto auto / auto 450px auto;
   grid-row: 3 / 4;
   grid-column: 1 / 4;
   margin-top: 10px;
@@ -98,7 +99,7 @@
 
 .shot {
   display: none;
-  width: 100%;
+  width: 450px;
 }
 
 .shot.active {
@@ -115,18 +116,18 @@
   }
 }
 
-.software-screen.overview {
+.software-screen-overview {
   display: flex;
   justify-content: center;
   grid-row: 2 / 3;
   grid-column: 1 / 4;
 }
 
-.software-screen.overview img {
+.software-screen-overview img {
   margin-bottom: 15px;
 }
 
-.software-screen.overview img.active {
+.software-screen-overview img.active {
   border: 5px solid #1F1F1F;
 }
 

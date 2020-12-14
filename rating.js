@@ -1,5 +1,6 @@
 function note(star) {
   StarNb = star.slice(4);
+  console.log(StarNb);
   for (i = 1; i < (StarNb * 1) + 1; i++) {
     document.getElementById('vote' + i).classList.remove("far");
     document.getElementById('vote' + i).classList.add("fas");
@@ -8,6 +9,7 @@ function note(star) {
 
 function denote(star) {
   StarNb = star.slice(4);
+  console.log(StarNb);
   for (i = 1; i < (StarNb * 1) + 1; i++) {
     document.getElementById('vote' + i).classList.remove("fas");
     document.getElementById('vote' + i).classList.add("far");
@@ -16,7 +18,8 @@ function denote(star) {
 
 // Notation
 for (i = 1; i < 6; i++) {
-  var img = document.getElementById('vote' + i);
-  img.onmouseover = () => note(this.id);
-  img.onmouseout = () => denote(this.id);
+  const img = document.getElementById("vote" + i);
+  console.log(img.id.slice(4));
+  img.onmouseover = () => note(img.id);
+  img.onmouseout = () => denote(img.id);
 }
