@@ -100,7 +100,7 @@ input {
   align-items: center;
 }
 
-.theme-bar div {
+.theme-bar.element {
   display: flex;
   justify-content: center;
   padding: 0px 36px;
@@ -109,16 +109,16 @@ input {
   border-left: 1px solid #393839;
 }
 
-.theme-bar div:first-child {
+.theme-bar.element:first-child {
   display: flex;
   justify-content: center;
   padding-right: 38px;
-  padding-left: 38px;
+  padding-left: 28px;
   border: 0;
   border-right: 1px solid #393839;
 }
 
-.theme-bar div:last-child {
+.theme-bar.element:last-child {
   display: flex;
   justify-content: center;
   padding-right: 34px;
@@ -132,21 +132,21 @@ input {
   justify-content: center;
 }
 
-.OS-bar div {
+.OS-bar.element {
   border: 0;
   padding: 20px 60px;
   border-right: 2px solid #393839;
   border-left: 2px solid #393839;
 }
 
-.OS-bar div:first-child {
+.OS-bar.element:first-child {
   border: 0;
   padding-right: 73px;
   padding-left: 64px;
   border-right: 2px solid #393839;
 }
 
-.OS-bar div:last-child {
+.OS-bar.element:last-child {
   border: 0;
   padding-left: 73px;
   padding-right: 64px;
@@ -164,13 +164,16 @@ input {
   text-decoration: none;
   font-family: "Inter UI", sans-serif;
 }
-
+.OS-title,.theme-title{
+  border: none;
+  text-align: center;
+}
 .theme-bar a:hover {
   color: white;
   transition:0.5s;
 }
 
-.OS-bar div:hover {
+.OS-bar.element:hover {
   background-color: #f62121;
   color: white;
   transition:0.5s;

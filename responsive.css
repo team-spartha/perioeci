@@ -5,6 +5,52 @@
     .OS-bar,.theme-bar{
         display: none;
     }
+    .OS-bar.active,.theme-bar.active{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .OS-bar{
+        background-color: #bdc3c7;
+    }
+    .OS-bar.element{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        border: none;
+    }
+    .theme-bar.element{
+        margin: 10px 0px;
+        border : none;
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .OS-bar.element:last-child,.OS-bar.element:first-child {
+        padding: 0px 0px;
+        border : none;
+    }
+    .theme-bar.element:first-child, .theme-bar.element:last-child {
+        padding: 0px 0px;
+        border: none;
+    }
+    .OS-title,.theme-title{
+        width: 100%;
+        border: none;
+        text-align: center;
+    }
+    .OS-bar a, .theme-bar a {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .OS-bar i,.theme-bar i{
+        margin-left: 15px;
+    }
     .header{
         grid-template: 1fr/repeat(2,auto);
         background-color: #ecf0f1;
@@ -32,8 +78,9 @@
     .search-bar input{
         display : none;
     }
-    .search-bar-responsive{
+    .search-bar-responsive.active{
         display: flex;
+        animation: trans_down 1s;
         justify-content: center;
         align-items: center;
         grid-column: 1/5;
@@ -41,6 +88,26 @@
         border-bottom-right-radius: 15px;
         background-color: white;
         box-shadow: none;
+    }
+    .search-bar-responsive.hidden{
+        animation: trans_up 1s;
+    }
+    @keyframes trans_down {
+        from{
+            up : 59px;
+        }
+        to{
+            up : 0px;
+        }
+        
+    }
+    @keyframes trans_up{
+        from{
+            up : 0px;
+        }
+        to{
+            up : 59px;
+        }
     }
     .search-bar-responsive input{
         margin: 10px;
