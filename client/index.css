@@ -1,16 +1,16 @@
 @font-face {
   font-family: "Fontastique";
-  src: url("fonts/fontastique.ttf");
+  src: url("../resources/fonts/fontastique.ttf");
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url("fonts/OpenSans-Regular.ttf");
+  src: url("../resources/fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-family: "Inter UI";
-  src: url("fonts/Inter-SemiBold.woff");
+  src: url("../resources/fonts/Inter-SemiBold.woff");
 }
 
 .menu,.search-bar-responsive{
@@ -21,7 +21,7 @@ h3 a {
   color: white;
 }
 
-h3, h4, p, .left-panel li {
+h3, h4, p, .textarea {
   font-family: "Open Sans", sans-serif;
 }
 
