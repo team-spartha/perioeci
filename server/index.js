@@ -1,4 +1,5 @@
 const express = require("express");
+// The path is relative to the root directory of the project
 const clientDir = "client/";
 const port = 6942;
 
