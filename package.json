@@ -1,0 +1,19 @@
+{
+  "name": "perioeci",
+  "version": "1.0.0",
+  "description": "Perioeci Marketplace, inspirée de sites web de téléchargement comme 01Net, Clubic et CommentCaMarche.",
+  "main": "server/index.js",
+  "repository": "git@github.com:team-spartha/perioeci.git",
+  "scripts": {
+    "listen": "node ."
+  },
+  "contributors": [
+    "Speykious <speykious@gmail.com>",
+    "Diez",
+    "SarenSauce"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
