@@ -1,5 +1,5 @@
 const express = require("express");
-const clientDir = "../client/";
+const clientDir = "client/";
 const port = 6942;
 
 const app = express();
