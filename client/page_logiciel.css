@@ -132,7 +132,7 @@
 }
 
 .software-description {
-  border: 1px solid black;
+  font-family: "Fontastique";
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -234,4 +234,4 @@
   justify-content: flex-end;
   margin-bottom: 15px;
   margin-top: 10px;
-}   
+}
