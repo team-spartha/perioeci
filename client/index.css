@@ -258,6 +258,14 @@ body {
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://saportakinsta.s3.amazonaws.com/wp-content/uploads/2020/09/Development-Authority-screenshot.jpg");
 }
 
+.atom {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://radeff.red/dokuwiki/_media/info:atom.png");
+}
+
+.chrome {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://geeko.lesoir.be/wp-content/uploads/sites/58/2018/07/Google-Chrome.jpg");
+}
+
 .left-panel article {
   margin-left: 15px;
 }
