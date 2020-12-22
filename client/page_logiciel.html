@@ -9,7 +9,13 @@
   <link rel="icon" href="resources/icons/favicon.ico" />
   <script src="https://kit.fontawesome.com/5147579a57.js" crossorigin="anonymous"></script>
 </head>
-
+<script>
+  function foo() {
+    var selObj = window.getSelection();
+    console.log(selObj);
+    // do stuff with the range
+}
+</script>
 <body>
   <div class="website">
     <div class="header">
@@ -177,7 +183,7 @@
             <div class="comment-head">
               <div class="comment-box">
                 <div class="comment-box-edit">
-                  <span class="textarea" role="textbox" contenteditable></span>
+                  <span class="textarea" role="textbox" contenteditable> </span>
                 </div>
               </div>
               <div class="comment-box-effect">
