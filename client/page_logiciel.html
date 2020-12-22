@@ -8,14 +8,19 @@
   <link rel="stylesheet" href="all.css" />
   <link rel="icon" href="resources/icons/favicon.ico" />
   <script src="https://kit.fontawesome.com/5147579a57.js" crossorigin="anonymous"></script>
+  <script src="plugins/tinymce-dist-master/tinymce.min.js" referrerpolicy="origin"></script>
+  <script>tinymce.init({
+    selector:'textarea',
+    skin:"Perioeci",
+    content_css:"Perioeci",
+    language:"fr_FR",
+    plugins: ['link','image','emoticons'],
+    toolbar: "bold italic strikethrough | link image emoticons",
+    menubar : false,
+    statusbar : false
+});</script>
 </head>
-<script>
-  function foo() {
-    var selObj = window.getSelection();
-    console.log(selObj);
-    // do stuff with the range
-}
-</script>
+
 <body>
   <div class="website">
     <div class="header">
@@ -181,41 +186,7 @@
               <i class="fas fa-user" style="font-size: 55px;"> </i>
             </div>
             <div class="comment-head">
-              <div class="comment-box">
-                <div class="comment-box-edit">
-                  <span class="textarea" role="textbox" contenteditable> </span>
-                </div>
-              </div>
-              <div class="comment-box-effect">
-                <div class="comment-text-effect">
-                  <div class="underline">
-                    <i class="fas fa-underline"></i>
-                    <h4>Souligné</h4>
-                  </div>
-                  <div class="bold">
-                    <i class="fas fa-bold"></i>
-                    <h4>Gras</h4>
-                  </div>
-                  <div class="italic">
-                    <i class="fas fa-italic"></i>
-                    <h4>Italique</h4>
-                  </div>
-                </div>
-                <div class="comment-addons">
-                  <div class="text-linked">
-                    <i class="fas fa-link"></i>
-                    <h4>Lien</h4>
-                  </div>
-                  <div class="comment-image">
-                    <i class="far fa-image"></i>
-                    <h4>Image</h4>
-                  </div>
-                  <div class="text-emoji">
-                    <i class="far fa-laugh-beam"></i>
-                    <h4>Emoji</h4>
-                  </div>
-                </div>
-              </div>
+              <textarea> Test </textarea>
               <div class="comment-send">
                 <div class="send-button">
                   <i class="far fa-comments"></i>
@@ -224,6 +195,7 @@
               </div>
             </div>
           </div>
+          <script src="comment.js"></script>
           <img src="https://via.placeholder.com/550x150" alt="">
           <br>
           <img src="https://via.placeholder.com/550x150" alt="">
