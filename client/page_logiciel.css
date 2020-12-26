@@ -198,3 +198,41 @@
 .tox.tox-tinymce{
   width: 100%;
 }
+
+article.comment{
+  display: grid;
+  padding: 15px;
+  grid-template: repeat(3,auto) / repeat(2,auto);
+  border: none;
+}
+article .logo{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+article .info{
+  display: flex;
+  align-items:  flex-end;
+  grid-row : 1/2;
+  grid-column : 2/3;
+}
+.info h3{
+  margin: Opx;
+  margin-bottom: 7px;
+}
+h4.comment-user.content{
+  padding: 10px;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: 1px solid black;
+}
+article .options{
+  padding-top: 5px;
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
