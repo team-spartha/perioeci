@@ -250,21 +250,49 @@ body {
   margin-bottom: 15px;
 }
 
+
+
 .torrent {
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://img.utdstc.com/screen/1/utorrent-002.jpg:800");
+}
+
+.torrent:hover{
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("https://img.utdstc.com/screen/1/utorrent-002.jpg:800");
+  background-position: top;
+  transition: 5s;
 }
 
 .zoom {
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://saportakinsta.s3.amazonaws.com/wp-content/uploads/2020/09/Development-Authority-screenshot.jpg");
 }
 
+.zoom:hover{
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("https://saportakinsta.s3.amazonaws.com/wp-content/uploads/2020/09/Development-Authority-screenshot.jpg");
+  background-position: top;
+  transition: 5s;
+}
+
 .atom {
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://radeff.red/dokuwiki/_media/info:atom.png");
+}
+
+.atom:hover{
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("https://radeff.red/dokuwiki/_media/info:atom.png");
+  background-position: top;
+  transition: 5s;
 }
 
 .chrome {
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://geeko.lesoir.be/wp-content/uploads/sites/58/2018/07/Google-Chrome.jpg");
 }
+
+.chrome:hover{
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("https://geeko.lesoir.be/wp-content/uploads/sites/58/2018/07/Google-Chrome.jpg");
+  background-position: top;
+  transition: 5s;
+}
+
+
 
 .left-panel article {
   margin-left: 15px;
@@ -351,3 +379,4 @@ footer {
 footer img {
   align-self: center;
 }
+
