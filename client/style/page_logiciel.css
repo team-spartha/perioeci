@@ -230,6 +230,7 @@ h4.comment-user.content{
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   border: 1px solid black;
+  background-color: #f6a0a0;
 }
 article .options{
   padding-top: 5px;

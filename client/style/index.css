@@ -1,16 +1,16 @@
 @font-face {
   font-family: "Fontastique";
-  src: url("resources/fonts/fontastique.ttf");
+  src: url("../resources/fonts/fontastique.ttf");
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url("resources/fonts/OpenSans-Regular.ttf");
+  src: url("../resources/fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-family: "Inter UI";
-  src: url("resources/fonts/Inter-SemiBold.woff");
+  src: url("../resources/fonts/Inter-SemiBold.woff");
 }
 
 .menu,.search-bar-responsive{
