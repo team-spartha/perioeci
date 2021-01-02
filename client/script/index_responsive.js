@@ -5,7 +5,9 @@ var theme_bar = document.querySelector(".theme-bar");
 var OS_bar = document.querySelector(".OS-bar");
 
 var opened = false;
-OS_bar.style.display = "none"
+if(screen.width<1000){
+    OS_bar.style.display = "none"
+}
 
 function transition() {
     if(search_bar.classList.contains('active')){
