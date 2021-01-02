@@ -214,9 +214,14 @@ article .logo{
 }
 article .info{
   display: flex;
-  align-items:  flex-end;
+  justify-content: space-between;
   grid-row : 1/2;
   grid-column : 2/3;
+}
+.likes{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 .info h3{
   margin: Opx;
@@ -237,3 +242,4 @@ article .options{
   grid-row: 3/4;
   grid-column: 2/3;
 }
+button:focus {outline:0;}
