@@ -2,10 +2,10 @@
     .website{
         width: 100%;
     }
-    .OS-bar,.theme-bar{
+    .theme-bar{
         display: none;
     }
-    .OS-bar.active,.theme-bar.active{
+    .OS-bar,.theme-bar.active{
         display: flex;
         width: 100%;
         flex-direction: column;

@@ -1,8 +1,11 @@
 const btn = document.querySelector(".fas.fa-search");
 const search_bar = document.querySelector(".search-bar-responsive");
 const btn_menu = document.querySelector(".fas.fa-bars");
-const theme_bar = document.querySelector(".theme-bar");
-const OS_bar = document.querySelector(".OS-bar");
+var theme_bar = document.querySelector(".theme-bar");
+var OS_bar = document.querySelector(".OS-bar");
+
+var opened = false;
+OS_bar.style.display = "none"
 
 function transition() {
     if(search_bar.classList.contains('active')){
@@ -14,14 +17,15 @@ function transition() {
 }
 
 function transition_menu(){
-    if(theme_bar.classList.contains('active')){
-        theme_bar.classList.remove('active');
-        OS_bar.classList.remove('active');
+    if(opened){
+        theme_bar.classList.remove("active")
+        OS_bar.style.display = "none"
+        opened = false
     }
     else{
-        OS_bar.classList.add('active');
-        theme_bar.classList.add('active');
-        
+        theme_bar.classList.add("active")
+        OS_bar.style.display = "flex"
+        opened = true
     }
 }
 btn.addEventListener('click',transition);
