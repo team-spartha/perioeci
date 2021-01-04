@@ -380,3 +380,6 @@ footer img {
   align-self: center;
 }
 
+a:link{
+  text-decoration:none;
+}
