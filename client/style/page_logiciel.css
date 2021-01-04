@@ -132,7 +132,8 @@
 }
 
 .software-description {
-  font-family: "Fontastique";
+  font-family: "Open Sans";
+  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: flex-start;
