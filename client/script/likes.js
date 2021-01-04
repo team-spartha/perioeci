@@ -9,7 +9,8 @@ like_btn.addEventListener("click", () =>{
         cpt.innerHTML = new_cpt
         like_btn_icon.classList.remove("far")
         like_btn_icon.classList.add("fas")
-        like_btn_label.innerHTML = "Aimé"
+        like_btn_label.innerHTML = "Aimé";
+        like_btn_label.classList.add("underlined")
     }
     else{
         const new_cpt = parseInt(cpt.innerHTML,10) - 1
@@ -17,5 +18,6 @@ like_btn.addEventListener("click", () =>{
         like_btn_icon.classList.remove("fas")
         like_btn_icon.classList.add("far")
         like_btn_label.innerHTML = "J'aime"
+        like_btn_label.classList.remove("underlined")
     }
 })

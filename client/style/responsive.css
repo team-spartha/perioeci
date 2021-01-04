@@ -89,6 +89,10 @@
         background-color: white;
         box-shadow: none;
     }
+    .active.boxy{
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
     .search-bar-responsive.hidden{
         animation: trans_up 1s;
     }
@@ -206,5 +210,34 @@
     }
     .containercontact {
         grid-template: repeat(6, auto) / auto 300px auto;
-      }
+    }
+    .report-panel{
+        grid-template: repeat(4,auto) / 30% 20% 20% 30%;
+        width: inherit;
+        padding: 5px;
+    }
+    .report-panel h4{
+        grid-column: 2/4;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .report-panel select{
+        grid-row: 2/3;
+        grid-column: 1/5;
+        margin-bottom: 5px;
+    }
+    .report-panel input{
+        grid-row: 3/4;
+        grid-column: 1/5;
+        padding: 10px;
+        margin-right: 0px;
+    }
+    .report-panel .send-button{
+        grid-row: 4/5;
+        grid-column: 2/4;
+        width: 100px;
+        height: 40px;
+        margin-top: 5px;
+        left: 150px;
+    }
 }

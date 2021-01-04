@@ -23,11 +23,13 @@ function transition_menu(){
         theme_bar.classList.remove("active")
         OS_bar.style.display = "none"
         opened = false
+        search_bar.classList.remove("boxy")
     }
     else{
         theme_bar.classList.add("active")
         OS_bar.style.display = "flex"
         opened = true
+        search_bar.classList.add("boxy")
     }
 }
 btn.addEventListener('click',transition);
