@@ -36,6 +36,7 @@ function signLog() {
     page.classList.remove('left');
     page.classList.add('right');
     log.classList.add('active');
+    password_check.style.display = "none";
   }
 }
 

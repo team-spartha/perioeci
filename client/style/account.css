@@ -40,7 +40,7 @@ header.titre {
 
 .signin.active {
   display: block;
-  align-self: flex-end;
+  align-self: flex-start;
   animation: fade 1s;
 }
 
