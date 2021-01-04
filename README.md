@@ -32,8 +32,6 @@ A FAIRE :
   - JS pour faire télécharger un fichier
   - JS pour inscrire les ID d'une personne dans une base de donnée 
   - JS pour l'inscription (vérifications du mail, mot de passe....)
-  - Page de contacts
-  - Système de commentaire
-  - Système de notation à finir 
+  - Page de contacts 
   - Contenu,contenu, contenu, contenu...
   - ... 
