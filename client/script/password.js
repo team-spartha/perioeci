@@ -31,31 +31,35 @@ function loadScore(score){
 password_input.addEventListener("input", () => {
     var user_input = password_input.value;
     var score = 0;
-    if(user_input.length>=8){
-        score++;
-        password_conditions[4].style.color = "#2ecc71"
-    }
-    else{
-        password_conditions[4].style.color = "#9ea39e"
-    }
+    var length = 0
     maj_found = false
     min_found = false
     num_found = false
     spe_found = false
     for(i=0;i<user_input.length;i++){
         var code = user_input.charCodeAt(i)
+        if(code!=32){
+            length++;
+        }
         if(code>=65 && code<=90){
-            maj_found = true
+            maj_found = true;
         }
         if(code>=97 && code<=122){
-            min_found = true
+            min_found = true;
         }
         if(code>=48 && code<=57){
-            num_found = true
+            num_found = true;
         }
         if((code>=33 && code<=47)||(code>=58 && code <=64)||(code>=91 && code <=96)||(code>=123 && code<=126)){
-            spe_found = true
+            spe_found = true;
         }
+    }
+    if(length>=8){
+        score++;
+        password_conditions[4].style.color = "#2ecc71"
+    }
+    else{
+        password_conditions[4].style.color = "#9ea39e"
     }
     if(maj_found){
         score++
