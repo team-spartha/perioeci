@@ -1,3 +1,6 @@
+require("dotenv-flow").config();
+require("./db/init");
+
 const express = require("express");
 const port = 6942;
 
