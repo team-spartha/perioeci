@@ -93,6 +93,6 @@ password_input.addEventListener("input", () => {
 })
 
 
-password_input.addEventListener("click",() =>{
+password_input.addEventListener("focus",() =>{
     password_check.style.display = "block";
 })
