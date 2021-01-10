@@ -252,8 +252,9 @@ button:focus {outline:0;}
   grid-template: 1fr 1fr / 20% 60% 20%;
   border-radius: 15px;
   border : 1px solid black;
-  padding: 15px;
+  padding: 10px;
   width: inherit;
+  transition: 0.5s;
 }
 .report-panel h4{
   grid-row: 1/2;
