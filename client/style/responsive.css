@@ -240,12 +240,52 @@
         left: 150px;
     }
 
-    .containercontact input{
+
+
+
+    .nom1{
       width: inherit;
-      margin-left:5px;
-      margin-right:5px;
+      padding:10px;
+    }
+
+    .objet{
+      width: inherit;
+      padding:10px;
+    }
+
+    .email{
+      width: inherit;
+      padding:10px;
+    }
+
+
+
+    .message{
+      width: inherit;
+      padding:10px;
+    }
+
+    .message textarea{
+
+      padding:0px;
+      margin:0px;
+      width:100%;
+      max-width: 250px;
 
     }
-    
+
+    .containercontact input{
+      width: 280px;
+      padding-bottom:10px;
+      padding-top:10px;
+      padding-left: 0px;
+      padding-right:0px;
+
+
+    }
+
+
+
+
 
 }

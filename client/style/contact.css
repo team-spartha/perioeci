@@ -1,13 +1,11 @@
 .containercontact {
-  padding: 15px;
+  padding: 0px;
   display: grid;
-  grid-template: repeat(6, auto)/ 300px;
-
+  grid-template: repeat(6, auto)/ 280px;
   justify-content: center;
 
 }
 .containercontact h1 {
-
   grid-row: 1 / 1;
   text-align: center;
 }
@@ -52,11 +50,14 @@
 }
 
 .message textarea{
-  width: 300px;
+  width: 272px;
+  
+
+
 }
 
 .containercontact input{
-  width: 282px;
+  width: 250px;
   margin-left:0px;
   margin-right:0px;
 
