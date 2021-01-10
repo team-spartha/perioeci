@@ -60,7 +60,7 @@
 
 .software-screen {
   display: grid;
-  grid-template: auto auto / auto 450px auto;
+  grid-template: 450px 80px / auto 450px auto;
   grid-row: 3 / 4;
   grid-column: 1 / 4;
   margin-top: 10px;
@@ -70,7 +70,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 10px;
+  padding: 0px 10px;
   font-size: 600%;
   grid-row: 1 / 2;
   grid-column: 1 / 2;
@@ -81,7 +81,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 10px;
+  padding: 0px 10px;
   font-size: 600%;
   grid-row: 1 / 2;
   grid-column: 3 / 4;
@@ -92,6 +92,8 @@
 }
 
 .software-screen-shots {
+  display: flex;
+  align-items: center;
   grid-row: 1 / 2;
   grid-column: 2 / 3;
   margin-right: 0px;
