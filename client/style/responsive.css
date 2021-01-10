@@ -210,7 +210,7 @@
         padding: 0px;
     }
     .containercontact {
-        grid-template: repeat(6, auto) / auto 300px auto;
+        grid-template: repeat(6, auto) / 300px;
     }
     .report-panel{
         grid-template: repeat(4,auto) / 30% 20% 20% 30%;
@@ -243,14 +243,10 @@
     }
 
     .containercontact input{
-      width: auto;
+      width: inherit;
       margin-left:5px;
       margin-right:5px;
 
-    }
-
-    .containercontact {
-      width: auto;
     }
 
 }
