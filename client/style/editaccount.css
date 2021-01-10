@@ -1,8 +1,9 @@
 .containerprofil {
   padding: 15px;
   display: grid;
-  grid-template: 40px auto auto 400px / auto 400px auto;
+  grid-template: 40px auto auto 400px / 300px;
   background-color: white;
+  justify-content: center;
 }
 .containerprofil h1 {
   grid-column: 1 / 4;
