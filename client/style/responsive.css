@@ -68,7 +68,7 @@
         grid-template: 1fr/20% 60% 10% 10%;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
-        
+
     }
     .search-bar{
         justify-content: flex-start;
@@ -103,7 +103,7 @@
         to{
             up : 0px;
         }
-        
+
     }
     @keyframes trans_up{
         from{
@@ -241,4 +241,16 @@
         margin-top: 5px;
         left: 150px;
     }
+
+    .containercontact input{
+      width: auto;
+      margin-left:5px;
+      margin-right:5px;
+
+    }
+
+    .containercontact {
+      width: auto;
+    }
+
 }
