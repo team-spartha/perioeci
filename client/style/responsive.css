@@ -209,9 +209,7 @@
     .signin.active,.login.active{
         padding: 0px;
     }
-    .containercontact {
-        grid-template: repeat(6, auto) / 300px;
-    }
+
     .report-panel{
         grid-template: repeat(4,auto) / 30% 20% 20% 30%;
         width: inherit;
@@ -248,5 +246,6 @@
       margin-right:5px;
 
     }
+    
 
 }

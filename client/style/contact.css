@@ -1,40 +1,45 @@
 .containercontact {
   padding: 15px;
   display: grid;
-  grid-template: repeat(6, auto) / auto 400px auto;
+  grid-template: repeat(6, auto)/ 300px;
+
+  justify-content: center;
+
 }
 .containercontact h1 {
-  grid-column: 1 / 4;
-  grid-row: 1 / 2;
+
+  grid-row: 1 / 1;
   text-align: center;
 }
 
-.nom {
-  grid-column: 2 / 2;
+.nom1{
+  grid-row : 2 /span 1;
+}
+.email{
+  grid-row: 3 / span 1;
 }
 
+.objet{
+  grid-row: 4 / span 1;
+}
+
+.message{
+  grid-row: 5 / span 1;
+}
+
+
+
+
 .containercontact h2 {
-  grid-column: 1 / 4;
+
   color: #f62121;
 
 }
 
-.email{
-  grid-column: 2 / 2;
 
-
-}
-
-.objet{
-  grid-column: 2 / 2;
-}
-
-.message{
-  grid-column: 2 / 2;
-}
 
 .contact-send{
-  grid-column: 2 / 2;
+  grid-row: 6 / span 1;
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -47,11 +52,11 @@
 }
 
 .message textarea{
-  width: 400px;
+  width: 300px;
 }
 
 .containercontact input{
-  width: 382px;
+  width: 282px;
   margin-left:0px;
   margin-right:0px;
 
