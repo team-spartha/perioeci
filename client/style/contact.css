@@ -11,8 +11,6 @@
 
 .nom {
   grid-column: 2 / 2;
-
-
 }
 
 .containercontact h2 {
@@ -35,6 +33,26 @@
   grid-column: 2 / 2;
 }
 
-.envoyer{
+.contact-send{
   grid-column: 2 / 2;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.contact-send h4{
+  margin  : 0px 0px;
+}
+
+.message textarea{
+  width: 400px;
+}
+
+.containercontact input{
+  width: 382px;
+  margin-left:0px;
+  margin-right:0px;
+
 }
