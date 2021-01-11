@@ -63,35 +63,51 @@
       <script src="../script/index_responsive.js"></script>
     </div>
     <div class="containerprofil">
-      <div class="compte">
-        <a href="editaccount.html" style="cursor: pointer"><h2>Pseudo</h2></a>
-        <h2>Photo de Profil</h2>
-        <h2>Newsletter</h2>
+      <div class="container_onglets_contenu">
+        <div class="container_onglets">
+          <div class="onglets active" data-anim="1">Pseudo</div>
+          <div class="onglets" data-anim="2">E-mail</div>
+          <div class="onglets" data-anim="3">Photo</div>
+          <div class="onglets" data-anim="4">Bio</div>
+          <div class="onglets" data-anim="5">Newsletter</div>
+        </div>
 
+          <div class="contenu activeContenu" data-anim="1">
+            <h2>Nom d'utilisateur</h2>
+            <h4>Actuel : "pseudo actuel de l'utilisateur"</h4>
+            <input type="text" required maxlength="100" placeholder="ex: Cyber77" name="entrernom" size="40"/>
+            <h3>Changer nom d'utilisateur</h3>
+          </div>
+
+          <div class="contenu" data-anim="2">
+            <h2>Nom d'utilisateur2</h2>
+            <h4>Actuel : "pseudo actuel de l'utilisateur"</h4>
+            <input type="text" required maxlength="100" placeholder="ex: Cyber77" name="entrernom" size="40"/>
+            <h3>Changer nom d'utilisateur</h3>
+          </div>
+
+          <div class="contenu" data-anim="3">
+            <h2>Nom d'utilisateur3</h2>
+            <h4>Actuel : "pseudo actuel de l'utilisateur"</h4>
+            <input type="text" required maxlength="100" placeholder="ex: Cyber77" name="entrernom" size="40"/>
+            <h3>Changer nom d'utilisateur</h3>
+          </div>
+
+          <div class="contenu" data-anim="4">
+            <h2>Nom d'utilisateur4</h2>
+            <h4>Actuel : "pseudo actuel de l'utilisateur"</h4>
+            <input type="text" required maxlength="100" placeholder="ex: Cyber77" name="entrernom" size="40"/>
+            <h3>Changer nom d'utilisateur</h3>
+          </div>
+
+          <div class="contenu" data-anim="5">
+            <h2>Nom d'utilisateur5</h2>
+            <h4>Actuel : "pseudo actuel de l'utilisateur"</h4>
+            <input type="text" required maxlength="100" placeholder="ex: Cyber77" name="entrernom" size="40"/>
+            <h3>Changer nom d'utilisateur</h3>
+          </div>
       </div>
-      <h1>Compte</h1>
-      <div class="champ">
-        <h2>Nom d'utilisateur</h2>
-        <h4>Actuel : "pseudo actuel de l'utilisateur"</h4>
-        <input type="text" required maxlength="100" placeholder="ex: Cyber77" name="entrernom" size="40"/>
-        <h3>Changer nom d'utilisateur</h3>
-      </div>
-      <div class="champ">
-        <h2>Photo de profil</h2>
-        <img src="../resources/icons/utorrent-43r06R.png" alt="Photo de profil" width="100" height="100">
-        <h3>Changer photo de profil</h3>
-      </div>
-      <div class="champ">
-        <h2>E-mail</h2>
-        <h4>adresse mail de l'utilisateur</h4>
-      </div>
-      <div class="champ">
-        <h2>Bio</h2>
-        <textarea cols="60" rows="9" maxlength="500" placeholder="Parlez nous de vous !" name="message" ></textarea>
-      </div>
-      <div class="envoyer">
-        <a href=""><h2>Changer<h2></a>
-      </div>
+      <script src="../script/edit_account.js"></script>
     </div>
     <footer>
       <div class="liste">
