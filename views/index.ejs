@@ -5,7 +5,27 @@
 
 <body>
   <div class="website">
-    <%- include("components/header", { icon_user }); -%>
+    <%- include("components/header"); -%>
+    <%- include("components/core_index_page1", {
+          software: {
+            name: "atom",
+            title: "Atom",
+            icon: "resources/icons/atomlogo.png",
+            info: Object.entries({
+              "Développé par": "GitHub",
+              "Licence": "Gratuit",
+              "Langues": "Multilingue (54)",
+              "OS": Object.entries({
+                "Windows": "1.53.0",
+                "MacOS": "1.53.0",
+                "Android": "Non Disponible"
+              }).map(([name, version]) => `| ${name} : ${version}`),
+              "Téléchargé": 6921
+            }).map(([name, version]) => `${name} : ${version}`),
+            //"screenshots": ["atom1.png", "atom2.png", "atom3.png", "atom4.png"],
+            synopsis: "Un éditeur de texte collaboratif",
+          }
+        }); -%>
     <%- include("components/footer"); -%>
   </div>
 </body>

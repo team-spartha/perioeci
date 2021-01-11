@@ -4,44 +4,20 @@
       <i class="fas fa-bars" style="font-size: 25px;"></i>
     </div>
     <div class="logo">
-      <a href="index.html"><img src="resources/icons/logo.png" alt="logo" /></a>
+      <a href="index.html"><img src="../resources/icons/logo.png" alt="logo" /></a>
     </div>
     <div class="search-bar">
-      <input type="text" placeholder="ex: Winrar, uTorrent, Avast Anti-virus,
-        ..." name="search-bar" /> <i class="fas fa-search" style="font-size:
-        25px;"></i>
+      <input type="text" placeholder="ex: Winrar, uTorrent, Avast Anti-virus, ..." name="search-bar" />
+      <i class="fas fa-search" style="font-size: 25px;"></i>
     </div>
     <div class="account">
-      <a href="account.html">
-        <img src="<%= icon_user %>" alt="" style="width: 25px;">
-      </a>
+      <a href="account.html"><i class="fas fa-user" style="font-size: 25px;"></i></a>
     </div>
     <div class="search-bar-responsive">
-      <input type="text" placeholder="ex: Winrar, uTorrent, Avast Anti-virus,
-        ..." name="search-bar" />
+      <input type="text" placeholder="ex: Winrar, uTorrent, Avast Anti-virus, ..." name="search-bar" />
     </div>
   </div>
-  <%- include("os-bar"); -%>
-  <%- include("theme-bar"); -%>
-  <%- include("core_index_page1", {
-        software: {
-          name: "atom",
-          title: "Atom",
-          icon: "resources/icons/atomlogo.png",
-          info: Object.entries({
-            "Développé par": "GitHub",
-            "Licence": "Gratuit",
-            "Langues": "Multilingue (54)",
-            "OS": Object.entries({
-              "Windows": "1.53.0",
-              "MacOS": "1.53.0",
-              "Android": "Non Disponible"
-            }).map(([name, version]) => `| ${name} : ${version}`).join(" &emsp; "),
-            "Téléchargé": 6921
-          }).map(([name, version]) => `${name} : ${version}`).join(" &emsp; "),
-          //"screenshots": ["atom1.png", "atom2.png", "atom3.png", "atom4.png"],
-          synopsis: "Un éditeur de texte collaboratif",
-        }
-      }); -%>
+  <%- include("os-bar"); %>
+  <%- include("theme-bar"); %>
   <script src="script/index_responsive.js"></script>
 </div>
