@@ -1,5 +1,5 @@
 .containercontact {
-  padding: 0px;
+  padding: 20px;
   display: grid;
   grid-template: repeat(6, auto)/ 280px;
   justify-content: center;
@@ -51,7 +51,7 @@
 
 .message textarea{
   width: 272px;
-  
+
 
 
 }
