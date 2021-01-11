@@ -1,25 +1,26 @@
 .containerprofil {
-  padding: 15px;
-  /*display: grid;*/
-  /*grid-template: 40px auto auto 400px / 600px;*/
+  /*padding: 15px;*/
+  display: grid;
+  grid-template: 40px auto auto 400px / 1000px;
   background-color: white;
-  /*justify-content: center;*/
-  height: 100vh;
+  justify-content: center;
+  /*height: 100vh;*/
   font-family: "Fontastique", sans-serif;
 
 
 }
 
 .container_onglets_contenu{
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width:660px;
+  grid-column: 1 / span 1;
+  /*position: absolute;
+  top: 60%;
+  left: 50%;*/
+  /*transform: translate(-50%,-50%);*/
+  width:1000px;
   height: 300px;
   background: #f1f1f1;
   border-radius: 2px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
 
 }
 
