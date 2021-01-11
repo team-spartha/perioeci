@@ -1,0 +1,18 @@
+<div class="theme-bar">
+  <%  for (const [title, icon] of Object.entries({
+        Indispensables: "key",
+        Populaires: "fire-alt",
+        Internet: "wifi",
+        Jeux: "gamepad",
+        Professionnel: "briefcase",
+        Utilitaires: "tools",
+        Sécurité: "shield-alt"
+      })) { %>
+    <div class="theme-bar element">
+      <a href="">
+        <i class="<%= "fas fa-" + icon %>" style="font-size: 35px;" /><br>
+        <div class="theme-title"><%= title %></div>
+      </a>
+    </div>
+  <% } %>
+</div>

@@ -4,7 +4,7 @@
       <i class="fas fa-bars" style="font-size: 25px;"></i>
     </div>
     <div class="logo">
-      <a href="index.html"><img src="../resources/icons/logo.png" alt="logo" /></a>
+      <a href="index.html"><img src="resources/icons/logo.png" alt="logo" /></a>
     </div>
     <div class="search-bar">
       <input type="text" placeholder="ex: Winrar, uTorrent, Avast Anti-virus,
@@ -13,7 +13,7 @@
     </div>
     <div class="account">
       <a href="account.html">
-        <img src=<%= icon_user %> alt="" style="width: 25px;">
+        <img src="<%= icon_user %>" alt="" style="width: 25px;">
       </a>
     </div>
     <div class="search-bar-responsive">
@@ -22,23 +22,26 @@
     </div>
   </div>
   <%- include("os-bar"); -%>
-  <div class="theme-bar">
-    <%  for (const [title, icon] in {
-          Indispensables: "key",
-          Populaires: "fire-alt",
-          Internet: "wifi",
-          Jeux: "gamepad",
-          Professionnel: "briefcase",
-          Utilitaires: "tools",
-          Sécurité: "shield-alt"
-        }) { %>
-      <div class="theme-bar element">
-        <a href="">
-          <i class=<%= "fas fa-" + icon %> style="font-size: 35px;" /><br>
-          <div class="theme-title"><%= title %></div>
-        </a>
-      </div>
-    <% } %>
-  </div>
+  <%- include("theme-bar"); -%>
+  <%- include("core_index_page1", {
+        software: {
+          name: "atom",
+          title: "Atom",
+          icon: "resources/icons/atomlogo.png",
+          info: Object.entries({
+            "Développé par": "GitHub",
+            "Licence": "Gratuit",
+            "Langues": "Multilingue (54)",
+            "OS": Object.entries({
+              "Windows": "1.53.0",
+              "MacOS": "1.53.0",
+              "Android": "Non Disponible"
+            }).map(([name, version]) => `| ${name} : ${version}`).join(" &emsp; "),
+            "Téléchargé": 6921
+          }).map(([name, version]) => `${name} : ${version}`).join(" &emsp; "),
+          //"screenshots": ["atom1.png", "atom2.png", "atom3.png", "atom4.png"],
+          synopsis: "Un éditeur de texte collaboratif",
+        }
+      }); -%>
   <script src="script/index_responsive.js"></script>
 </div>

@@ -20,5 +20,5 @@ app.get("/", (_req, res) => {
 })
 
 app.get("/header", (_req, res) => {
-  res.render("header", { icon_user: "../resources/icons/account.png" });
+  res.render("header", { icon_user: "resources/icons/account.png" });
 })

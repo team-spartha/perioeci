@@ -1,14 +1,14 @@
 <div class="OS-bar">
-  <%  for (const [alt, title] in {
+  <%  for (const [alt, title] of Object.entries({
         windows: "Windows",
         apple: "MacOS",
         linux: "Linux",
-        android: "Modile",
+        android: "Mobile",
         "mobile-alt": "iOS"
-      }) { %>
+      })) { %>
       <div class="OS-bar element">
         <a href="">
-          <i class=<%= "fab fa-" + alt %> style="font-size: 45px;" />
+          <i class="<%= "fab fa-" + alt %>" style="font-size: 45px;" />
           <br><div class="OS-title"><%= title %></div>
         </a>
       </div>
