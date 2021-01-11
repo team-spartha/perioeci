@@ -1,0 +1,44 @@
+<div class="header">
+  <div class="top">
+    <div class="menu">
+      <i class="fas fa-bars" style="font-size: 25px;"></i>
+    </div>
+    <div class="logo">
+      <a href="index.html"><img src="../resources/icons/logo.png" alt="logo" /></a>
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="ex: Winrar, uTorrent, Avast Anti-virus,
+        ..." name="search-bar" /> <i class="fas fa-search" style="font-size:
+        25px;"></i>
+    </div>
+    <div class="account">
+      <a href="account.html">
+        <img src=<%= icon_user %> alt="" style="width: 25px;">
+      </a>
+    </div>
+    <div class="search-bar-responsive">
+      <input type="text" placeholder="ex: Winrar, uTorrent, Avast Anti-virus,
+        ..." name="search-bar" />
+    </div>
+  </div>
+  <%- include("os-bar"); -%>
+  <div class="theme-bar">
+    <%  for (const [title, icon] in {
+          Indispensables: "key",
+          Populaires: "fire-alt",
+          Internet: "wifi",
+          Jeux: "gamepad",
+          Professionnel: "briefcase",
+          Utilitaires: "tools",
+          Sécurité: "shield-alt"
+        }) { %>
+      <div class="theme-bar element">
+        <a href="">
+          <i class=<%= "fas fa-" + icon %> style="font-size: 35px;" /><br>
+          <div class="theme-title"><%= title %></div>
+        </a>
+      </div>
+    <% } %>
+  </div>
+  <script src="script/index_responsive.js"></script>
+</div>

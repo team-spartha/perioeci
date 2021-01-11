@@ -1,0 +1,16 @@
+<div class="OS-bar">
+  <%  for (const [alt, title] in {
+        windows: "Windows",
+        apple: "MacOS",
+        linux: "Linux",
+        android: "Modile",
+        "mobile-alt": "iOS"
+      }) { %>
+      <div class="OS-bar element">
+        <a href="">
+          <i class=<%= "fab fa-" + alt %> style="font-size: 45px;" />
+          <br><div class="OS-title"><%= title %></div>
+        </a>
+      </div>
+  <% } %>
+</div>
