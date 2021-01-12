@@ -3,7 +3,7 @@
     <article>
       <div class="classement">
         <div class="title">
-          <img src="../resources/icons/Ranking.png" alt="" width="30px">
+          <img src="resources/icons/Ranking.png" alt="" width="30px">
           <h3>Les plus téléchargés</h3>
         </div>
         <ol>
@@ -31,16 +31,12 @@
   </div>
   <div class="content">
     <h1 class="title">LE TOP DES APPLICATIONS</h1>
-    <a href=<%= software_link %> >
-      <div class="software torrent">
-        <img src=<%= software_icon %>  alt=<%- title_logiciel %> width="120px">
-        <h3>
-          <%= software_details %> 
-        </h3>
-        <p>
-          <%= software_thumbnails%> 
-        </p>
-        <p>Licence : Gratuit &emsp; Téléchargé : 9945 fois &emsp; OS : Windows 7/8/8.1/10</p>
+    <a href=<%= software.link %> >
+      <div class="<%= "software " + software.name %>" >
+        <img src="<%= software.icon %>" alt="<%= software.name %>" width="120px">
+        <h3><%= software.title %></h3>
+        <p><%= software.synopsis %></p>
+        <p><%= software.info %></p>
       </div>
     </a>
   </div>
@@ -48,7 +44,7 @@
     <article>
       <a href="news1.html">
         <div class="news">
-          <img src="../resources/icons/chromenews1.jpg" width="170px" height="120px" alt="">
+          <img src="resources/icons/chromenews1.jpg" width="170px" height="120px" alt="">
           <h4><i class="far fa-newspaper" style="font-size: 20px;"></i> &nbsp; Extensions malveillantes sur Chrome</h4>
         </div>
       </a>

@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Perioeci Market</title>
-</head>
+<%- include("components/head", { page_title }); -%>
 
 <body>
-  <h1>ÉNORME TEST</h1>
-  <p>
-    <%= petitTest %>
-  </p>
+  <div class="website">
+    <%- include("components/header"); -%>
+    <%- include("components/core_index_page1", {
+          software: {
+            name: "atom",
+            title: "Atom",
+            icon: "resources/icons/atomlogo.png",
+            info: Object.entries({
+              "Développé par": "GitHub",
+              "Licence": "Gratuit",
+              "Langues": "Multilingue (54)",
+              "OS": Object.entries({
+                "Windows": "1.53.0",
+                "MacOS": "1.53.0",
+                "Android": "Non Disponible"
+              }).map(([name, version]) => `| ${name} : ${version}`),
+              "Téléchargé": 6921
+            }).map(([name, version]) => `${name} : ${version}`),
+            //"screenshots": ["atom1.png", "atom2.png", "atom3.png", "atom4.png"],
+            synopsis: "Un éditeur de texte collaboratif",
+          }
+        }); -%>
+    <%- include("components/footer"); -%>
+  </div>
 </body>
 
 </html>
