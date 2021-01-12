@@ -226,7 +226,7 @@ body {
 .software :last-child{
   margin-bottom: 15px;
 }
-.torrent{
+.utorrent{
   background: linear-gradient(
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)
