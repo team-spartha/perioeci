@@ -144,11 +144,11 @@
   cursor: auto;
 }
 
-*, ::before, ::after{
+/*, ::before, ::after{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+}*/
 
 .edit-send{
   grid-row: 6 / span 1;

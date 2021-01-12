@@ -26,15 +26,9 @@
 }
 
 
-
-
 .containercontact h2 {
-
   color: #f62121;
-
 }
-
-
 
 .contact-send{
   grid-row: 6 / span 1;
@@ -51,14 +45,10 @@
 
 .message textarea{
   width: 272px;
-
-
-
 }
 
 .containercontact input{
   width: 250px;
   margin-left:0px;
   margin-right:0px;
-
 }
