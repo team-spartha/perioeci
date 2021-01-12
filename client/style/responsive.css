@@ -193,11 +193,11 @@
         grid-row: 6/7;
         grid-column: 1/3;
     }
-    .software-comments{
+    .comments{
         grid-row: 7/8;
         grid-column: 1/3;
     }
-    .software-comments h4{
+    .comments h4{
         text-align: left;
     }
     #illu{
