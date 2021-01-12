@@ -245,12 +245,12 @@ body {
   margin-bottom: 15px;
 }
 
-.torrent {
+.utorrent {
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://img.utdstc.com/screen/1/utorrent-002.jpg:800");
   transition: 5s;
 }
 
-.torrent:hover {
+.utorrent:hover {
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("https://img.utdstc.com/screen/1/utorrent-002.jpg:800");
   background-position: top;
 
