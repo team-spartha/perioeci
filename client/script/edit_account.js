@@ -6,14 +6,14 @@ for(var i = 0; i < container_onglets.length; i++){
     var li = this
     var div = this.parentNode.parentNode.parentNode
 
-    if(li.classList.contains('active')){
+    if(li.classList.contains('activeOnglet')){
       return false
     }
 
     //On retire la classe active de l'onglet actif
-    div.querySelector('.container_onglets .active').classList.remove('active')
+    div.querySelector('.container_onglets .activeOnglet').classList.remove('activeOnglet')
     //On ajoute la classe active à l'onglet actuel
-    li.classList.add('active')
+    li.classList.add('activeOnglet')
 
     //On retire la class active sur le contenu actif
     div.querySelector('.contenu.activeContenu').classList.remove('activeContenu')
