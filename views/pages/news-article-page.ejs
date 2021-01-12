@@ -1,4 +1,4 @@
-<div class="news-article">
+<main class="content news-article">
   <img src="<%= thumbnail %>" width="550px" height="350px" alt="vignette">
   <h1 class="title"><%= title %></h1>
   <div class="paragraphs">
@@ -6,7 +6,7 @@
       <p><%= paragraph %></p>
     <% } %> 
   </div>
-  <%- include("comments"); -%>
+  <%- include("../comments"); -%>
   <script src="script/likes.js"></script>
   <script src="script/report.js"></script>
-</div>
+</main>

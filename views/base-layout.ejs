@@ -7,18 +7,18 @@
   <div class="website">
     <%- include("header/index"); -%> 
     <div class="core index">
-      <div class="left-panel">
+      <aside class="left-panel">
         <%- include("left-panel/classement"); -%>
         <%- include("left-panel/suggestions"); -%>
-      </div>
+      </aside>
       <%- include(page, args); -%>
-      <div class="right-panel">
+      <aside class="right-panel">
         <%- include("right-panel/news-link", {
               link: "extensions-malveillantes-sur-chrome",
               thumbnail: "resources/icons/chromenews1.jpg",
               title: "Extensions malveillantes sur Chrome"
             }); -%>
-      </div>
+      </aside>
     </div>
     <%- include("footer"); -%>
   </div>
