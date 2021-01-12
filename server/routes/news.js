@@ -11,7 +11,6 @@ router.route("/:article")
     const filepath = path.resolve(__dirname, `../news-articles/${req.params.article}.yml`);
     try {
       const newsArticle = YAML.parse(readFileSync(filepath, "utf8"));
-      console.log(newsArticle);
       res.render("news-article", { newsArticle });
     } catch (e) {
       res.status(404);
