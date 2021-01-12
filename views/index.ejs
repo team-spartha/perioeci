@@ -28,33 +28,40 @@
                 downloads: "6921",
                 os: "Windows 7/8/8.1/10"
               }
-            }); -%> 
-        <!--
-        <a href="page_logiciel_zoom.html">
-          <div class="software zoom">
-            <img src="resources/icons/zoom.png" alt="zoom" width="120px">
-            <h3>Zoom v.5.0</h3>
-            <p>Une solution complète de vidéoconférence</p>
-            <p>Licence : Gratuit Téléchargé : 7500 fois OS : Windows 7/8/10</p>
-          </div>
-        </a>
-        <a href="page_logiciel_atom.html">
-          <div class="software atom">
-            <img src="resources/icons/atomlogo.png" alt="atom" width="120px">
-            <h3>Atom</h3>
-            <p>Un éditeur de texte collaboratif</p>
-            <p>Licence : Gratuit &emsp; Téléchargé : 6891 fois &emsp; OS : Windows 7/8/8.1/10</p>
-          </div>
-        </a>
-        <a href="page_logiciel_chrome.html">
-          <div class="software chrome">
-            <img src="resources/icons/chromelogo.png" alt="chrome" width="120px">
-            <h3>Google Chrome</h3>
-            <p>Un navigateur plus simple, plus sécurisé et encore plus rapide.</p>
-            <p>Licence : Gratuit &emsp; Téléchargé : 16674 fois &emsp; OS : Windows 7/8/8.1/10</p>
-          </div>
-        </a>
-        -->
+            }); -%>
+        <%- include("components/software-link", {
+              name: "zoom",
+              title: "Zoom",
+              icon: "resources/icons/zoom.png",
+              synopsis: "Une solution complète de vidéoconférence",
+              info: {
+                license: "Gratuit",
+                downloads: "7500",
+                os: "Windows 7/8/10"
+              }
+            }); -%>
+        <%- include("components/software-link", {
+              name: "atom",
+              title: "Atom",
+              icon: "resources/icons/atomlogo.png",
+              synopsis: "Un éditeur de texte collaboratif",
+              info: {
+                license: "Gratuit",
+                downloads: "6891",
+                os: "Windows 7/8/10"
+              }
+            }); -%>
+        <%- include("components/software-link", {
+              name: "chrome",
+              title: "Google Chrome",
+              icon: "resources/icons/chromelogo.png",
+              synopsis: "Un navigateur plus simple, plus sécurisé et encore plus rapide.",
+              info: {
+                license: "Gratuit",
+                downloads: "16674",
+                os: "Windows 7/8/8.1/10"
+              }
+            }); -%>
       </div>
       <div class="right-panel">
         <%- include("components/right-panel/news-link", {
