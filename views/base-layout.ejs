@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<%- include("head", { pageTitle }); -%>
+
+<body>
+  <div class="website">
+    <%- include("header/index"); -%> 
+    <div class="core index">
+      <div class="left-panel">
+        <%- include("left-panel/classement"); -%>
+        <%- include("left-panel/suggestions"); -%>
+      </div>
+      <%- include(page, args); -%>
+      <div class="right-panel">
+        <%- include("right-panel/news-link", {
+              link: "extensions-malveillantes-sur-chrome",
+              thumbnail: "resources/icons/chromenews1.jpg",
+              title: "Extensions malveillantes sur Chrome"
+            }); -%>
+      </div>
+    </div>
+    <%- include("footer"); -%>
+  </div>
+</body>
+
+</html>
