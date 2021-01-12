@@ -4,7 +4,7 @@
   grid-template: 40px auto auto 400px / 1000px;
   background-color: white;
 
-  /*height: 100vh;*/
+
   font-family: "Fontastique", sans-serif;
 
 
@@ -49,6 +49,7 @@
   background-color: #f62121;
 }
 
+
 .container_onglets a:not(:nth-child(5)){
   border-right: 1px solid #393839;
 }
@@ -70,12 +71,17 @@
 
 .contenu{
   padding: 30px;
-  
+  display: none;
 }
 
+.contenu.activeContenu{
+  display:block;
+}
+
+
 .boxcontenu{
-  display:flex;
-  justify-content: center;
+  /*display:flex;
+  justify-content: center;*/
 }
 
 .contenu h2{

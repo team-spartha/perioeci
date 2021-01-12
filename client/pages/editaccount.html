@@ -65,14 +65,15 @@
     <div class="containerprofil">
       <div class="container_onglets_contenu">
         <div class="container_onglets">
-          <a href="editaccount.html"><div class="onglets active" data-anim="1"><div class="onglet_title">Pseudo</div></div></a>
-          <a href="edit_account_email.html"><div class="onglets" data-anim="2"><div class="onglet_title">E-mail</div></div></a>
-          <a href="edit_account_photo.html"><div class="onglets" data-anim="3"><div class="onglet_title">Photo</div></div></a>
-          <a href="edit_account_bio.html"><div class="onglets" data-anim="4"><div class="onglet_title">Bio</div></div></a>
-          <a href="edit_account_newsletter.html"><div class="onglets" data-anim="5"><div class="onglet_title">Newsletter</div></div></a>
+          <a href="#nom"><div class="onglets active" data-anim="1"><div class="onglet_title">Pseudo</div></div></a>
+          <a href="#email"><div class="onglets" data-anim="2"><div class="onglet_title">E-mail</div></div></a>
+          <a href="#photo"><div class="onglets" data-anim="3"><div class="onglet_title">Photo</div></div></a>
+          <a href="#bio"><div class="onglets" data-anim="4"><div class="onglet_title">Bio</div></div></a>
+          <a href="#newsletter"><div class="onglets" data-anim="5"><div class="onglet_title">Newsletter</div></div></a>
         </div>
 
-      <div class="boxcontenu"><div class="contenu" data-anim="1">
+      <div class="boxcontenu">
+        <div class="contenu activeContenu" id ="nom" data-anim="1">
             <h2>Nom d'utilisateur</h2>
             <h4>Actuel : "pseudo actuel de l'utilisateur"</h4>
             <input type="text" required maxlength="100" placeholder="ex: Cyber77" name="entrernom" size="40"/>
@@ -82,8 +83,43 @@
               </div>
             </div>
           </div>
+      <div class="contenu" id ="email" data-anim="2">
+            <h2>E-mail</h2>
+            <h4>Actuel : "adresse mail utilisateur"</h4>
+            <input type="text" required maxlength="100" placeholder="ex: Cyber77" name="entrernom" size="40"/>
+            <div class="edit-send">
+              <div class="send-button">
+                <h4>Changer</h4>
+              </div>
+            </div>
+          </div>
+
+      <div class="contenu" id ="photo" data-anim="3">
+            <h2>Photo de profil</h2>
+            <h4>Actuelle : "photo actuelle"</h4>
+            <div class="edit-send">
+              <div class="send-button">
+                <h4>Changer</h4>
+              </div>
+            </div>
+          </div>
+
+      <div class="contenu" id ="bio" data-anim="4">
+            <h2>Biographie</h2>
+            <textarea cols="70" rows="10" maxlength="600"></textarea>
+            <div class="edit-send">
+              <div class="send-button">
+                <h4>Changer</h4>
+              </div>
+            </div>
+          </div>
+
+      <div class="contenu" id ="newsletter" data-anim="5">
+            <h2>Newsletter</h2>
+            <h4>Je souhaite recevoir la newsletter<input type="checkbox" required maxlength="100" placeholder="ex: Cyber77" name="entrernom" size="40"/></h4>
+          </div>
+        </div>
       </div>
-    </div>
       <script src="../script/edit_account.js"></script>
     </div>
     <footer>
