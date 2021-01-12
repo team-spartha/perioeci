@@ -3,11 +3,7 @@
   display: grid;
   grid-template: 40px auto auto 400px / 1000px;
   background-color: white;
-
-
   font-family: "Fontastique", sans-serif;
-
-
 }
 
 .container_onglets_contenu{
@@ -39,9 +35,12 @@
 }
 
 .onglets{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   width: 100%;
   border: 0;
-  padding: 20px 60px;
+  /*padding: 20px 60px;*/
   height: 50px;
   justify-content: center;
 }
@@ -66,8 +65,10 @@
 
 .onglet_title{
   display:flex;
+  height:0px;
   justify-content: center;
   font-family: "Inter UI", sans-serif;
+  padding-top:15px;
 }
 
 .contenu{
