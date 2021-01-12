@@ -1,0 +1,83 @@
+main.error{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    padding-top: 75px;
+}
+section.err img{
+    position: relative;
+    height: 500px;
+    width: auto;
+    padding: 15px;
+    margin-bottom: 90px;
+}
+.err_text{
+    width: 219px;
+    position: relative;
+    margin-bottom: 90px;
+}
+.err_text h1{
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.err_text h2{
+    font-size: 45px;
+    margin-top: 5px;
+}
+.err_text h3{
+    text-align: center;
+}
+.err_text h4{
+    position: absolute;
+    bottom: 0;
+}
+.err_text a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width:  1000px) {
+    main.error{
+        flex-direction: column;
+        justify-content: center;
+        width: inherit;
+        padding: 15px;
+    }
+    section.err{
+        display: flex;
+        justify-content: center;
+        order: -1;
+        flex-grow: 10;
+    }
+    section.err img{
+        width: 80%;
+        height: inherit;
+        padding: 0PX;
+        margin-bottom: 0px;
+    }
+    .err_text{
+        order: 1;
+        position: relative;
+        margin-bottom: 0px;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .err_text h1{
+        font-size: 45px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    .err_text h2{
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    .err_text h3{
+        text-align: left;
+    }
+    .err_text h4{
+        position: absolute;
+        bottom: 0;
+        font-size: 20px;
+    }
+}

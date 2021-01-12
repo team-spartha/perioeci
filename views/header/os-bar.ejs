@@ -1,0 +1,16 @@
+<nav class="OS-bar">
+  <%  for (const [title, awesomeID] of Object.entries({
+        Windows: "fab fa-windows",
+        MacOS: "fab fa-apple",
+        Linux: "fab fa-linux",
+        Mobile: "fab fa-android",
+        iOS: "fas fa-mobile-alt"
+      })) { %>
+      <div class="OS-bar element">
+        <a href="">
+          <i class="<%= awesomeID %>" style="font-size: 45px;"></i>
+          <br><div class="OS-title"><%= title %></div>
+        </a>
+      </div>
+  <% } %>
+</nav>
