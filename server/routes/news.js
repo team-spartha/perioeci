@@ -14,7 +14,12 @@ router.route("/:article")
       res.render("news-article", { newsArticle });
     } catch (e) {
       res.status(404);
-      res.send("Error : 404 page not found");
+      res.render("base-layout", {
+        pageTitle: "Erreur 404 - Page non trouvée",
+        page: "pages/404",
+        commentHead: false,
+        args: undefined
+      })
     }
     res.end();
   })
