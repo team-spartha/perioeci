@@ -12,13 +12,5 @@ app.use(express.json({ limit: "1mb" }));
 
 app.set("view engine", "ejs");
 app.set("views", "views");
-app.get("/", (_req, res) => {
-  res.render("index", {
-    page_title: "Perioeci Market",
-    //icon_user: "resources/icons/account.png"
-  });
-})
 
-app.get("/header", (_req, res) => {
-  res.render("header", { icon_user: "resources/icons/account.png" });
-})
+app.get("/", (_req, res) => res.render("index"));
