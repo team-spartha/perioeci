@@ -6,19 +6,23 @@
 <body>
   <div class="website">
     <%- include("header/index"); -%> 
-    <div class="core index">
-      <aside class="left-panel">
-        <%- include("left-panel/classement"); -%>
-        <%- include("left-panel/suggestions"); -%>
-      </aside>
+    <div class="<%= ["core", ...classes].join(" ") %>" >
+      <% if (panels) { %>
+        <aside class="left-panel">
+          <%- include("left-panel/classement"); -%>
+          <%- include("left-panel/suggestions"); -%>
+        </aside>
+      <% } %>
       <%- include(page, args); -%>
-      <aside class="right-panel">
-        <%- include("right-panel/news-link", {
-              link: "extensions-malveillantes-sur-chrome",
-              thumbnail: "resources/icons/chromenews1.jpg",
-              title: "Extensions malveillantes sur Chrome"
-            }); -%>
-      </aside>
+      <% if (panels) { %>
+        <aside class="right-panel">
+          <%- include("right-panel/news-link", {
+                link: "extensions-malveillantes-sur-chrome",
+                thumbnail: "resources/icons/chromenews1.jpg",
+                title: "Extensions malveillantes sur Chrome"
+              }); -%>
+        </aside>
+      <% } %>
     </div>
     <%- include("footer"); -%>
   </div>
