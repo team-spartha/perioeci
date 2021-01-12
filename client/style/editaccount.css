@@ -1,7 +1,7 @@
 .containerprofil {
   /*padding: 15px;*/
   display: grid;
-  grid-template: 40px auto auto 400px / 1000px;
+  grid-template: 40px auto auto 800px / 1000px;
   background-color: white;
   font-family: "Fontastique", sans-serif;
 }
@@ -108,49 +108,8 @@
   justify-content: center;
 }
 
-.compte {
-  grid-row: 1 / span 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 
 
-
-}
-
-.compte h2{
-  margin-top: 5px;
-  margin-bottom : 5px;
-  border : 1px solid black;
-  border-radius: 5px;
-  background-color: #f62121;
-  color: #393939;
-}
-
-.champ h3{
-  font-family: "Fontastique", sans-serif;
-  font-size: 15px;
-  color: #f62121;
-}
-
-.champ h4{
-  font-family: "Fontastique", sans-serif;
-  font-size: 20px;
-  color: #f62121;
-
-}
-
-.compte a:link, a:visited {
-  color: (internal value);
-  text-decoration: none;
-  cursor: auto;
-}
-
-/*, ::before, ::after{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}*/
 
 .edit-send{
   grid-row: 6 / span 1;
@@ -161,4 +120,117 @@
   margin-top: 10px;
   cursor: pointer;
   padding-left:10px;
+}
+
+/* Onglet Photo de profil*/
+.container_photo{
+  display:grid;
+  grid-template: 200px auto auto / auto;
+}
+
+.container_bloc_photo h4 {
+  padding-left : 10px;
+  margin: 0px;
+}
+
+.container_photo_actuelle h4 {
+  margin: 0px;
+}
+
+
+.container_photo_actuelle h2 {
+  margin: 0px;
+}
+
+
+
+.photo_actuelle{
+  background-color: #0BFDCD;
+  width: 100px;
+  height: 100px;
+}
+
+
+.container_bloc_photo{
+  display: grid;
+  grid-row: 2 / span 1;
+  grid-template: repeat(3, 150px) / 50px 50px 50px 50px;
+  justify-content: space-between;
+}
+
+.container_fond{
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 4;
+
+}
+
+.fonds_photo{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.activePhoto{
+  border : 3px solid black;
+  border-radius: 5px;
+}
+
+.container_cadre{
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 4;
+}
+
+.container_symbole{
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 4;
+}
+
+.fond{
+  width: 100px;
+  height:100px;
+  cursor: pointer;
+}
+
+.activeFond{
+  border : 3px solid black;
+  border-radius: 5px;
+}
+
+.fond_actuel{
+  position: absolute;
+  display:none;
+
+}
+
+.activeFondVisible{
+  display:block;
+
+}
+
+/*.fondActuel{
+  width: 100px;
+  height:100px;
+  position: absolute;
+}*/
+
+.pp_symbole{
+  width: 100px;
+  height: 100px;
+  background-color: #7556DF;
+}
+
+.cadre_photo{
+  width: 100px;
+  height: 100px;
+  background-color: #E33DAB;
+}
+
+.container_photo .edit-send{
+  grid-row: 3 / span 1;
+  padding: 25px;
+  margin: 0px;
+}
+
+.photo_actuelle{
+  grid-row: 1 / span 1;
 }
