@@ -143,6 +143,23 @@
   grid-row: 4 / 5;
 }
 
+.paragraphs {
+  margin-top: 1rem;
+  font-family: "Open Sans";
+  font-weight: bold;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  gap: 0;
+  grid-column: 1 / 4;
+  grid-row: 4;
+}
+.paragraphs > p {
+  margin: 0 0 1rem 0;
+}
+
 .software-rating {
   grid-column: 1 / 4;
   grid-row: 5 / 6;
