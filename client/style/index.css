@@ -209,7 +209,8 @@ input {
 
 h1, h2 {
   font-family: "Fontastique", sans-serif;
-  color: #f62121
+  color: #f62121;
+  text-align: center;
 }
 
 .content {
