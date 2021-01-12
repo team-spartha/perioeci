@@ -253,11 +253,11 @@ body {
 
 
 
-.torrent {
+.utorrent {
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://img.utdstc.com/screen/1/utorrent-002.jpg:800");
 }
 
-.torrent:hover{
+.utorrent:hover{
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("https://img.utdstc.com/screen/1/utorrent-002.jpg:800");
   background-position: top;
   transition: 5s;
