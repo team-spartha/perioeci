@@ -8,23 +8,15 @@
 
 .container_onglets_contenu{
   grid-column: 1 / span 1;
-  /*position: absolute;
-  top: 60%;
-  left: 50%;*/
-  /*transform: translate(-50%,-50%);*/
-  width:1000px;
+  width: 1000px;
   height: 300px;
-
-
-  /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
-
 }
 
 .container_onglets{
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   height:50px;
-  background-color: #bdc3c7;
+
 
 }
 
@@ -66,6 +58,7 @@
 .onglet_title{
   display:flex;
   height:0px;
+  width:100%;
   justify-content: center;
   font-family: "Inter UI", sans-serif;
   padding-top:15px;
