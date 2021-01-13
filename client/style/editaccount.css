@@ -1,37 +1,27 @@
 .containerprofil {
-  /*padding: 15px;*/
   display: grid;
-  grid-template: 40px auto auto 800px / 1000px;
+  grid-template: 40px auto auto 1000px / 1000px;
   background-color: white;
   font-family: "Fontastique", sans-serif;
 }
 
 .container_onglets_contenu{
   grid-column: 1 / span 1;
-  /*position: absolute;
-  top: 60%;
-  left: 50%;*/
-  /*transform: translate(-50%,-50%);*/
-  width:1000px;
   height: 300px;
-
-
-  /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
-
 }
 
 .container_onglets{
   display: flex;
   justify-content: space-between;
   height:50px;
-  background-color: #bdc3c7;
-
 }
 
 .container_onglets a{
+  box-sizing: border-box;
   color: #393839;
   font-family: "Inter UI", sans-serif;
   width:100%;
+  max-width:100% !important;
 }
 
 .onglets{
@@ -40,7 +30,6 @@
   padding: 0;
   width: 100%;
   border: 0;
-  /*padding: 20px 60px;*/
   height: 50px;
   justify-content: center;
 }
@@ -78,6 +67,7 @@
 
 .contenu.activeContenu{
   display:block;
+  height: inherit;
 }
 
 
@@ -122,10 +112,17 @@
   padding-left:10px;
 }
 
+
 /* Onglet Photo de profil*/
 .container_photo{
-  display:grid;
-  grid-template: 200px auto auto / auto;
+  display: flex;
+  flex-direction: column;
+}
+.container_photo_actuelle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .container_bloc_photo h4 {
@@ -152,22 +149,29 @@
 
 
 .container_bloc_photo{
-  display: grid;
-  grid-row: 2 / span 1;
-  grid-template: repeat(3, 150px) / 50px 50px 50px 50px;
-  justify-content: space-between;
+  width: 100%;
+
 }
 
 .container_fond{
   grid-row: 1 / span 1;
   grid-column: 1 / span 4;
+  text-align: center;
 
 }
 
 .fonds_photo{
   display:flex;
+  justify-content: center;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.fonds_photo div{
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 2px;
 }
 
 .activePhoto{
@@ -176,6 +180,7 @@
 }
 
 .container_cadre{
+  display: none;
   grid-row: 2 / span 1;
   grid-column: 1 / span 4;
 }
@@ -214,9 +219,18 @@
 }*/
 
 .pp_symbole{
-  width: 100px;
-  height: 100px;
-  background-color: #7556DF;
+  width: 100%;
+  height: auto;
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.pp_symbole img{
+  width: 95px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 2px;
 }
 
 .cadre_photo{
@@ -233,4 +247,9 @@
 
 .photo_actuelle{
   grid-row: 1 / span 1;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.photo_actuelle img{
+  width: 95%;
 }

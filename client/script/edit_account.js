@@ -21,19 +21,22 @@ for(var i = 0; i < container_onglets.length; i++){
   })
 }
 
-var fonds_photo = document.querySelectorAll('.fonds_photo a')
+/* Onglet Photo de profil*/
 
-for(var j = 0; j < fonds_photo.length; j++){
-  fonds_photo[j].addEventListener('click', function (f){
+const current_backG = document.querySelector(".photo_actuelle");
+const current_image = document.querySelector(".photo_actuelle img");
+let current_background = current_backG.style.background;
+let current_img = current_backG.src;
 
-    var img = this.parentNode
-    var container_photo = this.parentNode.parentNode.parentNode.parentNode.parentNode
-
-    if(img.classList.contains('activeFond')){
-      return false
-    }
-
-    container_photo.querySelector('.fond_actuel.activeFondVisible').classList.remove('activeFondVisible')
-    container_photo.querySelector(this.getAttribute('href')).classList.add('activeFondVisible')
-  })
-}
+document.querySelectorAll(".fonds_photo div").forEach(item => {
+    item.addEventListener("click", () => {
+        current_backG.style.backgroundColor = item.style.backgroundColor;
+        current_background = item.style.backgroundColor;
+    })
+})
+document.querySelectorAll(".pp_symbole img").forEach(item => {
+    item.addEventListener("click", () => {
+        current_image.src = item.src;
+        current_img = item.src;
+    })
+})

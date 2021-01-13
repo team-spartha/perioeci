@@ -4,6 +4,6 @@
 @import "account.css";
 @import "responsive.css";
 @import "contact.css";
-/* @import "editaccount.css"; */
+@import "editaccount.css";
 @import "news-article.css";
 @import "error404.css"
