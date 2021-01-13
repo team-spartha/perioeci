@@ -20,7 +20,7 @@ for(var i = 0; i < container_onglets.length; i++){
     div.querySelector(this.getAttribute('href')).classList.add('activeContenu')
   })
 }
-/*
+
 var fonds_photo = document.querySelectorAll('.fonds_photo a')
 
 for(var j = 0; j < fonds_photo.length; j++){
@@ -36,4 +36,4 @@ for(var j = 0; j < fonds_photo.length; j++){
     container_photo.querySelector('.fond_actuel.activeFondVisible').classList.remove('activeFondVisible')
     container_photo.querySelector(this.getAttribute('href')).classList.add('activeFondVisible')
   })
-}*/
+}
