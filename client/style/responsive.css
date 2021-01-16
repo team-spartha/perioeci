@@ -178,6 +178,8 @@
     .comments {
         grid-row: 7/8;
         grid-column: 1/3;
+        margin-left: auto;
+        margin-right: auto;
     }
     .comments h4 {
         text-align: left;
@@ -344,5 +346,42 @@
     footer a{
         margin: 0px 10px;
     }
+
+    .news-article {
+      padding: 0px 15px;
+      display: grid;
+      grid-template: repeat(6, auto) / auto auto auto !important;
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: border-box;
+
+    }
+
+    .news-article > img {
+      padding-bottom: 15px;
+      width: 100%;
+      box-sizing: border-box;
+      justify-content: center;
+      grid-column: 1 / 4;
+      height: auto;
+
+    }
+
+    .paragraphs {
+      box-sizing: border-box;
+      grid-column: 1 / 1;
+      margin-right: auto;
+      margin-left: auto;
+      width:100%;
+    }
+
+    .news-article > h1 {
+      grid-row: 1 / 2;
+      text-align: center;
+      width:100%;
+
+    }
+
+
 
 }

@@ -1,0 +1,19 @@
+name: atom
+title: Atom
+icon: resources/icons/atomlogo.png
+info:
+  author: Github
+  license: Gratuit
+  languages: Multilingue (54)
+  lastVersion:
+    windows: "1.53.0"
+    macos: "1.53.0"
+  downloads: 6921
+screenshots:
+  - resources/icons/atom1.png
+  - resources/icons/atom2.png
+  - resources/icons/atom3.png
+  - resources/icons/atom4.png
+synopsis: Un éditeur de texte collaboratif
+description: >-
+  Atom est un éditeur de texte libre pour MacOS, GNU/Linux et Windows développé par GitHub. Il prend en charge des plug-ins écrits en Node.js et implémente Git Control. La plupart des extensions sont sous licence libre et sont maintenues par la communauté. Atom est basé sur Chromium et Electron et est écrit en CoffeeScript5. Il est aussi utilisé en tant qu’environnement de développement intégré (IDE). 

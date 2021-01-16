@@ -1,0 +1,20 @@
+name: chrome
+title: Google Chrome
+icon: resources/icons/chromelogo.png
+info:
+  author: Google
+  license: Gratuit
+  languages: Multilingue (54)
+  lastVersion:
+    windows: "87.0.4280.88"
+    macos: "87.0.4280.88"
+    android: "87.0.4280.88"
+  downloads: 20827
+screenshots:
+  - resources/icons/chrome1.png
+  - resources/icons/chrome2.png
+  - resources/icons/chrome3.png
+  - resources/icons/chrome4.png
+synopsis: Un navigateur plus simple, plus sécurisé et encore plus rapide.
+description: >-
+  Chrome est un navigateur web propriétaire développé par Google basé sur le projet libre Chromium fonctionnant sous Windows, Mac, Linux, Android et iOS.
