@@ -359,5 +359,8 @@
     .contenu input{
       width:200px;
     }
+    footer a{
+        margin: 0px 10px;
+    }
 
 }
