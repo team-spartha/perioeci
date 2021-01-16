@@ -1,0 +1,20 @@
+name: utorrent
+title: µTorrent
+icon: resources/icons/utorrent-43r06R.png
+info:
+  author: BitTorrent
+  license: Gratuit
+  languages: Multilingue (54)
+  lastVersion:
+    windows: "3.5.5.45724"
+    macos: "7.45548"
+    android: "6.5.5"
+  downloads: 9945
+screenshots:
+  - resources/icons/utorrent1.png
+  - resources/icons/utorrent2.png
+  - resources/icons/utorrent3.png
+  - resources/icons/utorrent4.png
+synopsis: Partagez et téléchargez des fichiers via le protocole BitTorrent
+description: >-
+  µTorrent est un client BitTorrent (protocole permettant le téléchargement rapide de fichiers grâce au partage et au transfert simultané), il en suit donc les règles. Pour lancer un téléchargement il vous suffit de renseigner l'adresse torrent du fichier que vous souhaitez obtenir. Vous pourrez ainsi partager et télécharger de gros fichiers très facilement. µTorrent dispose d'une interface simple et claire permettant une prise en main relativement facile.

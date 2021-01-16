@@ -1,0 +1,20 @@
+name: zoom
+title: Zoom
+icon: resources/icons/zoom.png
+info:
+  author: Zoom.us
+  license: Gratuit
+  languages: Multilingue (54)
+  lastVersion:
+    windows: "5.0"
+    macos: "5.0"
+    android: "5.0"
+  downloads: 13563
+screenshots:
+  - resources/icons/zoom1.png
+  - resources/icons/zoom2.png
+  - resources/icons/zoom3.png
+  - resources/icons/zoom4.png
+synopsis: Une solution complète de vidéoconférence
+description: >-
+  Zoom est une plateforme de messagerie instantanée et de vidéo-conférence multiplateforme, basée dans le cloud, et disponible au téléchargement sous forme d’applications, de logiciel PC mais aussi accessible depuis un navigateur web.
