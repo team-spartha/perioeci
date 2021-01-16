@@ -2,10 +2,7 @@
     .website {
         width: 100%;
     }
-    .theme-bar {
-        display: none;
-    }
-    .OS-bar, .theme-bar.active {
+    .OS-bar, .theme-bar{
         display: flex;
         width: 100%;
         flex-direction: column;
@@ -78,7 +75,7 @@
     .search-bar input {
         display:  none;
     }
-    .search-bar-responsive.active {
+    .search-bar-responsive{
         display: flex;
         animation: trans_down 1s;
         justify-content: center;
@@ -88,30 +85,11 @@
         border-bottom-right-radius: 15px;
         background-color: white;
         box-shadow: none;
+        width: 100%;
     }
-    .active.boxy {
+    .boxy {
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
-    }
-    .search-bar-responsive.hidden {
-        animation: trans_up 1s;
-    }
-    @keyframes trans_down {
-        from {
-            up:  59px;
-        }
-        to {
-            up:  0px;
-        }
-
-    }
-    @keyframes trans_up {
-        from {
-            up:  0px;
-        }
-        to {
-            up:  59px;
-        }
     }
     .search-bar-responsive input {
         margin: 10px;
@@ -137,6 +115,9 @@
         margin-top: 15px;
         padding: 0px 15px;
     }
+    .software p{
+        margin:15px;
+    }
     .right-panel {
         grid-row: 2/3;
     }
@@ -158,7 +139,7 @@
     }
     .software-icon {
         grid-column: 1/2;
-        justify-content: flex-start;
+        justify-content: center;
     }
     .software-download {
         grid-column: 2/3;
@@ -171,10 +152,11 @@
     .software-screen {
         grid-row: 4/5;
         grid-column: 1/3;
-        grid-template-columns: 5% 90% 5%;
+        grid-template: 450px 80px / 5% 90% 5%;
     }
-    .shot {
-        width: 100%;
+    .software-screen-shots{
+        display: flex;
+        justify-content: center;
     }
     .software-screen-btn-right {
         padding: 0px;
@@ -328,7 +310,7 @@
     }
 
     .containerprofil{
-      grid-template: 40px auto auto 2800px / auto !important;
+      grid-template: 40px auto auto 1000px/ auto !important;
     }
 
     .edit-send{

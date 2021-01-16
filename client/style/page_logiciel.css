@@ -101,7 +101,7 @@
 
 .shot {
   display: none;
-  width: 450px;
+  width: 100%;
 }
 
 .shot.active {
@@ -135,7 +135,7 @@
 
 .software-description {
   font-family: "Open Sans";
-  font-weight: bold;
+  font-weight: 600;
   display: flex;
   justify-content: center;
   align-items: flex-start;
