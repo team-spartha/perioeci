@@ -16,3 +16,9 @@ app.get("/", (_req, res) => res.render("index"));
 
 const route = (name) => require(`./routes/${name}`);
 app.use("/news", route("news"));
+
+app.get("/:anything", (_req, res) => {
+  res.status(404);
+  res.render("oof-404");
+  res.end();
+})
