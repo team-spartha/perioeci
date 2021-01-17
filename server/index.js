@@ -4,10 +4,13 @@ require("./db/init");
 const YAML = require("yaml");
 const { readdirSync, readFileSync } = require("fs");
 
-const softwares = readdirSync(`${__dirname}/software-pages/`)
-  .map(pagename => YAML.parse(
-    readFileSync(`${__dirname}/software-pages/${pagename}`, "utf8")
-  ));
+const softwares = Object.fromEntries(
+  readdirSync(`${__dirname}/software-pages/`)
+  .map(pagename => [
+    pagename,
+    YAML.parse(readFileSync(`${__dirname}/software-pages/${pagename}`, "utf8"))
+  ])
+);
 
 const express = require("express");
 const port = 6942;
@@ -24,6 +27,7 @@ app.get("/", (_req, res) => res.render("index", { softwares }));
 
 const route = name => require(`./routes/${name}`);
 app.use("/news", route("news"));
+app.use("/software", route("software"));
 
 app.get("/:anything", (_req, res) => {
   res.status(404);
