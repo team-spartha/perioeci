@@ -29,7 +29,10 @@
     <figure class="software-screen-shots">
       <% let active = true;
       for (const [key, screenshot] in screenshots) { %>
-        <img class="shot<%= active ? " active" : "" %>" src="<% screenshot %>" width="300px" alt="Screenshot n°<% key %>">
+        <img class="shot<%= active ? " active" : "" %>"
+             src="<% screenshot %>"
+             width="300px"
+             alt="Screenshot n°<% key %>">
       <% active = false;
       } %> 
     </figure>
@@ -41,7 +44,8 @@
       for (const [key, screenshot] in screenshots) { %>
         <img class="<%= active ? "active" : "" %>"
              src="<% screenshot %>"
-             width="90px" alt="Screenshot n°<% key %>">
+             width="90px"
+             alt="Screenshot n°<% key %>">
       <% active = false;
       } %>
     </figure>
