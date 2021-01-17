@@ -15,7 +15,7 @@
         <b>Développé par</b> : <%= info.author %>
         <br><b>Langues</b> : <%= info.languages %> 
         <br><b>Dernières vers.</b> :
-        <% for (const [os, version] in Object.entries(info.lastVersion)) { %>
+        <% for (const [os, version] of Object.entries(info.lastVersion)) { %>
           <br>&nbsp;─ <%= version %> (<%= os %>)
         <% } %>
         <br><b>Téléchargements</b> : 6921
@@ -23,29 +23,30 @@
     </article>
   </section>
   <section class="software-screen">
-    <figure class="software-screen-btn-left">
+    <div class="software-screen-btn-left">
       <i class="fas fa-arrow-alt-circle-left" style="font-size: 30px;"></i>
-    </figure>
-    <figure class="software-screen-shots">
+    </div>
+    <div class="software-screen-shots">
       <% let active = true;
-      for (const [key, screenshot] in screenshots) { %>
+         console.log(screenshots);
+      for (const k in screenshots) { %>
         <img class="shot<%= active ? " active" : "" %>"
-             src="<% screenshot %>"
+             src="<%= screenshots[k] %>"
              width="300px"
-             alt="Screenshot n°<% key %>">
+             alt="Screenshot n°<%= k %>">
       <% active = false;
       } %> 
-    </figure>
-    <figure class="software-screen-btn-right">
+    </div>
+    <div class="software-screen-btn-right">
       <i class="fas fa-arrow-alt-circle-right" style="font-size: 30px;"></i>
-    </figure>
+    </div>
     <figure class="software-screen-overview">
-      <% let active = true;
-      for (const [key, screenshot] in screenshots) { %>
+      <% active = true;
+      for (const k in screenshots) { %>
         <img class="<%= active ? "active" : "" %>"
-             src="<% screenshot %>"
+             src="<%= screenshots[k] %>"
              width="90px"
-             alt="Screenshot n°<% key %>">
+             alt="Screenshot n°<%= k %>">
       <% active = false;
       } %>
     </figure>
