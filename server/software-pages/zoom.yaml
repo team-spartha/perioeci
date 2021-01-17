@@ -6,9 +6,9 @@ info:
   license: Gratuit
   languages: Multilingue (54)
   lastVersion:
-    windows: "5.0"
-    macos: "5.0"
-    android: "5.0"
+    Windows: "5.0"
+    MacOS: "5.0"
+    Android: "5.0"
   downloads: 13563
 screenshots:
   - resources/icons/zoom1.png

@@ -6,9 +6,9 @@ info:
   license: Gratuit
   languages: Multilingue (54)
   lastVersion:
-    windows: "3.5.5.45724"
-    macos: "7.45548"
-    android: "6.5.5"
+    Windows: "3.5.5.45724"
+    MacOS: "7.45548"
+    Android: "6.5.5"
   downloads: 9945
 screenshots:
   - resources/icons/utorrent1.png

@@ -6,9 +6,9 @@ info:
   license: Gratuit
   languages: Multilingue (54)
   lastVersion:
-    windows: "87.0.4280.88"
-    macos: "87.0.4280.88"
-    android: "87.0.4280.88"
+    Windows: "87.0.4280.88"
+    MacOS: "87.0.4280.88"
+    Android: "87.0.4280.88"
   downloads: 20827
 screenshots:
   - resources/icons/chrome1.png
