@@ -1,6 +1,6 @@
 <main class="content">
   <h1 class="title">LE TOP DES APPLICATIONS</h1>
-  <% for (const software of softwares) { %>
+  <% for (const software of Object.values(softwares)) { %>
     <%- include("../software-link", software); -%>
   <% } %> 
 </main>
