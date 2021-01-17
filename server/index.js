@@ -26,6 +26,7 @@ app.set("views", "views");
 app.get("/", (_req, res) => res.render("index", { softwares }));
 
 const route = name => require(`./routes/${name}`);
+// ROUTE PROBLEM DETECTED: Hyperlinks don't work properly in these routes
 app.use("/news", route("news"));
 app.use("/software", route("software"));
 
