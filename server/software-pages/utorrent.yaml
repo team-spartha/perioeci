@@ -1,6 +1,7 @@
 name: utorrent
 title: µTorrent
 icon: resources/icons/utorrent-43r06R.png
+thumbnail: https://img.utdstc.com/screen/1/utorrent-002.jpg:800
 info:
   author: BitTorrent
   license: Gratuit

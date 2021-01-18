@@ -1,6 +1,7 @@
 name: atom
 title: Atom
 icon: resources/icons/atomlogo.png
+thumbnail: https://radeff.red/dokuwiki/_media/info:atom.png
 info:
   author: Github
   license: Gratuit

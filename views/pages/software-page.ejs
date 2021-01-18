@@ -52,7 +52,9 @@
     <script src="script/slider.js"></script>
   </section>
   <section class="software-description">
-    <%= description %> 
+    <% for (const paragraph of description) { %>
+      <p><%= paragraph %></p>
+    <% } %>
   </section>
   <%- include("../software-rating"); -%>
   <%- include("../comments"); -%>
