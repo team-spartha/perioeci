@@ -1,6 +1,7 @@
 name: winrar
 title: Winrar
 icon: resources/icons/winrarlogo.png
+thumbnail: ""
 info:
   author: RARLAB
   license: Gratuit

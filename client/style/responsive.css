@@ -152,7 +152,6 @@
     .software-screen {
         grid-row: 4/5;
         grid-column: 1/3;
-        grid-template: 450px 80px / 5% 90% 5%;
     }
     .software-screen-shots{
         display: flex;
@@ -294,6 +293,7 @@
 
     }
 
+
     .contenu{
       box-sizing: border-box;
       margin-left:auto;
@@ -380,6 +380,9 @@
       text-align: center;
       width:100%;
 
+    }
+    .left-panel article, .right-panel article{
+        margin: 10px;
     }
 
 

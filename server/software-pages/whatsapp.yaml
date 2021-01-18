@@ -1,6 +1,7 @@
 name: whatsapp
 title: WhatsApp
 icon: resources/icons/whatsapplogo.png
+thumbnail: ""
 info:
   author: WhatsApp
   license: Gratuit

@@ -1,6 +1,7 @@
-name: winrar
+name: vlc
 title: VLC media player 
 icon: resources/icons/vlclogo.png
+thumbnail: ""
 info:
   author: VideoLAN
   license: Gratuit
