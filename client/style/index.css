@@ -301,18 +301,14 @@ body {
   transition: 5s;
 }
 
-
-
-.left-panel article {
-  margin-left: 15px;
-}
-
-article {
+.left-panel article, .right-panel article {
   margin: 20px 0px;
   border-radius: 15px;
   border: 1px solid black;
 }
-
+.left-panel article {
+  margin-left: 15px;
+}
 .suggestions, .classement {
   display: flex;
   flex-direction: column;

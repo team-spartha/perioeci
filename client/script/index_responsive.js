@@ -34,19 +34,22 @@ window.addEventListener('resize',()=>{
         mobile_setup = false;
         OS_bar.style.display = "flex"
         theme_bar.style.display = "flex"
+        search_bar.style.display = "none";
+        opened_search_bar = false;
         opened_OS_theme_bars = true;
     }
 
 })
 
 btn.addEventListener('click',() => {
-    if(opened_search_bar){
-        search_bar.style.display = "none";
-        opened_search_bar = false;
-    }
-    else{
+    if(!opened_search_bar && mobile_setup){
+        
         search_bar.style.display = "flex";
         opened_search_bar = true;
+    }
+    else{
+        search_bar.style.display = "none";
+        opened_search_bar = false;
     }
 });
 
