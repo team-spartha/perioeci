@@ -1,5 +1,14 @@
 <a href="<%= "/software/" + name %>">
-  <figure class="<%= "software " + name %>">
+  <figure class="<%= "software " + name %>"
+          style="<%= `
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+                        url(${thumbnail});
+            background-size: 100%;
+            background-position: center;
+            transition: 0.5s;
+          ` %>"
+          onmouseover="this.style['background-size']='150%';"
+          onmouseout="this.style['background-size']='100%';">
     <img src="<%= icon %>" alt="<%= title %>" width="120px">
     <h3><%= title %></h3>
     <p><%= synopsis %></p>
