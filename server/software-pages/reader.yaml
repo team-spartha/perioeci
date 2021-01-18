@@ -1,0 +1,26 @@
+name: reader
+title: Adobe Reader DC
+icon: resources/icons/readerlogo.png
+info:
+  author: Adobe
+  license: Gratuit
+  languages: Français
+  lastVersion:
+    Windows: "2020.006.20042 "
+    Android: "20.9"
+    macOS: "11.0.09"
+    iOS: "10.1.0"
+  downloads: 29800
+synopsis: Visualisez, imprimez et annotez des documents PDF
+description: >-
+Avec Adobe Acrobat Reader DC (Adobe Reader) visualisez, imprimez et annotez des documents PDF.
+
+Ajoutez des notes, surlignez le texte, utilisez des lignes, des formes, des tampons et un outil 'Machine à écrire' pour insérer des commentaires dans le PDF.
+tags:
+  - windows
+  - ios
+  - macos
+  - mobile
+  - utilitaires
+  - professionnel
+  - indispensables

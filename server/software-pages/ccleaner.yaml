@@ -1,0 +1,22 @@
+name: ccleaner
+title: CCleaner
+icon: resources/icons/ccleanerlogo.png
+info:
+  author: Piriform
+  license: Gratuit
+  languages: Français et Anglais
+  lastVersion:
+    Windows: "15.76"
+    MacOS: "1.18"
+  downloads: 35448
+synopsis: Nettoyez vos disques durs et votre système
+description: >-
+  CCleaner est destiné à optimiser ainsi qu'à nettoyer votre système.
+
+Le logiciel retire les fichiers inutilisés de vos disques durs, les raccourcis sans cible, les contrôles ActiveX, les fichiers d’aide, les entrées dans le registre, etc. afin de libérer de l’espace et améliorer le chargement de Windows.  
+tags:
+  - windows
+  - android
+  - macos
+  - securite
+  - utilitaires

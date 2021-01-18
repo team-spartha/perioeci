@@ -1,0 +1,25 @@
+name: flash
+title: Flash Player
+icon: resources/icons/flashlogo.png
+info:
+  author: Adobe
+  license: Gratuit
+  languages: Français
+  lastVersion:
+    Windows: "32.0"
+    Linux: "32.0"
+    macOS: "11.2"
+  downloads: 31989
+synopsis: Un module nécessaire pour consulter les sites en Flash
+description: >-
+Adobe Flash Player permet de consulter des sites Web dernière génération, intégrant de la vidéo, du texte, du son et des graphiques interactifs. Ce plugin est compatible avec les navigateurs Firefox, Opera, et Safari. Flash est un standard incontournable puisqu'il est déjà installé sur plus de 90 % des ordinateurs de bureau et qu'il est directement intégré à Google Chrome.
+
+Adobe Flash Player intègre une API appelée Stage3D pour la création de contenu 3D interactif qui exploite DirectX ou OpenGL grâce à l'accélération GPU du rendu. Les développeurs de jeux y trouvent un support idéal pour la création de contenus toujours plus réactifs grâce aux opérateurs ActionScript et à la prise en charge ByteArray partagée. L'objectif consiste ici à exploiter les ressources d'un ordinateur en délégant les tâches à des opérateurs d'arrière-plan. On relève également la gestion parfaite du Plein écran et l'optimisation des contrôles souris.
+
+Adobe Flash Player s'attache à faciliter la création de projets multimédias de qualité. Vous pouvez diffuser des vidéos HD grâce au support des codecs H.264, AAC et MP3. Pour des performances encore accrues, vous profitez des chipsets et des optimisations matérielles du processeur.
+tags:
+  - windows
+  - ios
+  - linux
+  - utilitaires
+  - indispensables

@@ -1,0 +1,22 @@
+name: bluestacks
+title: BlueStacks
+icon: resources/icons/bluestackslogo.png
+info:
+  author: BlueStacks
+  license: Gratuit
+  languages: Français
+  lastVersion:
+    Windows: "4.210"
+    MacOS: "4.240"
+  downloads: 32773
+synopsis: Profitez des applications Android sur votre PC Windows
+description: >-
+BlueStacks permet de tester et de découvrir les applications Android sur les unités centrales grâce à son émulateur Android. Il embarque par défaut quelques applications et jeux tels que Talking Tom2, Pulse, Drag Racing, Facebook, Twitter, Whatsapp ou encore Robo Defense. Bien sûr ce dernier offre aussi la possibilité d'intégrer ses propres applications manuellement en ajoutant les fichiers .apk dans le dossier prévu à cet effet.
+
+Une fonction Cloud Connect synchronise vos Smartphones Android avec BlueStacks pour obtenir un profil identique sur portable comme sur PC. Enfin, profitez d’un market alternatif pour jouir d’applications 100% compatibles ou rattacher votre compte Google Play pour piocher dans la pléthore d’applications proposées par Google et les installer au format tablette ou téléphone sur BlueStacks.
+tags:
+  - windows
+  - macos
+  - utilitaires
+  - jeux
+  - populaires

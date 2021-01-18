@@ -1,0 +1,30 @@
+name: winrar
+title: Winrar
+icon: resources/icons/ituneslogo.png
+info:
+  author: Apple
+  license: Gratuit
+  languages: Français et Anglais
+  lastVersion:
+    Windows: "12.10"
+    MacOS : "12.8"
+  downloads: 48347
+synopsis: Centralisez tous vos morceaux, films et séries TV en un seul endroit
+description: >-
+  Avec iTunes, classez et diffusez votre musique ainsi que vos vidéos sur votre ordinateur. Le lecteur iTunes centralise tous vos morceaux, films et séries TV en un seul endroit.
+
+Votre bibliothèque iTunes vous offre une large présentation de tous vos morceaux, films et autres médias. Naviguez par album et laissez vos pochettes vous guider rapidement vers ce que vous souhaitez entendre. Attribuez un classement à vos morceaux, d'une à cinq étoiles, pour retrouver plus facilement ceux que vous préférez.
+
+Le fonctionnement et l'apparence de l'iTunes Store sont similaires sur Mac, PC, iPad, iPhone et iPod touch. Parcourez facilement et rapidement les articles populaires (musique, films, séries TV, etc.) du moment.
+
+Avec iTunes Store Musique, retrouvez plus de 26 millions de morceaux haute qualité sans DRM avec la possibilité d'écouter un extrait.
+
+Avec iTunes Store Films, découvrez plus de 45 000 films et visualisez de nombreuses bandes-annonces. iTunes vous offre plus de 190 000 programmes TV sans publicité, dont un grand nombre en HD 1080p.
+
+
+tags:
+  - windows
+  - macos
+  - utilitaires
+  - indispensables
+  - populaires

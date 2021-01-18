@@ -1,0 +1,28 @@
+name: mozilla
+title: Mozilla Firefox
+icon: resources/icons/mozillalogo.png
+info:
+  author: Mozilla Team
+  license: Gratuit
+  languages: Français
+  lastVersion:
+    Windows: "84"
+    MacOS: "84"
+    Linux: "84"
+    iOS: "22.0"
+  downloads: 34495
+synopsis: Le célèbre navigateur libre au panda roux de Mozilla
+description: >-
+Mozilla Firefox est un navigateur web libre proposé par la Fondation Mozilla. Firefox abandonne l’interface Australis au profit d’une nouvelle interface nommée Photon et se base sur le nouveau moteur de rendu Quantum. La nouvelle interface du navigateur inaugure de nombreux changements, notamment sur la page « Nouvel Onglet », mais également au sein des menus du navigateur, ou encore des thèmes et des options de personnalisation.
+
+Firefox offre désormais la possibilité de personnaliser l’interface du navigateur en appliquant un thème, foncé ou clair, mais également en optant pour des boutons plus ou moins compacts.  Quant au menu principal de Firefox, il n’arbore plus de simple icônes mais des liens contextuels et ne peut plus être réarrangé.
+
+Par ailleurs, le chargement des pages dans Firefox est bien plus rapide qu’à l’accoutumée, tout comme le défilement des pages ou le passage d’un onglet à un autre. Le navigateur de Mozilla sait aussi réaliser des captures d’écran de manière intelligente, sans quitter le programme. Il est en effet possible de capturer une zone précise ou la totalité de la page, et de sauvegarder la capture d’écran en ligne afin d’y accéder plus rapidement. La barre d’adresses du navigateur évolue également et offre maintenant la possibilité d’épingler des fonctions comme la capture d’écran, ou la possibilité de copier rapidement un lien.  
+tags:
+  - windows
+  - macos
+  - linux
+  - ios
+  - internet
+  - utilitaires
+  - indispensables

@@ -1,0 +1,23 @@
+name: minecraft
+title: Minecraft
+icon: resources/icons/minecraftlogo.png
+info:
+  author: Mojang
+  license: Gratuit
+  languages: Français
+  lastVersion:
+    Windows: "1.13.1"
+    Android: "1.16.201.01"
+    iOS: "1.16.201.01"
+  downloads: 31989
+synopsis: Jeu de construction, d'exploration et d'action à partager entre amis
+description: >-
+Minecraft est un jeu de construction mêlant action et réflexion dans un environnement pixelisé en 3D. Jouable en solo ou en ligne, ce jeu vous donne la possibilité de créer des villes, puis de les explorer seul ou à plusieurs.
+
+Minecraft se joue en vue à la première personne pendant les phases de création puis à la troisième personne lors des phases d'exploration. Les cartes peuvent être générées aléatoirement ou se construisent de part en part. Une fois la ville construite, vous devez la défendre contre des montres ou tout simplement l'explorer à plusieurs à la recherche de passages secrets ou autres. 
+tags:
+  - windows
+  - ios
+  - mobile
+  - jeux
+  - populaires

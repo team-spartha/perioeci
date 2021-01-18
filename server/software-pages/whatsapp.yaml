@@ -1,0 +1,28 @@
+name: whatsapp
+title: WhatsApp
+icon: resources/icons/whatsapplogo.png
+info:
+  author: WhatsApp
+  license: Gratuit
+  languages: Français
+  lastVersion:
+    Windows: "2.2049.09"
+    MacOS: "2.2049.09"
+    Android: "2.20"
+    iOS: "2.20"
+  downloads: 34495
+synopsis: Le client officiel de la messagerie instantanée pour votre ordinateur
+description: >-
+WhatsApp est le client officiel de la messagerie instantanée du même nom disponible sur iPhone, Android, et Windows Phone.
+
+Pour utiliser WhatsApp, l'application doit aussi être installée sur votre smartphone connecté au même réseau Wi-Fi que votre ordinateur. L'application mobile et le client WhatsApp de votre ordinateur doivent ensuite être reliés en scannant à l'aide de votre smartphone, le QR Code affiché par WhatsApp sur votre machine de bureau.
+
+WhatsApp mobile et WhatsApp pour ordinateur se synchronisent alors afin que vous puissiez retrouver tous vos messages sur le grand écran de votre ordinateur. Vous pouvez ensuite utiliser WhatsApp depuis votre PC comme vous le faites depuis votre smartphone.
+tags:
+  - windows
+  - macos
+  - mobile
+  - ios
+  - internet
+  - populaires
+  - indispensables
