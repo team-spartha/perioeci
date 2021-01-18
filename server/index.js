@@ -23,14 +23,12 @@ app.get("/", (_req, res) => res.render("index", {
 }));
 
 const route = name => require(`./routes/${name}`);
-// ROUTE PROBLEM DETECTED: Hyperlinks don't work properly in these routes
+
 app.use("/news", route("news"));
 app.use("/software", route("software"));
 
-/*
 app.get("/:anything", (_req, res) => {
   res.status(404);
   res.render("oof-404");
   res.end();
-})
-*/
+});
