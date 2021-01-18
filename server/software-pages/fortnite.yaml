@@ -1,0 +1,26 @@
+name: fortnite
+title: Fortnite Battle Royale
+icon: resources/icons/fortnitelogo.png
+info:
+  author: Epic Games
+  license: Gratuit
+  languages: Français
+  lastVersion:
+    Windows: "9.7.0"
+    MacOS: "9.7.0"
+    Android: "15.10"
+    iOS: "7.0"
+  downloads: 52342
+synopsis: Fortnite Battle Royale est un jeu de tir gratuit
+description:
+  - >-
+    Sorti en 2017 et toujours en accès anticipé, Fortnite est devenu un phénomène notamment grâce à son mode Battle Royale disponible gratuitement. Ce mode de jeu est inspiré du film de Kinji Fukasaku sorti en 2000 dans lequel une classe de lycéens est livrée à elle-même sur une île et amenée à se combattre à mort afin qu'il ne reste qu'une seule personne.
+  - >-
+    Dans Fortnite , ce sont 100 joueurs qui sont parachutés sur une île armés d'une pioche. Le but du jeu étant de trouver le meilleur équipement possible et d'être le dernier survivant ou la dernière équipe à survivre en ayant éliminé ses adversaires tout en construisant des structures pour se protéger.
+tags:
+  - windows
+  - ios
+  - macos
+  - mobile
+  - jeux
+  - populaires

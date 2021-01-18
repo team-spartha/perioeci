@@ -1,0 +1,23 @@
+name: norton
+title: Norton 360 Premium
+icon: resources/icons/nortonlogo.png
+info:
+  author: Symantec
+  license: Gratuit
+  languages: Multilingue (54)
+  lastVersion:
+    Windows: "22.19.8"
+    MacOS: "22.19.8"
+    Linux: "22.19.8"
+  downloads: 3526
+synopsis: Sécurité complète des appareils avec un VPN pour la confidentialité en ligne, un gestionnaire de mots de passe et plus.
+description:
+  - >-
+    Rebaptisée Norton 360 Premium, la suite de sécurité de NortonLifeLock qui couvre jusqu'à 10 appareils (Windows, Mac, Android et iOS) constitue toujours l'une des suites les plus sécurisantes et mieux adaptées à un usage familial. Outre un arsenal de boucliers défensifs capable de bloquer tous les types de menaces, elle se distingue par sa richesse fonctionnelle sans équivalent sur le marché avec notamment un VPN illimité, un espace de stockage cloud de 75 Go, ou encore un gestionnaire de mots de passe. Un must...
+tags:
+  - windows
+  - macos
+  - linux
+  - mobile
+  - ios
+  - sécurité

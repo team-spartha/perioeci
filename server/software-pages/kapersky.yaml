@@ -1,0 +1,25 @@
+name: kapersky
+title: Kaspersky Antivirus
+icon: resources/icons/kaperskylogo.png
+info:
+  author: Kapersky
+  license: Gratuit
+  languages: Multilingue (54)
+  lastVersion:
+    Windows: "19.0.0.1088ab"
+    MacOS: "19.0.0.1088ab"
+    Android: "19.0.0.1088ab"
+    iOS: "19.0.0.1088ab"
+  downloads: 5281
+synopsis: Lutte contre toutes les formes de menaces.
+description:
+  - >-
+    L'éditeur russe offre une protection particulièrement efficace grâce à une approche de sécurité globale pour détecter les menaces connues et inconnues qu'il s'agisse de virus, chevaux de Troie, vers, spywares, rootkits, etc. Kaspersky Internet Security 2021 assure une remarquable défense proactive contre les malwares, les exploitations de failles, et autres ransomwares qui tentent de chiffrer les données stocker sur le PC.
+  - >-
+    Elle protège également toutes les activités des internautes contre les infections, les spams, l'usurpation d'identité ou encore les bannières publicitaires. L'un de ses autres gros points forts réside dans son interface ultra conviviale à la fois simple à prendre en main pour les néophytes, mais également dotée de fonctions avancées pour les utilisateurs experts qui souhaitent peaufiner chaque réglage.
+tags:
+  - windows
+  - sécurité
+  - mobile
+  - ios
+  - macos

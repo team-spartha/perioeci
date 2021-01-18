@@ -1,0 +1,17 @@
+name: bitdefender
+title: Bitdefender Total Security
+icon: resources/icons/bitdefenderlogo.png
+info:
+  author: Bitdefender
+  license: Gratuit
+  languages: Multilingue (54)
+  lastVersion:
+    Windows: "25.0.10.52"
+  downloads: 2659
+synopsis: Sécurisez votre vie numérique
+description:
+  - >-
+    Référence incontournable du marché, elle compte plus de 500 millions d'utilisateurs à travers le monde. Elle est dotée large éventail de boucliers défensifs capables de lutter contre tous les types de menaces. Sa puissante base de données cloud Global Protective Network qui repose sur des algorithmes de machine learning et des technologies d'analyse comportementale -Advanced Threat Defense- permettent de détecter les menaces les plus avancées telles que les exploits zero-day, les ransomwares, les rootkits, etc.
+tags:
+  - windows
+  - sécurité
