@@ -34,11 +34,18 @@
   box-shadow: -3px 5px 5px black
 }
 
-.software-download .button {
+.software-download.button {
   font-size: 140%;
   padding-left: 10px;
   padding-right: 10px;
   font-weight: bolder;
+  cursor: pointer;
+  color: inherit;
+  transition: 0.2s;
+}
+
+.software-download.button:hover {
+  color: white;
 }
 
 .software-info {
