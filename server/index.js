@@ -12,8 +12,15 @@ app.use(express.json({ limit: "1mb" }));
 app.set("view engine", "ejs");
 app.set("views", "views");
 
+
 const softwares = require("./softwares");
-app.get("/", (_req, res) => res.render("index", { softwares }));
+const { sortObj } = require("./helpers");
+app.get("/", (_req, res) => res.render("index", {
+  softwares: sortObj(
+    softwares,
+    ([_ka, sa], [_kb, sb]) => (sa.info.downloads < sb.info.downloads) ? 1 : -1
+  )
+}));
 
 const route = name => require(`./routes/${name}`);
 // ROUTE PROBLEM DETECTED: Hyperlinks don't work properly in these routes
