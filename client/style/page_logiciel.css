@@ -157,3 +157,24 @@
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
+@media screen and (min-width: 700px) and (max-width:1000px){
+  .shot.active{
+    width: 600px;
+  }
+  .software-screen-btn-right{
+    justify-content: flex-start;
+  }
+  .software-screen {
+    display: grid;
+    grid-template: 450px 80px / auto 600px auto;
+    grid-row: 3 / 4;
+    grid-column: 1 / 4;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 700px){
+  .software-screen{
+    grid-template: 450px 80px / 5% 90% 5%;
+  }
+}

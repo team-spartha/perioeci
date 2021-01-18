@@ -5,3 +5,5 @@ yarn.lock
 package.lock
 
 **/.DS_Store
+
+.vercel
