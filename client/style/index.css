@@ -249,6 +249,7 @@ body {
 
 .software * {
   align-self: center;
+  background-position: center;
 }
 
 .software img {
@@ -259,8 +260,7 @@ body {
   margin-bottom: 15px;
 }
 
-
-
+/*
 .utorrent {
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://img.utdstc.com/screen/1/utorrent-002.jpg:800");
 }
@@ -300,6 +300,7 @@ body {
   background-position: top;
   transition: 5s;
 }
+*/
 
 .left-panel article, .right-panel article {
   margin: 20px 0px;
