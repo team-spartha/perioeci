@@ -139,8 +139,14 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-direction: column;
+  text-align: justify;
   grid-column: 1 / 4;
   grid-row: 4 / 5;
+}
+
+.software-description > p {
+  margin: 0 0 1rem 0;
 }
 
 .software-rating {
