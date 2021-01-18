@@ -9,7 +9,6 @@ info:
   lastVersion:
     Windows: "8.67"
     MacOS: "8.67"
-    Android: "1.16.201.01"
     Linux: "4.3"
     iOS: "4.3"
     Android: "4.3"
@@ -17,12 +16,11 @@ info:
 synopsis: Téléphonez gratuitement n'importe où dans le monde
 description:
   - >-  
-Communiquez avec vos contacts Skype, Facebook et Windows Live Messenger, quelle que soit votre situation géographique et depuis n'importe quel accès à Internet grâce à Skype.
+    Communiquez avec vos contacts Skype, Facebook et Windows Live Messenger, quelle que soit votre situation géographique et depuis n'importe quel accès à Internet grâce à Skype.
   - >-  
-Ce logiciel de messagerie instantanée et de visioconférence favorise une prise en main des plus simples pour échanger gratuitement et facilement dans un cadre sécurisé avec votre entourage ou dans le cadre professionnel
+    Ce logiciel de messagerie instantanée et de visioconférence favorise une prise en main des plus simples pour échanger gratuitement et facilement dans un cadre sécurisé avec votre entourage ou dans le cadre professionnel.
   - >-
-Rapatriez vos contacts non Skype sur votre interface Skype et discutez avec eux par messagerie instantanée ainsi que par conférence audio/vidéo.
-Permutez indifféremment et en un seul clic d’une conversation à un chat de groupe ou d’un appel à une vidéo.
+    Rapatriez vos contacts non Skype sur votre interface Skype et discutez avec eux par messagerie instantanée ainsi que par conférence audio/vidéo. Permutez indifféremment et en un seul clic d’une conversation à un chat de groupe ou d’un appel à une vidéo.
 tags:
   - windows
   - macos
