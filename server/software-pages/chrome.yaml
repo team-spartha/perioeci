@@ -1,6 +1,7 @@
 name: chrome
 title: Google Chrome
 icon: resources/icons/chromelogo.png
+thumbnail: https://geeko.lesoir.be/wp-content/uploads/sites/58/2018/07/Google-Chrome.jpg
 info:
   author: Google
   license: Gratuit
