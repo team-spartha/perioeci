@@ -8,7 +8,9 @@ info:
   lastVersion:
     Windows: "87.0.4280.88"
     MacOS: "87.0.4280.88"
+    Linux: "87.0.4280.88"
     Android: "87.0.4280.88"
+    iOS: "87.0.4280.88"
   downloads: 20827
 screenshots:
   - resources/icons/chrome1.png
@@ -18,3 +20,12 @@ screenshots:
 synopsis: Un navigateur plus simple, plus sécurisé et encore plus rapide.
 description: >-
   Chrome est un navigateur web propriétaire développé par Google basé sur le projet libre Chromium fonctionnant sous Windows, Mac, Linux, Android et iOS.
+tags:
+  - windows
+  - macos
+  - linux
+  - mobile
+  - ios
+  - internet
+  - utilitaires
+  - indispensables

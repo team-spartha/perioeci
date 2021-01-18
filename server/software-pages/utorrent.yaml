@@ -18,3 +18,9 @@ screenshots:
 synopsis: Partagez et téléchargez des fichiers via le protocole BitTorrent
 description: >-
   µTorrent est un client BitTorrent (protocole permettant le téléchargement rapide de fichiers grâce au partage et au transfert simultané), il en suit donc les règles. Pour lancer un téléchargement il vous suffit de renseigner l'adresse torrent du fichier que vous souhaitez obtenir. Vous pourrez ainsi partager et télécharger de gros fichiers très facilement. µTorrent dispose d'une interface simple et claire permettant une prise en main relativement facile.
+tags:
+  - windows
+  - macos
+  - mobile
+  - internet
+  - utilitaires

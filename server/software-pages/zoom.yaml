@@ -8,7 +8,9 @@ info:
   lastVersion:
     Windows: "5.0"
     MacOS: "5.0"
+    Linux: "5.0"
     Android: "5.0"
+    iOS: "5.0"
   downloads: 13563
 screenshots:
   - resources/icons/zoom1.png
@@ -18,3 +20,12 @@ screenshots:
 synopsis: Une solution complète de vidéoconférence
 description: >-
   Zoom est une plateforme de messagerie instantanée et de vidéo-conférence multiplateforme, basée dans le cloud, et disponible au téléchargement sous forme d’applications, de logiciel PC mais aussi accessible depuis un navigateur web.
+tags:
+  - windows
+  - macos
+  - linux
+  - mobile
+  - ios
+  - internet
+  - professionnel
+  - indispensables
