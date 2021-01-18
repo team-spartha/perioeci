@@ -9,14 +9,15 @@ info:
     Windows: "16.0.7167.2060"
   downloads: 42278
 synopsis: Découvrez en avant-première la prochaine version de la suite bureautique de Microsoft
-description: >-
-  Microsoft Office 2021 est la dernière version fonctionnelle de la suite bureautique Microsoft Office. Office 2021 est toujours composé de différents : à savoir Word, Excel, PowerPoint, OneNote et Outlook.
-
-Parmi les nouveautés, Microsoft Office 2021 vous offre la possibilité d'accéder et d'éditer tous vos documents depuis le Cloud puisque la suite bureautique est entièrement connectée à OneDrive, le service de stockage en ligne de Microsoft. Outlook en profite d'ailleurs pleinement puisqu'il est désormais possible de joindre des fichiers directement depuis OneDrive et d'en configurer les autorisations d'accès sans sortir d'Outlook.
-
-Le travail collaboratif n'est pas oublié dans Microsoft Office 2021 puisque Word, le traitement de texte, intègre la co-création et la co-édition en temps réel. Lorsque plusieurs membres d'une équipe travaillent sur un même document dans Word 2021 ou sur Office Online, ils sont en mesure de voir l'état d'avancement du travail de chacun des collaborateurs mais aussi de visionner en temps réel ce qu'ils écrivent.
-
-Les outils de la suite Microsoft Office 2021 deviennent intelligents. Les applications apprennent de votre travail et vous aident dans vos tâches. Word, Excel et PowerPoint intègrent Tell Me, un moteur de recherche intelligent capable de vous afficher les manipulations à réaliser simplement en tapant ce que vous souhaitez faire. Outlook quant à lui, dispose d'un allié de choix avec Clutter, un outil qui analyse vos emails pour les classer et désencombrer votre boîte en déplaçant les messages les moins importants dans un dossier spécifique.
+description:
+  - >-  
+    Microsoft Office 2021 est la dernière version fonctionnelle de la suite bureautique Microsoft Office. Office 2021 est toujours composé de différents : à savoir Word, Excel, PowerPoint, OneNote et Outlook.
+  - >-  
+    Parmi les nouveautés, Microsoft Office 2021 vous offre la possibilité d'accéder et d'éditer tous vos documents depuis le Cloud puisque la suite bureautique est entièrement connectée à OneDrive, le service de stockage en ligne de Microsoft. Outlook en profite d'ailleurs pleinement puisqu'il est désormais possible de joindre des fichiers directement depuis OneDrive et d'en configurer les autorisations d'accès sans sortir d'Outlook.
+  - >-  
+    Le travail collaboratif n'est pas oublié dans Microsoft Office 2021 puisque Word, le traitement de texte, intègre la co-création et la co-édition en temps réel. Lorsque plusieurs membres d'une équipe travaillent sur un même document dans Word 2021 ou sur Office Online, ils sont en mesure de voir l'état d'avancement du travail de chacun des collaborateurs mais aussi de visionner en temps réel ce qu'ils écrivent.
+  - >-  
+    Les outils de la suite Microsoft Office 2021 deviennent intelligents. Les applications apprennent de votre travail et vous aident dans vos tâches. Word, Excel et PowerPoint intègrent Tell Me, un moteur de recherche intelligent capable de vous afficher les manipulations à réaliser simplement en tapant ce que vous souhaitez faire. Outlook quant à lui, dispose d'un allié de choix avec Clutter, un outil qui analyse vos emails pour les classer et désencombrer votre boîte en déplaçant les messages les moins importants dans un dossier spécifique.
 tags:
   - windows
   - professionnel

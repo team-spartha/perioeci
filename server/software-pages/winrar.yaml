@@ -9,8 +9,9 @@ info:
     Windows: "5.91"
   downloads: 76332
 synopsis: Partagez et téléchargez des fichiers via le protocole BitTorrent
-description: >-
-  WinRAR est un logiciel de compression capable de créer ou d'extraire des fichiers RAR, ZIP, 7ZIP, CAB et bien d'autres encore. L’algorithme de compression RAR réduit considérablement la taille de tous vos fichiers en toute sécurité. Cette dernière mouture de WinRAR décompresse jusqu'à 30 % plus vite que la version antérieure et l'application prend en charge la progression des tâches à travers l’icône de la barre des tâches de Windows 7.
+description:
+  - >-  
+    WinRAR est un logiciel de compression capable de créer ou d'extraire des fichiers RAR, ZIP, 7ZIP, CAB et bien d'autres encore. L’algorithme de compression RAR réduit considérablement la taille de tous vos fichiers en toute sécurité. Cette dernière mouture de WinRAR décompresse jusqu'à 30 % plus vite que la version antérieure et l'application prend en charge la progression des tâches à travers l’icône de la barre des tâches de Windows 7.
 tags:
   - windows
   - utilitaires

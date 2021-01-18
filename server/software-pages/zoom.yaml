@@ -13,8 +13,9 @@ info:
     iOS: "5.0"
   downloads: 13563
 synopsis: Une solution complète de vidéoconférence
-description: >-
-  Zoom est une plateforme de messagerie instantanée et de vidéo-conférence multiplateforme, basée dans le cloud, et disponible au téléchargement sous forme d’applications, de logiciel PC mais aussi accessible depuis un navigateur web.
+description:
+  - >-
+    Zoom est une plateforme de messagerie instantanée et de vidéo-conférence multiplateforme, basée dans le cloud, et disponible au téléchargement sous forme d’applications, de logiciel PC mais aussi accessible depuis un navigateur web.
 tags:
   - windows
   - macos

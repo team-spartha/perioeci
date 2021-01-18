@@ -13,10 +13,11 @@ info:
     Linux: "3.0.11"
   downloads: 51344
 synopsis: Le lecteur multimédia incontournable, libre et multiplateforme !
-description: >-
-  VLC, le célèbre lecteur multimédia open source de VideoLAN, débarque dans une version dédiée aux appareils fonctionnant sous Windows 10. Pour rappel, VLC peut lire pratiquement tous les formats audio et vidéo ainsi que les flux réseau proposés pour les WebTV, le tout, sans avoir à télécharger quoi que soit d'autre.
-
-  VLC  supporte en particulier le format vidéo MKV et le format audio Flac. Au programme également, la prise en charge des protocoles DLNA/UPnP, l'affichage de tous vos contenus multimédia au sein d'une bibliothèque, mais aussi la possibilité d'appliquer un thème clair ou foncé à l'interface du lecteur. 
+description:
+  - >-  
+    VLC, le célèbre lecteur multimédia open source de VideoLAN, débarque dans une version dédiée aux appareils fonctionnant sous Windows 10. Pour rappel, VLC peut lire pratiquement tous les formats audio et vidéo ainsi que les flux réseau proposés pour les WebTV, le tout, sans avoir à télécharger quoi que soit d'autre.
+  - >-  
+    VLC  supporte en particulier le format vidéo MKV et le format audio Flac. Au programme également, la prise en charge des protocoles DLNA/UPnP, l'affichage de tous vos contenus multimédia au sein d'une bibliothèque, mais aussi la possibilité d'appliquer un thème clair ou foncé à l'interface du lecteur. 
 tags:
   - windows
   - linux

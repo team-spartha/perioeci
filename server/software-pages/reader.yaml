@@ -12,10 +12,11 @@ info:
     iOS: "10.1.0"
   downloads: 29800
 synopsis: Visualisez, imprimez et annotez des documents PDF
-description: >-
-Avec Adobe Acrobat Reader DC (Adobe Reader) visualisez, imprimez et annotez des documents PDF.
-
-Ajoutez des notes, surlignez le texte, utilisez des lignes, des formes, des tampons et un outil 'Machine à écrire' pour insérer des commentaires dans le PDF.
+description:
+  - >-  
+    Avec Adobe Acrobat Reader DC (Adobe Reader) visualisez, imprimez et annotez des documents PDF.
+  - >-  
+    Ajoutez des notes, surlignez le texte, utilisez des lignes, des formes, des tampons et un outil 'Machine à écrire' pour insérer des commentaires dans le PDF.
 tags:
   - windows
   - ios

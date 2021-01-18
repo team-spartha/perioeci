@@ -13,8 +13,9 @@ info:
     iOS: "87.0.4280.88"
   downloads: 20827
 synopsis: Un navigateur plus simple, plus sécurisé et encore plus rapide.
-description: >-
-  Chrome est un navigateur web propriétaire développé par Google basé sur le projet libre Chromium fonctionnant sous Windows, Mac, Linux, Android et iOS.
+description:
+  - >-
+    Chrome est un navigateur web propriétaire développé par Google basé sur le projet libre Chromium fonctionnant sous Windows, Mac, Linux, Android et iOS.
 tags:
   - windows
   - macos
