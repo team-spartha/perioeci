@@ -1,6 +1,7 @@
 name: norton
 title: Norton 360 Premium
 icon: resources/icons/nortonlogo.png
+thumbnail: ""
 info:
   author: Symantec
   license: Gratuit

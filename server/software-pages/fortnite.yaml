@@ -1,6 +1,7 @@
 name: fortnite
 title: Fortnite Battle Royale
 icon: resources/icons/fortnitelogo.png
+thumbnail: ""
 info:
   author: Epic Games
   license: Gratuit

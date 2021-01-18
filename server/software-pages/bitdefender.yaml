@@ -1,6 +1,7 @@
 name: bitdefender
 title: Bitdefender Total Security
 icon: resources/icons/bitdefenderlogo.png
+thumbnail: ""
 info:
   author: Bitdefender
   license: Gratuit
