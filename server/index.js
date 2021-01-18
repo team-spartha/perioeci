@@ -11,23 +11,35 @@ app.use(express.json({ limit: "1mb" }));
 app.set("view engine", "ejs");
 app.set("views", "views");
 
-
 const softwares = require("./softwares");
-const { sortObj } = require("./helpers");
+const { sortObj, filterObj, sliceObj } = require("./helpers");
 app.get("/", (_req, res) => res.render("index", {
-  softwares: sortObj(
+  softwares: sliceObj(sortObj(
     softwares,
     ([_ka, sa], [_kb, sb]) => (sa.info.downloads < sb.info.downloads) ? 1 : -1
-  )
+  ), 10)
 }));
 
 const route = name => require(`./routes/${name}`);
-
 app.use("/news", route("news"));
 app.use("/software", route("software"));
 
-app.get("/:anything", (_req, res) => {
-  res.status(404);
-  res.render("oof-404");
+app.get("/:anything", (req, res) => {
+  if ([
+    "windows", "macos", "linux", "mobile", "ios",
+    "indispensables", "populaires", "internet",
+    "jeux", "professionnel", "utilitaires", "sécurité"
+  ].includes(req.params.anything)) {
+    res.render("index", {
+      softwares: sliceObj(filterObj(
+        softwares,
+        ([_k, s]) => s.tags.includes(req.params.anything)
+      ), 15)
+    })
+  } else {
+    res.status(404);
+    res.render("oof-404");
+  }
+
   res.end();
 });
