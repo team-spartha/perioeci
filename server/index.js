@@ -1,8 +1,7 @@
 require("dotenv-flow").config();
-require("./db/init");
 
 const express = require("express");
-const port = 6942;
+const port = process.env.LOCAL ? 6942 : 80;
 
 const app = express();
 app.listen(port, () => console.log("Listening on port", port, "(·_· )"));
