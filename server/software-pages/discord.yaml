@@ -1,0 +1,37 @@
+name: discord
+title: Discord
+icon: resources/icons/discordlogo.png
+thumbnail: "https://www.protocol.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNDYyOTc5Ny9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTY3MzU0OTk0N30.JEgQZtlkTHsVdVTMZO3oOsV5ZAcB9X4h3ORCkGQpoWc/image.png?width=1245&quality=85&coordinates=0%2C0%2C0%2C427&height=700"
+info:
+  author: Hammer & Chisel 
+  license: Gratuit
+  languages: Français
+  lastVersion:
+    Windows: "0.0.309"
+    MacOS: "0.0.248"
+    Android: "6.4.7"
+    iOS: "3.1.7"
+  downloads: 14022
+synopsis: Communiquez avec vos amis pendant vos sessions de jeu vidéo sans risquer de ralentir la partie en cours
+description:
+  - >-  
+Discord est un service de messagerie instantanée vocale et texte spécialement conçue pour les gamers.
+  - >-  
+Pensé comme alternative à Skype et TeamSpeak, Discord s'adapte parfaitement à vos habitudes de jeu et vous permet de recourir à autant de serveurs que vous le souhaitez, sans aucune limitation de slot.
+  - >-
+Mettant un point d'honneur à garantir la sécurité de vos échanges, Discord repose sur des communication serveur/client chiffrée, préservant l'intégrité de votre adresse IP. Par ailleurs, le service garantit une parade solide contre les possibles attaques DDoS, et assure le basculement automatique de serveur le cas échéant.
+  - >-
+Grâce à Discord, vous pouvez échanger des messages texte, mais également partager des images, vidéos et liens directement depuis votre ordinateur ou votre appareil mobile. La plupart des fichiers multimédias sont directement embarqués dans la discussion en cours pour davantage de fluidité.
+  - >-
+Discord se démarque de ses concurrent, et de Skype en particulier, en promettant de ne ralentir aucune partie de jeu lorsque vous passez des appels. En effet, le programme ne monopolise que très peu de ressources CPU.
+  - >-
+Enfin, Discord est un programme multiplateforme, ce qui vous permet d'accéder à vos sessions de chat aussi bien depuis votre ordinateur que depuis un appareil mobile ou votre navigateur web.
+
+tags:
+  - windows
+  - macos
+  - linux
+  - ios
+  - mobile
+  - internet
+  - populaires
