@@ -245,6 +245,7 @@ body {
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 30px;
+  text-align: center;
 }
 
 .software * {
@@ -256,8 +257,8 @@ body {
   margin-top: 15px;
 }
 
-.software :last-child {
-  margin-bottom: 15px;
+.software p:last-child {
+   margin-bottom: 15px;
 }
 
 /*
