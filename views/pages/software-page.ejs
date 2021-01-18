@@ -51,8 +51,10 @@
     </figure>
     <script src="script/slider.js"></script>
   </section>
-  <section class="software-description">
-    <%= description %> 
+  <section class="paragraphs">
+    <% for (const paragraph of description) { %>
+      <p><%= paragraph %></p>
+    <% } %>
   </section>
   <%- include("../software-rating"); -%>
   <%- include("../comments"); -%>
