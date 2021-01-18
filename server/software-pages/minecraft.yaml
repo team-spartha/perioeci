@@ -1,6 +1,7 @@
 name: minecraft
 title: Minecraft
 icon: resources/icons/minecraftlogo.png
+thumbnail: ""
 info:
   author: Mojang
   license: Gratuit

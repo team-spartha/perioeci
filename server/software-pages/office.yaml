@@ -1,6 +1,7 @@
 name: office
 title: Microsoft Office 2021
 icon: resources/icons/officelogo.png
+thumbnail: ""
 info:
   author: Microsoft
   license: Gratuit

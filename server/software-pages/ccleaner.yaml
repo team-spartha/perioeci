@@ -1,6 +1,7 @@
 name: ccleaner
 title: CCleaner
 icon: resources/icons/ccleanerlogo.png
+thumbnail: ""
 info:
   author: Piriform
   license: Gratuit

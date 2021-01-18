@@ -1,6 +1,7 @@
 name: reader
 title: Adobe Reader DC
 icon: resources/icons/readerlogo.png
+thumbnail: ""
 info:
   author: Adobe
   license: Gratuit

@@ -1,6 +1,7 @@
 name: mozilla
 title: Mozilla Firefox
 icon: resources/icons/mozillalogo.png
+thumbnail: ""
 info:
   author: Mozilla Team
   license: Gratuit

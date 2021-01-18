@@ -1,6 +1,7 @@
 name: flash
 title: Flash Player
 icon: resources/icons/flashlogo.png
+thumbnail: ""
 info:
   author: Adobe
   license: Gratuit

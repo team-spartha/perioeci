@@ -1,6 +1,7 @@
 name: itunes
 title: iTunes
 icon: resources/icons/ituneslogo.png
+thumbnail: ""
 info:
   author: Apple
   license: Gratuit
