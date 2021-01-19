@@ -1,7 +1,7 @@
 name: norton
 title: Norton 360 Premium
 icon: resources/icons/nortonlogo.png
-thumbnail: ""
+thumbnail: "https://www.safetydetectives.com/wp-content/uploads/2020/02/Norton-360-Review-Classic-Interface.jpg"
 info:
   author: Symantec
   license: Gratuit

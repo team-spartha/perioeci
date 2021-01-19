@@ -1,7 +1,7 @@
 name: itunes
 title: iTunes
 icon: resources/icons/ituneslogo.png
-thumbnail: ""
+thumbnail: "https://support.apple.com/content/dam/edam/applecare/images/en_US/paymentpricing/featured-section-billingandpurchases_2x.png"
 info:
   author: Apple
   license: Gratuit

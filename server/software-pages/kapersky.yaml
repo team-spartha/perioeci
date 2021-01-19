@@ -1,7 +1,7 @@
 name: kapersky
 title: Kaspersky Antivirus
 icon: resources/icons/kaperskylogo.png
-thumbnail: ""
+thumbnail: "https://www.kaspersky.fr/content/fr-fr/images/b2c/product-screenshot/screen-KTSMD-01.png"
 info:
   author: Kapersky
   license: Gratuit
