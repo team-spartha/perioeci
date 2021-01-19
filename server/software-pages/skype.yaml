@@ -1,7 +1,7 @@
 name: skype
 title: Skype
 icon: resources/icons/skypelogo.png
-thumbnail: "https://az705183.vo.msecnd.net/onlinesupportmedia/onlinesupport/media/skype/fa300xx/fa_34850_1new.jpg"
+thumbnail: https://az705183.vo.msecnd.net/onlinesupportmedia/onlinesupport/media/skype/fa300xx/fa_34850_1new.jpg
 info:
   author: Microsoft
   license: Gratuit

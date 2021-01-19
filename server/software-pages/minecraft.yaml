@@ -1,7 +1,7 @@
 name: minecraft
 title: Minecraft
 icon: resources/icons/minecraftlogo.png
-thumbnail: "https://minecraft.fr/wp-content/uploads/2013/04/2013-04-14_17.11.18.png"
+thumbnail: https://minecraft.fr/wp-content/uploads/2013/04/2013-04-14_17.11.18.png
 info:
   author: Mojang
   license: Gratuit

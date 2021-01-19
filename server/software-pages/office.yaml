@@ -1,7 +1,7 @@
 name: office
 title: Microsoft Office 2021
 icon: resources/icons/officelogo.png
-thumbnail: "https://www.fredzone.org/wp-content/uploads/2020/09/office-1356793_1280.png"
+thumbnail: https://www.fredzone.org/wp-content/uploads/2020/09/office-1356793_1280.png
 info:
   author: Microsoft
   license: Gratuit

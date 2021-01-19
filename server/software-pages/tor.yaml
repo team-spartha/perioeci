@@ -1,7 +1,7 @@
 name: tor 
 title: Tor Browser
 icon: resources/icons/torlogo.png
-thumbnail: "https://media.torproject.org/wallpapers/4.png"
+thumbnail: https://media.torproject.org/wallpapers/4.png
 info:
   author: Projet Tor 
   license: Gratuit

@@ -1,7 +1,7 @@
 name: discord
 title: Discord
 icon: resources/icons/discordlogo.png
-thumbnail: "https://www.protocol.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNDYyOTc5Ny9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTY3MzU0OTk0N30.JEgQZtlkTHsVdVTMZO3oOsV5ZAcB9X4h3ORCkGQpoWc/image.png?width=1245&quality=85&coordinates=0%2C0%2C0%2C427&height=700"
+thumbnail: https://www.protocol.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNDYyOTc5Ny9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTY3MzU0OTk0N30.JEgQZtlkTHsVdVTMZO3oOsV5ZAcB9X4h3ORCkGQpoWc/image.png?width=1245&quality=85&coordinates=0%2C0%2C0%2C427&height=700
 info:
   author: Hammer & Chisel 
   license: Gratuit

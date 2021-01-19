@@ -1,7 +1,7 @@
 name: cyberpunk2077
 title: Cyberpunk 2077
 icon: resources/icons/cyberpunk2077logo.png
-thumbnail: "https://s1.gaming-cdn.com/images/products/840/screenshot/cyberpunk-2077-wallpaper-5.jpg"
+thumbnail: https://s1.gaming-cdn.com/images/products/840/screenshot/cyberpunk-2077-wallpaper-5.jpg
 info:
   author: CD Projekt
   license: Gratuit

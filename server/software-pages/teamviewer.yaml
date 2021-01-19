@@ -1,7 +1,7 @@
 name: teamviewer
 title: Teamviewer
 icon: resources/icons/teamviewerlogo.png
-thumbnail: "https://www.symphonypartners.fr/wp-content/uploads/2019/11/teamviewer.jpg"
+thumbnail: https://www.symphonypartners.fr/wp-content/uploads/2019/11/teamviewer.jpg
 info:
   author: TeamViewer GmbH
   license: Gratuit

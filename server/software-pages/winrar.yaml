@@ -1,7 +1,7 @@
 name: winrar
 title: Winrar
 icon: resources/icons/winrarlogo.png
-thumbnail: "https://getintopc.com/wp-content/uploads/2013/10/WinRAR-interface.png"
+thumbnail: https://getintopc.com/wp-content/uploads/2013/10/WinRAR-interface.png
 info:
   author: RARLAB
   license: Gratuit

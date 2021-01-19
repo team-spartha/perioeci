@@ -1,7 +1,7 @@
 name: mcafee
 title: McAfee Live Safe
 icon: resources/icons/mcafeelogo.png
-thumbnail: "https://www.av-test.org/uploads/tx_avtestreports/images/img_194305.png"
+thumbnail: https://www.av-test.org/uploads/tx_avtestreports/images/img_194305.png
 info:
   author: McAfee Inc.
   license: Gratuit

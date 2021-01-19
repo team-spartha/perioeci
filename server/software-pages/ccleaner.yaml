@@ -1,7 +1,7 @@
 name: ccleaner
 title: CCleaner
 icon: resources/icons/ccleanerlogo.png
-thumbnail: "https://www.zebulon.fr/wp-content/uploads/2017/09/ccleaner.png"
+thumbnail: https://www.zebulon.fr/wp-content/uploads/2017/09/ccleaner.png
 info:
   author: Piriform
   license: Gratuit

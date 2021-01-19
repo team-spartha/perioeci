@@ -1,7 +1,7 @@
 name: vlc
 title: VLC media player 
 icon: resources/icons/vlclogo.png
-thumbnail: "https://www.zebulon.fr/wp-content/uploads/2016/05/VLC-interface.png"
+thumbnail: https://www.zebulon.fr/wp-content/uploads/2016/05/VLC-interface.png
 info:
   author: VideoLAN
   license: Gratuit
