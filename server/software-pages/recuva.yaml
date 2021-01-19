@@ -1,0 +1,25 @@
+name: recuva
+title: Recuva
+icon: resources/icons/recuvalogo.png
+thumbnail: "https://s1.pir.fm/pf/business/rbe-laptop.png"
+info:
+  author: Piriform
+  license: Gratuit
+  languages: Français et Anglais
+  lastVersion:
+    Windows: "1.53"
+  downloads: 18680
+synopsis: Récupérez les fichiers supprimés accidentellement
+description:
+  - >-
+    Recuva est un utilitaire de récupération de données supprimées accidentellement.
+  - >-
+    La plupart de vos documents seront restaurés : images effacées par vos lecteurs multimédias ou vos cartes mémoires, erreurs d'autres utilisateurs, ou bugs informatique dus à des virus.
+  - >-
+    L'application analyse votre système à la recherche des fichiers et affiche une liste des éléments à recouvrer, individuellement ou par lot.
+ 
+tags:
+  - windows
+  - utilitaires
+  - securite 
+  - professionnel

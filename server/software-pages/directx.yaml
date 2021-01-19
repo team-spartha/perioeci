@@ -1,0 +1,21 @@
+name: directx
+title: DirectX 12
+icon: resources/icons/microsoftnetlogo.png
+thumbnail: https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/optim/i/edit/ne/2015/06/w10_fond__w630.jpg
+info:
+  author: Microsoft
+  license: Gratuit
+  languages: Français et Anglais
+  lastVersion:
+    Windows: "12"
+  downloads: 20156
+synopsis: La bibliothèque de composants 3D et sons de Microsoft
+description:
+  - >-
+    Accédez au summum du divertissement avec cette mise à jour vers les services de systèmes multimédias pour Windows. Microsoft DirectX 12.0 offre des performances de vitesse pour les jeux fonctionnant avec DirectX et d'autres logiciels riches en animations vidéo et audio. DirectX prend également en charge la dernière génération de matériel d'accélération graphique 3D.
+tags:
+  - windows
+  - utilitaires
+  - indispensables
+  - jeux
+  - professionnel

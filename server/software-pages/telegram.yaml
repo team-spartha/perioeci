@@ -1,0 +1,33 @@
+name: telegram 
+title: Telegram
+icon: resources/icons/telegramlogo.png
+thumbnail: "https://1184592825.rsc.cdn77.org/main-files/uploads/2020/05/telegram-e-commerce.jpg"
+info:
+  author: Telegram LLC
+  license: Gratuit
+  languages: Français et Anglais
+  lastVersion:
+    Windows: "2.5.1"
+    MacOS: "2.5.1"
+    Linux: "2.5.1"
+    Android: "6.1.2"
+    iOS: "6.1.2"
+  downloads: 17678
+synopsis: Une solution de messagerie instantanée sécurisée et accessible depuis n'importe quel appareil
+description:
+  - >-
+    Telegram est une solution de messagerie instantanée open source, gratuite, et accessible aussi bien depuis un ordinateur que depuis un appareil mobile. En effet, Telegram est disponible sur toutes les plateformes (PC, Mac et Linux), depuis un navigateur web, mais aussi depuis les appareils mobiles fonctionnant sous Android, iOS ou encore Windows Phone 8.
+  - >-
+    Telegram s'appuie sur le Cloud et requiert votre numéro de téléphone pour fonctionner. Le logiciel permet d'envoyer à vos correspondants des messages protégés par un chiffrement, de manière rapide, mais surtout entièrement gratuitement.
+  - >-
+    Le programme permet de réaliser des conversations groupées jusqu'à 200 personnes, et synchronise vos contacts sur tous les appareils sur lesquels vous êtes connectés. Telegram offre la possibilité de partager des documents de tous types, et permet d'envoyer des messages auto-destructibles.
+
+tags:
+  - windows
+  - macos
+  - linux
+  - mobile 
+  - ios
+  - internet
+  - populaires
+  - indispensables

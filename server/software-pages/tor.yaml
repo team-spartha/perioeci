@@ -1,0 +1,28 @@
+name: tor 
+title: Tor Browser
+icon: resources/icons/torlogo.png
+thumbnail: "https://media.torproject.org/wallpapers/4.png"
+info:
+  author: Projet Tor 
+  license: Gratuit
+  languages: Français et Anglais
+  lastVersion:
+    Windows: "10.0.8"
+    MacOS: "10.0.8"
+    Linux: "10.0.8"
+    Android: "60.8.0"
+  downloads: 17665
+synopsis: Devenez totalement anonyme sur Internet
+description:
+  - >-
+    Tor Browser rend anonyme votre utilisation d’Internet (messagerie instantanée, IRC, SSH, etc.). Pour y arriver, il crée un réseau maillé, où chaque utilisateur connecté représente un nœud du réseau. Les données transitent de manière chiffrée entre les nœuds jusqu'au destinataire ou jusqu'à la machine qui joue le rôle de serveur.
+  - >-
+    L’installation de Tor Browser est simple, son utilisation nécessite toutefois une rapide configuration des applications connectées au Net (Navigateur, logiciel de messagerie instantanée, etc.).
+tags:
+  - windows
+  - macos
+  - linux
+  - mobile 
+  - internet
+  - securite
+  - indispensables

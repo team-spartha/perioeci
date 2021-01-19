@@ -1,0 +1,26 @@
+name: teamviewer
+title: Teamviewer
+icon: resources/icons/teamviewerlogo.png
+thumbnail: "https://www.symphonypartners.fr/wp-content/uploads/2019/11/teamviewer.jpg"
+info:
+  author: TeamViewer GmbH
+  license: Gratuit
+  languages: Multilingue (54)
+  lastVersion:
+    Windows: "15"
+    MacOS: "15"
+    Android: "7.0.335"
+    Linux: "15"
+  downloads: 18825
+synopsis: Prenez le contrôle d'un ordinateur à distance ou faites des démonstrations à plus de 25 invités
+description:
+  - >-
+    TeamViewer propose aux utilisateurs un outil d'assistance à distance via Internet et une visualisation avec plus de 25 intervenants. L'application offre des performances de premier ordre et devient plus fiable, notamment entre les réseaux d'entreprise. Le design de l'interface utilisateur de TeamViewer devient plus convivial et plus clair. De plus, le logiciel peut se reconnecter automatiquement après un redémarrage ou une mise à jour. On note au passage la possibilité de transférer la session de contrôle à distance d'une personne à une autre, la possibilité de les commenter à des fins, par exemple, de facturation, l'intégration au sein d'Outlook pour lancer une réunion, l'enregistrement d'une session vidéo avec le son ou encore la nouvelle console de gestion TeamViewer en ligne. Enfin, TeamViewer intègre la protection des options de configuration de l'application par un mot de passe. La nouvelle version prend en charge l'ouverture de plusieurs sessions dans des onglets séparés et comporte une authentification à 2 facteurs pour une protection optimale.
+
+tags:
+  - windows
+  - macos
+  - linux
+  - mobile
+  - utilitaires
+  

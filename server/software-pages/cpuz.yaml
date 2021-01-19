@@ -1,0 +1,22 @@
+name: cpuz
+title: CPU-Z
+icon: resources/icons/cpuzlogo.png
+thumbnail: https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/optim/i/edit/ne/2015/06/w10_fond__w630.jpg
+info:
+  author:  CPUID
+  license: Gratuit
+  languages: Anglais
+  lastVersion:
+    Windows: "1.94"
+    Android: "1.20"
+  downloads: 15754
+synopsis: Récoltez de nombreuses informations sur votre sytème grâce à cet outil de diagnostic
+description:
+  - >-
+    CPU-Z est un utilitaire de diagnostic qui fournit une multitude d'informations précises sur votre système : Nom et marque du processeur, tension d'alimentation actuelle, package, core et révision du processeur, informations sur la carte mère - nom, vendeur, BIOS, chipset, mémoire, etc. -, informations sur la mémoire - taille, type, spécifications, etc. CPU-Z est doté d'une interface intuitive composée de plusieurs onglets  : Processeur, Caches, Carte mère, Mémoire, Cartes graphiques, etc.
+tags:
+  - windows
+  - mobile 
+  - utilitaires
+  - securite 
+  - professionnel

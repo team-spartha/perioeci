@@ -1,0 +1,21 @@
+name: audacity 
+title: Audacity
+icon: resources/icons/audacitylogo.png
+thumbnail: "https://www.audacityteam.org/wp-content/uploads/2017/12/Theme_Dark.png"
+info:
+  author: Audacious
+  license: Gratuit
+  languages: Français et Anglais
+  lastVersion:
+    Windows: "2.4.2"
+    MacOS: "2.4.2"
+  downloads: 19709
+synopsis: Manipulez facilement vos fichiers audio
+description:
+  - >-
+    Editez rapidement vos fichiers audio. Supprimez les silences, ajoutez un écho ou un effet spécial, enlevez les parasites, mixez, etc. Une fois modifié, votre fichier est sauvegardé aux formats OGG, WAV ou MP3. L'éditeur intégré vous permet de copier, coller et assembler des extraits sonores, mais également d'ajuster la vitesse et la hauteur d'un enregistrement.
+tags:
+  - windows
+  - macos
+  - utilitaires
+  - indispensables

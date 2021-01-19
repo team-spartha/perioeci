@@ -1,0 +1,19 @@
+name: microsoftnet
+title: Microsoft .NET Framework 
+icon: resources/icons/microsoftnetlogo.png
+thumbnail: https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/optim/i/edit/ne/2015/06/w10_fond__w630.jpg
+info:
+  author: Microsoft
+  license: Gratuit
+  languages: Anglais
+  lastVersion:
+    Windows: "4.7.2"
+  downloads: 27108
+synopsis: La nouvelle génération du framework de Microsoft
+description:
+  - >-
+    Microsoft publie la quatrième version de son framework de .NET. On trouvera évidemment une insertion plus aboutie et plus profonde de WPF (Windows Presentation Foundation) notamment pour Windows 7 avec les rubans de contrôle, les fonctions extensibles de la barre des tâches, le support du SDK Surface 2.0, de nouveaux contrôle de graphiques orientés business, des améliorations visuelles ainsi qu'une plus grande interopérabilité. Mais l'amélioration majeure de cette version 4 réside dans les nouvelles fonctions de programmation parallèle devant mieux tirer parti des processeurs à cœur multiple. ASP.NET, Visual Basic, C#, Windows Communication Foundation et Windows Workflow ont eux aussi droit à leur lot d'améliorations sans toutefois révolutionner leur mode d'utilisation. Le framework .NET 4.0 fonctionne sans problème au coté de la version 3.5 SP1.
+tags:
+  - windows
+  - utilitaires
+  - professionnel
