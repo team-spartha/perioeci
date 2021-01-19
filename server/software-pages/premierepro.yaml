@@ -1,0 +1,22 @@
+name: premierepro
+title: Premiere Pro CC
+icon: resources/icons/premiereprologo.png
+thumbnail: "https://cdn.clc2l.com/d/5ee8ac282a8ec855305228.jpg"
+info:
+  author: Adobe
+  license: Gratuit
+  languages: Multilingue (54)
+  lastVersion:
+    Windows: "14.7"
+    MacOS: "14.7"
+  downloads: 2941
+synopsis: La solution de montage vidéo de référence
+description:
+  - >-
+    Longtemps décrié pour sa prise en main hasardeuse, Adobe Première Pro est désormais un incontournable et l'un des meilleurs logiciels disponibles sur le marché en matière de montage et de post-production vidéo.
+  - >-
+    Cet outil de montage non-linéaire permet un accès direct via une source d'acquisition vidéo. C'est pour cela qu'il est fréquemment utilisé par des studios de télévision.
+tags:
+  - windows
+  - macos
+  - professionnel

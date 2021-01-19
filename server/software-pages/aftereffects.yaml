@@ -1,0 +1,22 @@
+name: aftereffects
+title: After Effects CC
+icon: resources/icons/aftereffectslogo.png
+thumbnail: "https://pic.clubic.com/v1/images/1697364/raw"
+info:
+  author: Adobe
+  license: Gratuit
+  languages: Multilingue (54)
+  lastVersion:
+    Windows: "17.1.3.41"
+    MacOS: "17.1.3.41"
+  downloads: 1261
+synopsis: After Effects fournit des outils rapides, précis et performants pour la création d'animations et d'effets innovants pour les films, la vidéo, les DVD et le Web.
+description:
+  - >-
+    Adobe After Effects CC est un mastodonte dans le domaine de la composition vidéo et d'effets spéciaux. Cette version Creative Cloud 2015 vient confirmer avec de nouveaux outils et fonctionnalités taillées pour l'animation.
+  - >-
+    Sa réputation s'est construite autour d'une bonne base de données d'effets spéciaux et d'une gestion accrue des effets de masquage. La gestion des calques est quant à elle similaire à celle Adobe Photoshop CC à la différence que l'utilisateur peut définir des paramètres selon des balises temporelles. Il est alors facile d'animer du texte, une image ou tout autre élément dans le temps et l'espace.
+tags:
+  - windows
+  - macos
+  - professionnel

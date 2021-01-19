@@ -1,0 +1,21 @@
+name: photoshop
+title: Photoshop CC
+icon: resources/icons/photoshoplogo.png
+thumbnail: "https://pic.clubic.com/v1/images/1697364/raw"
+info:
+  author: Adobe
+  license: Gratuit
+  languages: Multilingue (54)
+  lastVersion:
+    Windows: "22.1.0.94"
+    MacOS: "22.1.0.94"
+  downloads: 2261
+synopsis: Le meilleur logiciel pour retoucher des photos et des images
+description:
+  - >-
+    Depuis des années, parler de retoucher ou de modifier une image sur notre ordinateur est synonyme de Photoshop. N’importe quelle personne qui travaille avec des photos, des graphismes ou des images à niveau professionnel utilise ce logiciel développé par Adobe tous les jours, et même beaucoup d’utilisateurs privés qui veulent améliorer l’aspect de leurs photos utilisent cet outil. De fait, il est devenu pratiquement un standard.
+tags:
+  - windows
+  - macos
+  - linux
+  - professionnel
