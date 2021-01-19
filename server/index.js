@@ -29,6 +29,8 @@ app.get("/infos-legales", (_req, res) =>
   res.redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ"));
 app.get("/charte-de-contribution", (_req, res) =>
   res.redirect("https://github.com/team-spartha/perioeci"));
+app.get("/confidentialite", (_req, res) =>
+  res.redirect("https://github.com/team-spartha/squadro"));
 
 const route = name => require(`./routes/${name}`);
 app.use("/news", route("news"));
