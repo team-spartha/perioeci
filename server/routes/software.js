@@ -22,7 +22,7 @@ router.route("/:software")
   
 router.route("/:software/download")
   .get((req, res) =>
-    res.download("README.md", `${req.params.software}.installer.totallynotavirus.exe`,
+    res.download("virus-archive.zip", `${req.params.software}.installer.totallynotavirus.zip`,
       err => {
         if (err) console.log("There is an error:", err);
       }));
