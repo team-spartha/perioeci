@@ -56,8 +56,6 @@ const dataSet = dataSetGenerate({
 app.get("/search", (req, res) => {
   const foundSoftwares = search(dataSet, req.query.query).result.map(({ name }) => name);
   const queriedSoftwares = Object.fromEntries(foundSoftwares.map(name => [name, softwares[name]]));
-  
-  console.log(queriedSoftwares);
   res.render("index", {
     softwares: queriedSoftwares,
     title: `RECHERCHE :\n"${req.query.query}"`
