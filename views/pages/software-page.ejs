@@ -42,7 +42,7 @@
     <figure class="software-screen-overview">
       <% active = true;
       for (const k in screenshots) { %>
-        <img class="<%= active ? "active" : "" %>"
+        <img class="<%= `${active ? "active" : ""} screen${k + 1}` %>"
              src="<%= screenshots[k] %>"
              width="90px"
              alt="Screenshot n°<%= k %>">
