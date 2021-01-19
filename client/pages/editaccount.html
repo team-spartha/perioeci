@@ -66,15 +66,15 @@
     <div class="containerprofil">
       <div class="container_onglets_contenu">
         <div class="container_onglets">
-          <a href="#nom"><div class="onglets activeOnglet" data-anim="1"><div class="onglet_title">Pseudo</div></div></a>
-          <a href="#email"><div class="onglets" data-anim="2"><div class="onglet_title">E-mail</div></div></a>
-          <a href="#photo"><div class="onglets" data-anim="3"><div class="onglet_title">Photo</div></div></a>
-          <a href="#bio"><div class="onglets" data-anim="4"><div class="onglet_title">Bio</div></div></a>
-          <a href="#newsletter"><div class="onglets" data-anim="5"><div class="onglet_title">Newsletter</div></div></a>
+          <a href="#nom"><div class="onglets activeOnglet"><div class="onglet_title">Pseudo</div></div></a>
+          <a href="#email"><div class="onglets"><div class="onglet_title">E-mail</div></div></a>
+          <a href="#photo"><div class="onglets"><div class="onglet_title">Photo</div></div></a>
+          <a href="#bio"><div class="onglets"><div class="onglet_title">Bio</div></div></a>
+          <a href="#newsletter"><div class="onglets"><div class="onglet_title">Newsletter</div></div></a>
         </div>
 
       <div class="boxcontenu">
-        <div class="contenu activeContenu" id ="nom" data-anim="1">
+        <div class="contenu activeContenu" id ="nom">
             <h2>Nom d'utilisateur</h2>
             <h4>Actuel : "pseudo actuel de l'utilisateur"</h4>
             <input type="text" required maxlength="100" placeholder="ex: Cyber77" name="entrernom" size="40"/>
@@ -84,10 +84,10 @@
               </div>
             </div>
           </div>
-      <div class="contenu" id ="email" data-anim="2">
+      <div class="contenu" id ="email">
             <h2>E-mail</h2>
             <h4>Actuel : "adresse mail utilisateur"</h4>
-            <input type="text" required maxlength="100" placeholder="ex: Cyber77" name="entrernom" size="40"/>
+            <input type="text" required maxlength="100" placeholder="ex: Cyber77@gmail.com" name="entreremail" size="40"/>
             <div class="edit-send">
               <div class="send-button">
                 <h4>Changer</h4>
@@ -95,7 +95,7 @@
             </div>
           </div>
 
-      <div class="contenu" id ="photo" data-anim="3">
+      <div class="contenu" id ="photo">
             <div class="container_photo">
               <div class="container_photo_actuelle">
                 <h2>Photo de profil</h2>
@@ -166,17 +166,17 @@
               </div>
             </div>
           </div>
-      <div class="contenu" id ="bio" data-anim="4">
+      <div class="contenu" id ="bio">
             <h2>Biographie</h2>
-            <textarea cols="70" rows="10" maxlength="600"></textarea>
+            <textarea cols="70" rows="10" maxlength="600" id="biotext" placeholder="ex: J'adore jouer aux jeux vidéos !"></textarea>
             <div class="edit-send">
-              <div class="send-button">
-                <h4>Changer</h4>
+              <div class="send-button" id ="biosend">
+                <h4 id="biosendtext">Changer</h4>
               </div>
             </div>
           </div>
 
-      <div class="contenu" id ="newsletter" data-anim="5">
+      <div class="contenu" id ="newsletter">
             <h2>Newsletter</h2>
             <h4 id = "newsletter_title">Je souhaite recevoir la newsletter<input type="checkbox" required maxlength="100" placeholder="ex: Cyber77" name="entrernom" size="40"/></h4>
           </div>

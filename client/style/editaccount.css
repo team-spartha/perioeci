@@ -256,3 +256,26 @@
 .photo_actuelle img{
   width: 95%;
 }
+
+#biotext{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#biosend{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#biosendtext{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+#newsletter_title{
+  margin-left: auto;
+  margin-right: auto;
+}
