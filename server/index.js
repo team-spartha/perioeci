@@ -25,7 +25,10 @@ app.get("/contact", (_req, res) => res.render("contact"));
 app.get("/account", (_req, res) => res.render("account"));
 
 // Hehehe
-app.get("/infos-legales", (_req, res) => res.redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ"));
+app.get("/infos-legales", (_req, res) =>
+  res.redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ"));
+app.get("/charte-de-contribution", (_req, res) =>
+  res.redirect("https://github.com/team-spartha/perioeci"));
 
 const route = name => require(`./routes/${name}`);
 app.use("/news", route("news"));
