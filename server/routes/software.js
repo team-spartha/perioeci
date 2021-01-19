@@ -18,6 +18,13 @@ router.route("/:software")
       res.render("oof-404");
     }
     res.end();
-  });
+  })
+  
+router.route("/:software/download")
+  .get((req, res) =>
+    res.download("README.md", `${req.params.software}.installer.totallynotavirus.exe`,
+      err => {
+        if (err) console.log("There is an error:", err);
+      }));
 
 module.exports = router;
