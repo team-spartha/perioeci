@@ -1,0 +1,25 @@
+name: virtualbox
+title: VirtualBox
+icon: resources/icons/virtualboxlogo.png
+thumbnail: https://saportakinsta.s3.amazonaws.com/wp-content/uploads/2020/09/Development-Authority-screenshot.jpg
+info:
+  author: Oracle
+  license: Gratuit
+  languages: Multilingue (54)
+  lastVersion:
+    Windows: "6.1.16"
+    MacOS: "6.1.16"
+    Linux: "6.1.16"
+  downloads: 16831
+synopsis: Créez et gérez des machines virtuelles sur vos postes de travail
+description:
+  - >-
+    VirtualBox propose de virtualiser vos systèmes d'exploitation (OS) invités sur une machine hôte. Appelée hyperviseur, l'application supporte les systèmes Windows, Linux, Mac OS X, Solaris, Free BSD, etc. en tant qu'hôte, Mac OS X manquant à l'appel en tant qu'invité. Oracle VM VirtualBox, de son nouveau nom, peut créer des machines virtuelles (VM), en exécuter une ou plusieurs en même temps, en mettre en pause, etc. Il intègre également un accès à distance via protocole HTTP, pratique pour faire des démonstrations sur un système propre. VirtualBox dispose de plusieurs modes de création de VM à même de satisfaire les utilisateurs experts et guider les novices en matière de virtualisation. On note par la suite que le programme revêt une nouvelle utilisateurs ergonomique et moderne, proche de ce que l'on trouve au sein de VMWare.
+  - >-
+    La dernière version de Oracle VM VirtualBox apporte la possibilité d'enrichir l'outil de nouvelles fonctionnalités par le biais d'extensions. Le logiciel améliore également la prise en charge du format OVF (Open Virtualization Format) Celle-ci supporte l'ajout de CPU à chaud et l'accélération vidéo RDP. Dorénavant, VirtualBox sépare les différentes fonctionnalités en paquetages externes. Ainsi, on retrouve un pack pour le support USB 2.0, Serveur RDP et gestionnaire de démarrage PXE. Le célèbre hyperviseur open source dispose également de nouvelles fonctionnalités orientées performances. On relève notamment le "Memory Ballooning" qui consiste à gérer la mémoire de manière dynamique entre chacune des machines virtuelles sur OS 64 bits. Enfin, Oracle VM VirtualBox ajoute la prise en charge des chipsets Intel ICH9 et, surtout, intègre le copier/coller de fichiers de l'hôte vers le client.
+tags:
+  - windows
+  - macos
+  - linux
+  - utilitaires
+  - professionnel
