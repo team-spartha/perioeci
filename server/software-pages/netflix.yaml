@@ -1,0 +1,27 @@
+name: netflix
+title: Netflix
+icon: resources/icons/netflixlogo.png
+thumbnail: https://miro.medium.com/max/10400/1*NXGaenUO1r5SiN-z_gmdiA.jpeg
+info:
+  author: Reed Hastings
+  license: Gratuit
+  languages: Multilingue (54)
+  lastVersion:
+    Windows: "5"
+    MacOS: "5.4"
+    Android: "7.5"
+    Linux: "7.5"
+  downloads: 54362
+synopsis: Son service de vidéo à la demande par abonnement commence en 2007. 
+description:
+  - >-
+Avec le confinement mis en place dans toute la France pour combattre la crise sanitaire de l’épidémie de coronavirus, la vie quotidienne est composée du télétravail et des loisirs à domicile, ce qui ne veut pas dire que la vie est désormais très ennuyeuse. Contrairement, avec Netflix, vous pouvez quand même éprouver le plaisir de la vie tout en regardant les films ou les séries les plus récents. Disponible au téléchargement via le Microsoft Store, Netflix est une application Windows permettant d'accéder à son compte et de regarder des milliers de films, de séries TV, de documentaires et dessins animés en version française et originale. Netflix est disponible soit via un abonnement payant mensuel ou en version d'essai gratuit d'un mois.
+tags:
+  - windows
+  - macos
+  - linux
+  - mobile
+  - ios
+  - indispensable
+  - populaires
+  - internet
