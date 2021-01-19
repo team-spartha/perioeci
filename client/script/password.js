@@ -1,98 +1,74 @@
-const password_input = document.querySelector(".signin .password input");
-const password_check = document.querySelector(".password-check");
-const password_score = document.querySelectorAll(".check-meter .score");
-const password_conditions = document.querySelectorAll(".password-check li");
+const passwordInput = document.querySelector(".signin .password input");
+const passwordCheck = document.querySelector(".password-check");
+const passwordScore = document.querySelectorAll(".check-meter .score");
+const passwordConditions = document.querySelectorAll(".password-check li");
 
+function loadScore(score) {
+  let color = "bad";
+  if (score > 1 && score <= 3) color = "average";
+  else if (score > 3 && score <= 5) color = "good";
 
-function loadScore(score){
-    var color = "bad"
-    if(score>1 && score <=3){
-        color = "average"
+  for (i = 0; i < 5; i++) {
+    for (const c of ["bad", "average", "good"])
+      if (passwordScore[i].classList.contains(c)) 
+        passwordScore[i].classList.remove(c);
+    
+    if (score > 0) {
+      passwordScore[i].classList.add(color);
+      score--;
     }
-    if(score>3 && score<=5){
-        color ="good"
-    }
-    for(i=0;i<5;i++){
-        if(password_score[i].classList.contains("bad")){
-            password_score[i].classList.remove("bad")
-        }
-        if(password_score[i].classList.contains("average")){
-            password_score[i].classList.remove("average")
-        }
-        if(password_score[i].classList.contains("good")){
-            password_score[i].classList.remove("good")
-        }
-        if(score>0){
-            password_score[i].classList.add(color)
-            score--
-        }
-    }
+  }
 }
-password_input.addEventListener("input", () => {
-    var user_input = password_input.value;
-    var score = 0;
-    var length = 0
-    maj_found = false
-    min_found = false
-    num_found = false
-    spe_found = false
-    for(i=0;i<user_input.length;i++){
-        var code = user_input.charCodeAt(i)
-        if(code!=32){
-            length++;
-        }
-        if(code>=65 && code<=90){
-            maj_found = true;
-        }
-        if(code>=97 && code<=122){
-            min_found = true;
-        }
-        if(code>=48 && code<=57){
-            num_found = true;
-        }
-        if((code>=33 && code<=47)||(code>=58 && code <=64)||(code>=91 && code <=96)||(code>=123 && code<=126)){
-            spe_found = true;
-        }
-    }
-    if(length>=8){
-        score++;
-        password_conditions[4].style.color = "#2ecc71"
-    }
-    else{
-        password_conditions[4].style.color = "#9ea39e"
-    }
-    if(maj_found){
-        score++
-        password_conditions[0].style.color = "#2ecc71";
-    }
-    else{
-        password_conditions[0].style.color = "#9ea39e";
-    }
-    if(min_found){
-        score++
-        password_conditions[1].style.color = "#2ecc71";
-    }
-    else{
-        password_conditions[1].style.color = "#9ea39e";
-    }
-    if(num_found){
-        score++
-        password_conditions[2].style.color = "#2ecc71";
-    }
-    else{
-        password_conditions[2].style.color = "#9ea39e";
-    }
-    if(spe_found){
-        score++;
-        password_conditions[3].style.color = "#2ecc71";
-    }
-    else{
-        password_conditions[3].style.color = "#9ea39e";
-    }
-    loadScore(score)
-})
 
+passwordInput.addEventListener("input", () => {
+  const user_input = passwordInput.value;
+  let score = 0;
+  let length = 0;
+  let majFound = false;
+  let minFound = false;
+  let numFound = false;
+  let speFound = false;
 
-password_input.addEventListener("focus",() =>{
-    password_check.style.display = "block";
-})
+  for (i = 0; i < user_input.length; i++) {
+    const code = user_input.charCodeAt(i);
+    if (code != 32) length++;
+    if (code >= 65 && code <= 90) majFound = true;
+    if (code >= 97 && code <= 122) minFound = true;
+    if (code >= 48 && code <= 57) numFound = true;
+
+    if  ((code >= 33 && code <= 47) || (code >= 58 && code <= 64)
+      || (code >= 91 && code <= 96) || (code >= 123 && code <= 126))
+      speFound = true;
+  }
+  
+  if (length >= 8) {
+    score++;
+    passwordConditions[4].style.color = "#2ecc71";
+  } else passwordConditions[4].style.color = "#9ea39e";
+
+  if (majFound) {
+    score++;
+    passwordConditions[0].style.color = "#2ecc71";
+  } else passwordConditions[0].style.color = "#9ea39e";
+
+  if (minFound) {
+    score++;
+    passwordConditions[1].style.color = "#2ecc71";
+  } else passwordConditions[1].style.color = "#9ea39e";
+
+  if (numFound) {
+    score++;
+    passwordConditions[2].style.color = "#2ecc71";
+  } else passwordConditions[2].style.color = "#9ea39e";
+
+  if (speFound) {
+    score++;
+    passwordConditions[3].style.color = "#2ecc71";
+  } else passwordConditions[3].style.color = "#9ea39e";
+
+  loadScore(score);
+});
+
+passwordInput.addEventListener("focus", () => {
+  passwordCheck.style.display = "block";
+});

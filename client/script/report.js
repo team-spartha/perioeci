@@ -1,19 +1,18 @@
-const report_btn = document.querySelector(".comment-user.options button:last-child")
-const report_btn_icon = document.querySelector(".comment-user.options button:last-child i")
-const report_btn_label = document.querySelector(".comment-user.options button:last-child h4")
-const report_panel = document.querySelector(".report-panel")
+const reportBtn = document.querySelector(".comment-user.options button:last-child");
+const reportBtnIcon = document.querySelector(".comment-user.options button:last-child i");
+const reportBtnLabel = document.querySelector(".comment-user.options button:last-child h4");
+const reportPanel = document.querySelector(".report-panel");
 
-report_btn.addEventListener("click",() =>{
-    if(report_btn_icon.classList.contains("far")){
-        report_btn_icon.classList.remove("far")
-        report_btn_icon.classList.add("fas")
-        report_panel.style.display = "grid"
-        report_btn_label.classList.add("underlined")
-    }
-    else{
-        report_btn_icon.classList.remove("fas")
-        report_btn_icon.classList.add("far")
-        report_panel.style.display = "none"
-        report_btn_label.classList.remove("underlined")
-    }
-})
+reportBtn.addEventListener("click", () => {
+  if (reportBtnIcon.classList.contains("far")) {
+    reportBtnIcon.classList.remove("far");
+    reportBtnIcon.classList.add("fas");
+    reportPanel.style.display = "grid";
+    reportBtnLabel.classList.add("underlined");
+  } else {
+    reportBtnIcon.classList.remove("fas");
+    reportBtnIcon.classList.add("far");
+    reportPanel.style.display = "none";
+    reportBtnLabel.classList.remove("underlined");
+  }
+});

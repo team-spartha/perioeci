@@ -7,10 +7,9 @@ const btn2 = document.querySelector('.switch.sign');
 
 function transitionRight() {
   sign.classList.remove('active');
-  if(screen.width <= 1000){
+  if (screen.width <= 1000)
     signLog();
-  }
-  else{
+  else {
     img.classList.remove('left');
     img.classList.add('right');
   }
@@ -18,17 +17,17 @@ function transitionRight() {
 
 function transitionLeft() {
   log.classList.remove('active');
-  if(screen.width <= 1000){
+  if (screen.width <= 1000)
     signLog();
-  }
-  else{
+  else {
     img.classList.remove('right');
     img.classList.add('left');
   }
 }
 
 function signLog() {
-  if (page.classList.contains('right') || (screen.width <= 1000 && page.classList.contains('right'))){
+  if (page.classList.contains('right')
+    || (screen.width <= 1000 && page.classList.contains('right'))) {
     page.classList.remove('right');
     page.classList.add('left');
     sign.classList.add('active');

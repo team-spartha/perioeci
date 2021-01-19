@@ -1,69 +1,64 @@
 const btn = document.querySelector(".fas.fa-search");
-const search_bar = document.querySelector(".search-bar-responsive");
-const btn_menu = document.querySelector(".fas.fa-bars");
-var theme_bar = document.querySelector(".theme-bar");
-var OS_bar = document.querySelector(".OS-bar");
+const searchBar = document.querySelector(".search-bar-responsive");
+const btnMenu = document.querySelector(".fas.fa-bars");
+const themeBar = document.querySelector(".theme-bar");
+const OSBar = document.querySelector(".OS-bar");
 
-let opened_search_bar = false;
-let opened_OS_theme_bars = true;
-let mobile_setup = false;
+let openedSearchBar = false;
+let openedOSThemeBars = true;
+let mobileSetup = false;
 
-if(screen.width<1000){
-    if(!mobile_setup){
-        OS_bar.style.display = "none"
-        theme_bar.style.display = "none"
-        opened_OS_theme_bars = false;
-        search_bar.style.display = "none";
-        opened_search_bar = false;
-    }
-    mobile_setup = true;
+if (screen.width < 1000) {
+  if (!mobileSetup) {
+    OSBar.style.display = "none";
+    themeBar.style.display = "none";
+    openedOSThemeBars = false;
+    searchBar.style.display = "none";
+    openedSearchBar = false;
+  }
+  mobileSetup = true;
 }
 
-window.addEventListener('resize',()=>{
-    if(screen.width<1000){
-        if(!mobile_setup){
-            OS_bar.style.display = "none"
-            theme_bar.style.display = "none"
-            opened_OS_theme_bars = false;
-            search_bar.style.display = "none";
-            opened_search_bar = false;
-        }
-        mobile_setup = true;
+window.addEventListener('resize', () => {
+  if (screen.width < 1000) {
+    if (!mobileSetup) {
+      OSBar.style.display = "none";
+      themeBar.style.display = "none";
+      openedOSThemeBars = false;
+      searchBar.style.display = "none";
+      openedSearchBar = false;
     }
-    else{
-        mobile_setup = false;
-        OS_bar.style.display = "flex"
-        theme_bar.style.display = "flex"
-        search_bar.style.display = "none";
-        opened_search_bar = false;
-        opened_OS_theme_bars = true;
-    }
-
-})
-
-btn.addEventListener('click',() => {
-    if(!opened_search_bar && mobile_setup){
-        
-        search_bar.style.display = "flex";
-        opened_search_bar = true;
-    }
-    else{
-        search_bar.style.display = "none";
-        opened_search_bar = false;
-    }
+    mobileSetup = true;
+  } else {
+    mobileSetup = false;
+    OSBar.style.display = "flex";
+    themeBar.style.display = "flex";
+    searchBar.style.display = "none";
+    openedSearchBar = false;
+    openedOSThemeBars = true;
+  }
 });
 
-btn_menu.addEventListener('click',() => {
-    if(opened_OS_theme_bars){
-        OS_bar.style.display = "none"
-        theme_bar.style.display = "none"
-        search_bar.classList.remove("boxy");
-        opened_OS_theme_bars = false;
-    }
-    else{
-        OS_bar.style.display = "flex"
-        theme_bar.style.display = "flex"
-        search_bar.classList.add("boxy");
-        opened_OS_theme_bars = true;
-    }
+btn.addEventListener('click', () => {
+  if (!openedSearchBar && mobileSetup) {
+    searchBar.style.display = "flex";
+    openedSearchBar = true;
+  } else {
+    searchBar.style.display = "none";
+    openedSearchBar = false;
+  }
+});
+
+btnMenu.addEventListener('click', () => {
+  if (openedOSThemeBars) {
+    OSBar.style.display = "none";
+    themeBar.style.display = "none";
+    searchBar.classList.remove("boxy");
+    openedOSThemeBars = false;
+  } else {
+    OSBar.style.display = "flex";
+    themeBar.style.display = "flex";
+    searchBar.classList.add("boxy");
+    openedOSThemeBars = true;
+  }
 });

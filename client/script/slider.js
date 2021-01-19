@@ -8,11 +8,8 @@ let count = 0;
 function nextSlide() {
   slide[count].classList.remove('active');
   items[count].classList.remove('active');
-  if (count < nbImg - 1)
-    count++;
-  else
-    count = 0;
-  console.log(count)
+  if (count < nbImg - 1) count++;
+  else count = 0;
   slide[count].classList.add('active');
   items[count].classList.add('active');
 }
@@ -20,11 +17,8 @@ function nextSlide() {
 function prevSlide() {
   slide[count].classList.remove('active');
   items[count].classList.remove('active');
-  if (count > 0)
-    count--;
-  else
-    count = nbImg - 1;
-  console.log(count);
+  if (count > 0) count--;
+  else count = nbImg - 1;
   slide[count].classList.add('active');
   items[count].classList.add('active');
 }
@@ -42,7 +36,8 @@ next.addEventListener('click', nextSlide);
 prev.addEventListener('click', prevSlide);
 
 // Transition
-for (i = 1; i < 5; i++) {
-  const screen = document.getElementById("screen"+i);
+for (i = 0;; i++) {
+  const screen = document.getElementById(`screen${i}`);
+  if (!screen) break;
   screen.onclick = () => activation(screen.id);
 }
