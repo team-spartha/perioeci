@@ -1,0 +1,20 @@
+name: forzamotorsport6
+title: Forza Motorsport 6
+icon: resources/icons/forzamotorsport6logo.png
+thumbnail: "https://store-images.s-microsoft.com/image/apps.53502.69096714078170659.7fef355f-e88f-453e-b39a-2b798f8c2f32.f3b9fd41-740f-4382-9419-eab3a43fa74f?mode=scale&q=90&h=1080&w=1920"
+info:
+  author: Microsoft
+  license: Gratuit
+  languages: Multilingue (54)
+  lastVersion:
+    Windows: "Dernière Version"
+  downloads: 9378
+synopsis: Forza Motorsport 6 est un jeu de course typé simulation.
+description:
+  - >-
+    Forza Motorsport est bien connu des joueurs Xbox comme une simulation de course automobile, incontournable ou presque. La franchise revient sur PC, et exclusivement sur Windows 10, avec Forza Motorsport 6: Apex.
+  - >-
+    Le jeu s'appuie sur les nouvelles technologies du monde PC et notamment DirectX 12 pour offrir des graphismes toujours améliorés mais aussi des effets de gestion de la physique qui se veulent réalistes. Le titre intègre la gestion de la pluie alors que l'on retrouve des circuits bien connus où l'on pilotera ses bolides de nuit. Forza Motorsport 6: Apex gère les affichages jusqu'à 4K en terme de résolution et supporte les manettes Xbox sur PC, et notamment les manettes Xbox One. Du reste nous vous recommandons le jeu à la manette, le mapping du clavier étant pensé pour des claviers QWERTY.
+tags:
+  - windows
+  - jeux
