@@ -34,13 +34,36 @@ const route = name => require(`./routes/${name}`);
 app.use("/news", route("news"));
 app.use("/software", route("software"));
 
-app.post("/search", (req, res) => {
-  console.log("req-query =", req.query);
-  res.status(404);
-  res.render("oof-404");
-  res.end();
+// SEARCH BAR HANDLING
+const softwareQuery = Object.entries(softwares)
+  .map(([_, software], id) => {
+    const o = {
+      ...software, id,
+      tags: software.tags.join(" "),
+      description: software.description.join("\n"),
+      ...software.info
+    };
+    delete o.info;
+    return flattenObj(o);
+  })
+
+const { dataSetGenerate, search } = require("data-search");
+const dataSet = dataSetGenerate({
+  array: softwareQuery,
+  attributes: ["name", "title", "synopsis", "description", "author", "license", "languages"]
 });
 
+app.get("/search", (req, res) => {
+  const foundSoftwares = search(dataSet, req.query.query).result.map(({ name }) => name);
+  const queriedSoftwares = Object.fromEntries(foundSoftwares.map(name => [name, softwares[name]]));
+  res.render("index", {
+    softwares: queriedSoftwares,
+    title: `RECHERCHE :\n"${req.query.query}"`
+  });
+});
+
+
+// OOF FOR ANYTHING ELSE
 app.get("/:anything", (req, res) => {
   if ([
     "windows", "macos", "linux", "mobile", "ios",
@@ -61,23 +84,3 @@ app.get("/:anything", (req, res) => {
 
   res.end();
 });
-
-const softwareQuery = Object.entries(softwares)
-  .map(([_, software], id) => {
-    const o = {
-      ...software, id,
-      tags: software.tags.join(" "),
-      description: software.description.join("\n"),
-      ...software.info
-    };
-    delete o.info;
-    return flattenObj(o);
-  })
-
-const { dataSetGenerate, search } = require("data-search");
-const dataSet = dataSetGenerate({
-  array: softwareQuery,
-  attributes: ["name", "title", "synopsis", "description", "author", "license", "languages"]
-});
-
-console.log(search(dataSet, "Communication").result.map(({ name }) => name));
