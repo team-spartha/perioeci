@@ -1,7 +1,7 @@
 name: bitdefender
 title: Bitdefender Total Security
 icon: resources/icons/bitdefenderlogo.png
-thumbnail: ""
+thumbnail: "https://www.bitdefender.fr/media/uploads/2017/08/disable-modules-1.png"
 info:
   author: Bitdefender
   license: Gratuit

@@ -1,7 +1,7 @@
 name: bluestacks
 title: BlueStacks
 icon: resources/icons/bluestackslogo.png
-thumbnail: ""
+thumbnail: "https://cdn-www.bluestacks.com/bs-images/Bluestacks-sur_02.jpg"
 info:
   author: BlueStacks
   license: Gratuit
