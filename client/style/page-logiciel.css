@@ -20,6 +20,7 @@
 }
 
 .software-download {
+  color: #393839;
   display: flex;
   justify-content: center;
   align-items: center;
