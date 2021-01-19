@@ -12,6 +12,14 @@
     "Diez",
     "SarenSauce"
   ],
+  "keywords": [
+    "logiciel",
+    "software",
+    "virus",
+    "download",
+    "project"
+  ],
+  "author": "team-spartha",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",
@@ -19,5 +27,8 @@
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "yaml": "^1.10.0"
+  },
+  "engines": {
+    "node": "15.x"
   }
 }
