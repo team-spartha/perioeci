@@ -1,7 +1,7 @@
 name: recuva
 title: Recuva
 icon: resources/icons/recuvalogo.png
-thumbnail: "https://s1.pir.fm/pf/business/rbe-laptop.png"
+thumbnail: https://s1.pir.fm/pf/business/rbe-laptop.png
 info:
   author: Piriform
   license: Gratuit

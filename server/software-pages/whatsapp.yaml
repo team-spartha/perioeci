@@ -1,7 +1,7 @@
 name: whatsapp
 title: WhatsApp
 icon: resources/icons/whatsapplogo.png
-thumbnail: "https://i2.wp.com/blog.arcoptimizer.com/wp-content/uploads/2018/06/whatsapp-pourrait-travailler-sur-une-vraie-application-windows-avant-le-telephone-de-surface.jpg?w=1080"
+thumbnail: https://i2.wp.com/blog.arcoptimizer.com/wp-content/uploads/2018/06/whatsapp-pourrait-travailler-sur-une-vraie-application-windows-avant-le-telephone-de-surface.jpg?w=1080
 info:
   author: WhatsApp
   license: Gratuit

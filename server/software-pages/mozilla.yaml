@@ -1,7 +1,7 @@
 name: mozilla
 title: Mozilla Firefox
 icon: resources/icons/mozillalogo.png
-thumbnail: "https://img.utdstc.com/screen/1/mozilla-firefox-portable-001.png:800"
+thumbnail: https://img.utdstc.com/screen/1/mozilla-firefox-portable-001.png:800
 info:
   author: Mozilla Team
   license: Gratuit

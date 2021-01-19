@@ -1,7 +1,7 @@
 name: premierepro
 title: Premiere Pro CC
 icon: resources/icons/premiereprologo.png
-thumbnail: "https://cdn.clc2l.com/d/5ee8ac282a8ec855305228.jpg"
+thumbnail: https://cdn.clc2l.com/d/5ee8ac282a8ec855305228.jpg
 info:
   author: Adobe
   license: Gratuit

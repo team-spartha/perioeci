@@ -1,7 +1,7 @@
 name: audacity 
 title: Audacity
 icon: resources/icons/audacitylogo.png
-thumbnail: "https://www.audacityteam.org/wp-content/uploads/2017/12/Theme_Dark.png"
+thumbnail: https://www.audacityteam.org/wp-content/uploads/2017/12/Theme_Dark.png
 info:
   author: Audacious
   license: Gratuit

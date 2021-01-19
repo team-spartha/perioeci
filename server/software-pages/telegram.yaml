@@ -1,7 +1,7 @@
 name: telegram 
 title: Telegram
 icon: resources/icons/telegramlogo.png
-thumbnail: "https://1184592825.rsc.cdn77.org/main-files/uploads/2020/05/telegram-e-commerce.jpg"
+thumbnail: https://1184592825.rsc.cdn77.org/main-files/uploads/2020/05/telegram-e-commerce.jpg
 info:
   author: Telegram LLC
   license: Gratuit

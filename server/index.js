@@ -34,6 +34,13 @@ const route = name => require(`./routes/${name}`);
 app.use("/news", route("news"));
 app.use("/software", route("software"));
 
+app.post("/search", (req, res) => {
+  console.log("req-query =", req.query);
+  res.status(404);
+  res.render("oof-404");
+  res.end();
+});
+
 app.get("/:anything", (req, res) => {
   if ([
     "windows", "macos", "linux", "mobile", "ios",
@@ -56,7 +63,7 @@ app.get("/:anything", (req, res) => {
 });
 
 const softwareQuery = Object.entries(softwares)
-  .map(([key, software], id) => {
+  .map(([_, software], id) => {
     const o = {
       ...software, id,
       tags: software.tags.join(" "),
@@ -66,7 +73,6 @@ const softwareQuery = Object.entries(softwares)
     delete o.info;
     return flattenObj(o);
   })
-//console.log(softwareQuery);
 
 const { dataSetGenerate, search } = require("data-search");
 const dataSet = dataSetGenerate({
@@ -74,4 +80,4 @@ const dataSet = dataSetGenerate({
   attributes: ["name", "title", "synopsis", "description", "author", "license", "languages"]
 });
 
-console.log(search(dataSet, "Communication"));
+console.log(search(dataSet, "Communication").result.map(({ name }) => name));
