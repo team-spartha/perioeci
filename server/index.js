@@ -3,6 +3,8 @@ require("dotenv-flow").config();
 const express = require("express");
 const port = process.env.LOCAL ? 6942 : 5000;
 
+console.log("Port env variable:", process.env.PORT);
+
 const app = express();
 app.listen(port, () => console.log("Listening on port", port, "(·_· )"));
 
