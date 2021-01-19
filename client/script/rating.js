@@ -16,7 +16,6 @@ function denote(star) {
 
 // Notation
 for (let i = 1; i < 6; i++) {
-  console.log(`vote${i}`);
   const img = document.getElementById(`vote${i}`);
   img.onmouseover = () => note(img.id);
   img.onmouseout = () => denote(img.id);
