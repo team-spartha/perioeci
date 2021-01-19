@@ -1,7 +1,7 @@
 name: forzamotorsport6
 title: Forza Motorsport 6
 icon: resources/icons/forzamotorsport6logo.png
-thumbnail: https://store-images.s-microsoft.com/image/apps.53502.69096714078170659.7fef355f-e88f-453e-b39a-2b798f8c2f32.f3b9fd41-740f-4382-9419-eab3a43fa74f?mode=scale&q=90&h=1080&w=1920
+thumbnail: "https://store-images.s-microsoft.com/image/apps.53502.69096714078170659.7fef355f-e88f-453e-b39a-2b798f8c2f32.f3b9fd41-740f-4382-9419-eab3a43fa74f?mode=scale&q=90&h=1080&w=1920"
 info:
   author: Microsoft
   license: Gratuit
