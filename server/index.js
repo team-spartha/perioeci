@@ -54,3 +54,24 @@ app.get("/:anything", (req, res) => {
 
   res.end();
 });
+
+const lunr = require("lunr");
+const softwareQuery = Object.entries(softwares)
+                      .map(([key, software], id) => ({
+                        ...software,
+                        key,
+                        id,
+                        //info: undefined,
+                        //...software.info
+                      }))
+//console.log(softwareQuery);
+
+const searchIndex = lunr(function() {
+  for (const field of [
+    "name", "title", "info", "synopsis", "description", "tags"
+  ]) this.field(field);
+
+  this.add(softwareQuery);
+});
+
+console.log(searchIndex.search("atom"));

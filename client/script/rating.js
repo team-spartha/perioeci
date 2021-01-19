@@ -1,25 +1,23 @@
 function note(star) {
-  StarNb = star.slice(4);
-  console.log(StarNb);
-  for (i = 1; i < (StarNb * 1) + 1; i++) {
-    document.getElementById('vote' + i).classList.remove("far");
-    document.getElementById('vote' + i).classList.add("fas");
+  const nstar = +star.slice(4);
+  for (let i = 1; i < 1 + nstar; i++) {
+    document.getElementById(`vote${i}`).classList.remove("far");
+    document.getElementById(`vote${i}`).classList.add("fas");
   }
 }
 
 function denote(star) {
-  StarNb = star.slice(4);
-  console.log(StarNb);
-  for (i = 1; i < (StarNb * 1) + 1; i++) {
-    document.getElementById('vote' + i).classList.remove("fas");
-    document.getElementById('vote' + i).classList.add("far");
+  const nstar = +star.slice(4);
+  for (let i = 1; i < 1 + nstar; i++) {
+    document.getElementById(`vote${i}`).classList.remove("fas");
+    document.getElementById(`vote${i}`).classList.add("far");
   }
 }
 
 // Notation
-for (i = 1; i < 6; i++) {
-  const img = document.getElementById("vote" + i);
-  console.log(img.id.slice(4));
+for (let i = 1; i < 6; i++) {
+  console.log(`vote${i}`);
+  const img = document.getElementById(`vote${i}`);
   img.onmouseover = () => note(img.id);
   img.onmouseout = () => denote(img.id);
 }
