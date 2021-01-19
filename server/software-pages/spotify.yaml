@@ -1,7 +1,7 @@
 name: spotify
 title: Spotify
 icon: resources/icons/spotifylogo.png
-thumbnail: "https://alatis.eu/wp-content/uploads/2018/01/spotify.jpg"
+thumbnail: https://alatis.eu/wp-content/uploads/2018/01/spotify.jpg
 info:
   author: Spotify AB
   license: Gratuit
@@ -12,9 +12,16 @@ info:
     Android: "7.0.335"
     Linux: "12"
   downloads: 78925
-synopsis: Ecoutez de la musique gratuitement et de manière illimitée
+synopsis: Écoutez de la musique gratuitement et de manière illimitée
 description:
-  - >- L'utilisateur a les moyens de placer des morceaux, des albums ou des artistes en favoris. Spotify fournit également un système de listes de lecture ainsi que de stations de radio selon les artistes. Par ailleurs, il est possible d'organiser et d'écouter ses fichiers locaux à partir du logiciel. L'interface est soignée, simple d'utilisation est disponible en français. L'un des principaux atouts de cette solution est qu'elle est multiplateforme. Notons également que l'écoute de musique est illimitée en version gratuite, seuls quelques spots publicitaires audio peuvent entrecouper l'écoute de musique. Des publicités s'affichent non intrusives s'affichent également sur l'interface du logiciel. Il est toutefois possible de profiter d'avantages supplémentaires via un abonnement payant Spotify Premium permettant l'écoute de musique sans pub, hors connexion et avec une meilleure qualité audio.
+  - >-
+    L'utilisateur a les moyens de placer des morceaux, des albums ou des artistes en favoris.
+  - >-
+    Spotify fournit également un système de listes de lecture ainsi que de stations de radio selon les artistes. Par ailleurs, il est possible d'organiser et d'écouter ses fichiers locaux à partir du logiciel.
+  - >-
+    L'interface est soignée, simple d'utilisation est disponible en français. L'un des principaux atouts de cette solution est qu'elle est multiplateforme. Notons également que l'écoute de musique est illimitée en version gratuite, seuls quelques spots publicitaires audio peuvent entrecouper l'écoute de musique.
+  - >-
+    Des publicités s'affichent non intrusives s'affichent également sur l'interface du logiciel. Il est toutefois possible de profiter d'avantages supplémentaires via un abonnement payant Spotify Premium permettant l'écoute de musique sans pub, hors connexion et avec une meilleure qualité audio.
 tags:
   - windows
   - macos
