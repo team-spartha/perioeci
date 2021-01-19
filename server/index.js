@@ -17,7 +17,8 @@ app.get("/", (_req, res) => res.render("index", {
   softwares: sliceObj(sortObj(
     softwares,
     ([_ka, sa], [_kb, sb]) => (sa.info.downloads < sb.info.downloads) ? 1 : -1
-  ), 0, 10)
+  ), 0, 10),
+  title: "TOP DES APPLICATIONS"
 }));
 
 const route = name => require(`./routes/${name}`);
@@ -34,7 +35,8 @@ app.get("/:anything", (req, res) => {
       softwares: sliceObj(filterObj(
         softwares,
         ([_k, s]) => s.tags.includes(req.params.anything)
-      ), 0, 15)
+      ), 0, 15),
+      title: `TOP DES APPLICATIONS ${req.params.anything.toUpperCase()}`
     })
   } else {
     res.status(404);
