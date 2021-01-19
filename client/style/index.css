@@ -92,6 +92,16 @@ input {
   flex: 1 1 auto;
 }
 
+.top-button {
+  filter: none;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+
+.top-button:hover {
+  filter: brightness(1.5);
+}
+
 .OS-bar {
   display: flex;
   grid-column: 1 / 4;

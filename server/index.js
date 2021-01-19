@@ -12,7 +12,7 @@ app.set("view engine", "ejs");
 app.set("views", "views");
 
 const softwares = require("./softwares");
-const { sortObj, filterObj, sliceObj } = require("./helpers");
+const { sortObj, filterObj, sliceObj, flattenObj } = require("./helpers");
 app.get("/", (_req, res) => res.render("index", {
   softwares: sliceObj(sortObj(
     softwares,
@@ -55,23 +55,23 @@ app.get("/:anything", (req, res) => {
   res.end();
 });
 
-const lunr = require("lunr");
 const softwareQuery = Object.entries(softwares)
-                      .map(([key, software], id) => ({
-                        ...software,
-                        key,
-                        id,
-                        //info: undefined,
-                        //...software.info
-                      }))
+  .map(([key, software], id) => {
+    const o = {
+      ...software, id,
+      tags: software.tags.join(" "),
+      description: software.description.join("\n"),
+      ...software.info
+    };
+    delete o.info;
+    return flattenObj(o);
+  })
 //console.log(softwareQuery);
 
-const searchIndex = lunr(function() {
-  for (const field of [
-    "name", "title", "info", "synopsis", "description", "tags"
-  ]) this.field(field);
-
-  this.add(softwareQuery);
+const { dataSetGenerate, search } = require("data-search");
+const dataSet = dataSetGenerate({
+  array: softwareQuery,
+  attributes: ["name", "title", "synopsis", "description", "author", "license", "languages"]
 });
 
-console.log(searchIndex.search("atom"));
+console.log(search(dataSet, "Communication"));
