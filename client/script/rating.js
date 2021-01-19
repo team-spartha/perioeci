@@ -1,12 +1,14 @@
 function note(star) {
-  for (let i = 1; i < star.slice(4) + 1; i++) {
+  const nstar = +star.slice(4);
+  for (let i = 1; i < 1 + nstar; i++) {
     document.getElementById(`vote${i}`).classList.remove("far");
     document.getElementById(`vote${i}`).classList.add("fas");
   }
 }
 
 function denote(star) {
-  for (let i = 1; i < star.slice(4) + 1; i++) {
+  const nstar = +star.slice(4);
+  for (let i = 1; i < 1 + nstar; i++) {
     document.getElementById(`vote${i}`).classList.remove("fas");
     document.getElementById(`vote${i}`).classList.add("far");
   }
@@ -14,6 +16,7 @@ function denote(star) {
 
 // Notation
 for (let i = 1; i < 6; i++) {
+  console.log(`vote${i}`);
   const img = document.getElementById(`vote${i}`);
   img.onmouseover = () => note(img.id);
   img.onmouseout = () => denote(img.id);
