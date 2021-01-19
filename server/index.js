@@ -21,6 +21,8 @@ app.get("/", (_req, res) => res.render("index", {
   title: "TOP DES APPLICATIONS"
 }));
 
+app.get("/contact", (_req, res) => res.render("contact"));
+
 const route = name => require(`./routes/${name}`);
 app.use("/news", route("news"));
 app.use("/software", route("software"));
