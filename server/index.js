@@ -24,6 +24,9 @@ app.get("/", (_req, res) => res.render("index", {
 app.get("/contact", (_req, res) => res.render("contact"));
 app.get("/account", (_req, res) => res.render("account"));
 
+// Hehehe
+app.get("/infos-legales", (_req, res) => res.redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ"));
+
 const route = name => require(`./routes/${name}`);
 app.use("/news", route("news"));
 app.use("/software", route("software"));
